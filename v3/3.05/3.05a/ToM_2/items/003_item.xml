@@ -1,0 +1,127 @@
+<KosovoItemElementConfig>
+    <Properties ClassName="KosovoItemElementConfig">
+        <Prop Name="Bar color" Value="27" />
+        <Prop Name="Name" Value="003_item" />
+        <Prop Name="Class" Value="" />
+        <Prop Name="Value" Value="9.000000" />
+        <Prop Name="IconTextureName" Value="UI/KosovoIcons/sheet05_a.dds" />
+        <Prop Name="IconIndex" Value="48" />
+        <Prop Name="StringName" Value="Items/Materials/003_item_Name" />
+        <Prop Name="StringDescription" Value="Items/Materials/003_item_Description" />
+        <Prop Name="OneUsePerDay" Value="0" />
+        <Prop Name="HP" Value="-1.000000" />
+        <Prop Name="BrokenItemName" Value="" />
+        <Prop Name="DamageOnUsage" Value="0" />
+        <Prop Name="SpeakOnBrokenItem" Value="" />
+        <Prop Name="Tags">
+            <Entry Value="LootGenerator_Trader" />
+            <Entry Value="Container_Treasure" />
+            <Entry Value="Scavengable" />
+        </Prop>
+        <Prop Name="Destroy On Use" Value="0" />
+        <Prop Name="Speak package Id" Value="-1" />
+        <Prop Name="TakeSound" Value="UI_Lootable_TradingItems" />
+        <Prop Name="MinLootLocationGroup" Value="0" />
+        <Prop Name="IsWS3HeritageItem" Value="0" />
+        <Prop Name="StackSize" Value="100" />
+        <Prop Name="PreserveCountFractureAfterEnemyDeath" Value="1.000000" />
+        <Prop Name="PrimaryCategory" Value="Other" />
+        <Prop Name="SecondaryCategory" Value="" />
+        <Prop Name="CanBeConsumedOnScavenge" Value="0" />
+        <Prop Name="Template" Value="" />
+        <Prop Name="Mount" Value="" />
+        <Prop Name="Animation Tag" Value="" />
+        <Prop Name="Mount position" Value="0.000000 0.000000 0.000000 0.000000" />
+        <Prop Name="Mount rotation" Value="0.000000 0.000000 0.000000 0.000000" />
+        <Prop Name="Sound id" Value="" />
+        <Prop Name="SFX template" Value="" />
+        <Prop Name="Slot" Value="0" />
+        <Prop Name="PassiveMultipliers" />
+        <Prop Name="PassiveAddModifiers" />
+        <Prop Name="PassiveToolMultipliers" />
+        <Prop Name="BulletsPerShot" Value="0" />
+        <Prop Name="BulletTimeInterval" Value="0.300000" />
+        <Prop Name="CombatSinA" Value="0.000000" />
+        <Prop Name="CombatSinB" Value="0.000000" />
+        <Prop Name="CombatSinC" Value="0.000000" />
+        <Prop Name="CombatSinMax" Value="0.000000" />
+        <Prop Name="CooldownTime" Value="1.000000" />
+        <Prop Name="HitReactionTime" Value="0.000000" />
+        <Prop Name="DamageBoostMultiplier" Value="1.000000" />
+        <Prop Name="DamageBoostMaxDistance" Value="-1.000000" />
+        <Prop Name="ConsumeTime" Value="0.000000" />
+        <Prop Name="CollectTime" Value="0.000000" />
+        <Prop Name="WeaponIconIndex" Value="0" />
+        <Prop Name="WeaponAlternativeIconIndex" Value="0" />
+        <Prop Name="CriticalWeaponIconIndex" Value="0" />
+        <Prop Name="CriticalWeaponAlternativeIconIndex" Value="0" />
+        <Prop Name="WeaponImageIndex" Value="0" />
+        <Prop Name="WeaponAlternativeImageIndex" Value="0" />
+        <Prop Name="WeaponDwellerCloseCombatRange" Value="2.000000" />
+        <Prop Name="AddSlotsToContainer" Value="0" />
+        <Prop Name="DisableTradeWhenEquiped" Value="0" />
+        <Prop Name="ShellName" Value="" />
+        <Prop Name="WeaponRange" Value="-1.000000" />
+        <Prop Name="Influences" />
+        <Prop Name="LevelInfluences" />
+        <Prop Name="Excluded items" />
+        <Prop Name="CraftingGroup" Value="" />
+        <Prop Name="DeploymentMode" Value="0" />
+        <Prop Name="DeploymentTag" Value="" />
+        <Prop Name="BuildstationItemName" Value="" />
+        <Prop Name="TakeCraftedIconTextureName" Value="" />
+        <Prop Name="TakeCraftedIconIndex" Value="-1" />
+        <Prop Name="CraftingWaitSpeech" Value="" />
+        <Prop Name="CraftingRecipes">
+            <Entry>
+                <Properties ClassName="KosovoItemElementCraftingRecipe">
+                    <Prop Name="CrafterDevice" Value="HerbalWorkshop" />
+                    <Prop Name="CrafterOperator" Value="" />
+                    <Prop Name="CraftTimeInHours" Value="0.100000" />
+                    <Prop Name="CraftWaitInHours" Value="0.000000" />
+                    <Prop Name="CraftTimeRandom" Value="0" />
+                    <Prop Name="CraftingAtOnceLimit" Value="0" />
+                    <Prop Name="CraftingResultItemsCount" Value="3" />
+                    <Prop Name="CrafterAcceptNoIngredients" Value="0" />
+                    <Prop Name="Resipe Validity Season" Value="0" />
+                    <Prop Name="OnlyWhenChildInShelter" Value="0" />
+                    <Prop Name="OnlyForChildren" Value="0" />
+                    <Prop Name="Ingredients">
+                        <Entry>
+                            <Properties ClassName="KosovoEquipmentItemEntryCraftingIngredient">
+                                <Prop Name="Item" Value="BarChair" />
+                                <Prop Name="ItemUpgrade" Value="0" />
+                                <Prop Name="Count" Value="1.000000" />
+                                <Prop Name="RequiredToShow" Value="1" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                    <Prop Name="TeachingDialogueTag" Value="" />
+                </Properties>
+            </Entry>
+        </Prop>
+        <Prop Name="UseCrafterIconTextureName" Value="" />
+        <Prop Name="UseCrafterIconIndex" Value="-1" />
+        <Prop Name="CraftingAnimation" Value="" />
+        <Prop Name="ChildCanBeTaught" Value="0" />
+        <Prop Name="TeachingTimeMult" Value="1.000000" />
+        <Prop Name="ChildCraftingTimeMult" Value="1.000000" />
+        <Prop Name="ShelterItemName" Value="" />
+        <Prop Name="IncompleteShelterItemName" Value="" />
+        <Prop Name="ParamModifiers" />
+        <Prop Name="UseItemAnimationId" Value="" />
+        <Prop Name="UseItemSpecialAnimations" />
+        <Prop Name="FuelResourceItem" Value="" />
+        <Prop Name="FuelResourceCount" Value="0" />
+        <Prop Name="FuelTimeAmount" Value="-1.000000" />
+        <Prop Name="LooseFuelOnBreak" Value="0" />
+        <Prop Name="UnFocusDwellerOnOrder" Value="0" />
+        <Prop Name="FuelResourceIconTextureName" Value="" />
+        <Prop Name="FuelResourceIconIndex" Value="0" />
+        <Prop Name="ComfortClass" Value="" />
+        <Prop Name="DefenseBoost" Value="0" />
+        <Prop Name="ItemToDeactivate" Value="" />
+        <Prop Name="ComfortModifier" Value="0.000000" />
+        <Prop Name="MaxCountInShelter" Value="-1" />
+    </Properties>
+</KosovoItemElementConfig>

@@ -1,0 +1,198 @@
+
+/*
+
+Special thanks to Why! for his hard work in isolating the highlighter marks. Very cool!
+
+Fonts: 
+     Text: Harrington
+     Mono: Anonymous Pro
+     Interface: Sweet Cheeks / Century Gothic
+
+*/
+
+
+
+/**********************************/
+/*            FONTS               */
+/**********************************/
+
+body{
+	--font-interface-theme:"Harrington";
+	--font-monospace-default:"Anonymous Pro";
+	--font-text-theme: "AlexandriaFLF";
+	--font-default: "Alexandria FLF";
+}
+
+/**********************************/
+/*            BACKGROUND          */
+/**********************************/
+
+.theme-light{
+     --color-base-00: #fff;
+	 --blockquote-color: #00f;
+}
+
+/**********************************/
+/*            HEADERS             */
+/**********************************/
+
+body{
+     /*--text-highlight-bg: #0ef;*/
+     /*--text-normal:#555;*/
+     --link-color:#0a7;
+	 --h1-color:#0cc;
+	 --h2-color:#07f;
+	 --h3-color:#00f;
+	 --h4-color:#707;
+	 --h5-color:#700;
+	 --h6-color:#f00;
+      /*--background-primary: #000;*/
+}
+
+
+h1{text-decoration:underline;}
+h2{text-decoration:underline;}
+h3{text-decoration:underline;}
+h4{text-decoration:underline;}
+h5{text-decoration:underline;}
+h6{text-decoration:underline;}
+
+/**********************************/
+/*        DECORATIONS             */
+/**********************************/
+
+/* italics */
+i, em, span.cm-em  {
+     color:#00f;
+}
+
+/* bold */
+.cm-strong, strong {
+     font-weight:bold;
+}
+
+/* Bold + Italics */
+*:not(font)>em>strong, *:not(font)>strong>em, .cm-strong.cm-em {
+     color:#f0f;
+	font-weight:bold;
+}
+
+/* Matched Words (Dynamic Highlights Plugin)*/
+.cm-matched-string{
+    color:#f00;
+	font-weight:bold;	
+}
+
+/* 1st Level Highlight */
+body{
+     --text-highlight-bg: #ff7;
+}
+
+/* 1st Level Highlight Darkmode */
+.cm-s-obsidian span.cm-formatting-highlight, .cm-s-obsidian span.cm-highlight {
+    background-color: var(--text-highlight-bg);
+    color: #000;
+}
+
+/* 2nd Level Highlight */
+body:not(.remove-colorful-highlight-bg) .cm-em.cm-formatting.cm-formatting-highlight.cm-highlight, body:not(.remove-colorful-highlight-bg) .cm-em.cm-formatting.cm-formatting-highlight.cm-highlight + .cm-em.cm-highlight:not([class*="strong"]), .markdown-source-view.colorful-highlight .cm-em.cm-formatting.cm-formatting-highlight.cm-highlight, .markdown-source-view.colorful-highlight .cm-em.cm-formatting.cm-formatting-highlight.cm-highlight + .cm-em.cm-highlight:not([class*="strong"]), body:not(.remove-colorful-highlight-bg) :is(.markdown-preview-view,.markdown-rendered) :not(font):not(strong)>em>mark, :is(.markdown-preview-view,.markdown-rendered).colorful-highlight :not(font):not(strong)>em>mark {
+    background-color: #cfc;
+    color: #000 !Important;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* 3rd Level Highlight */
+body:not(.remove-colorful-highlight-bg) .cm-formatting.cm-formatting-highlight.cm-highlight.cm-strong, body:not(.remove-colorful-highlight-bg) .cm-formatting.cm-formatting-highlight.cm-highlight.cm-strong + .cm-highlight.cm-strong:not([class*="em"]), .markdown-source-view.colorful-highlight .cm-formatting.cm-formatting-highlight.cm-highlight.cm-strong, .markdown-source-view.colorful-highlight .cm-formatting.cm-formatting-highlight.cm-highlight.cm-strong + .cm-highlight.cm-strong:not([class*="em"]), body:not(.remove-colorful-highlight-bg) :is(.markdown-preview-view,.markdown-rendered) :not(font):not(em)>strong>mark, :is(.markdown-preview-view,.markdown-rendered).colorful-highlight :not(font):not(em)>strong>mark {
+    background-color: #fcc;
+    color: #000;
+    font-weight: bold;
+}
+
+/* 4th Level Highlight */
+body:not(.remove-colorful-highlight-bg) .cm-em.cm-formatting.cm-formatting-highlight.cm-highlight.cm-strong, body:not(.remove-colorful-highlight-bg) .cm-em.cm-formatting.cm-formatting-highlight.cm-highlight.cm-strong + .cm-em.cm-highlight.cm-strong, .markdown-source-view.colorful-highlight .cm-em.cm-formatting.cm-formatting-highlight.cm-highlight.cm-strong, .markdown-source-view.colorful-highlight .cm-em.cm-formatting.cm-formatting-highlight.cm-highlight.cm-strong + .cm-em.cm-highlight.cm-strong, body:not(.remove-colorful-highlight-bg) :is(.markdown-preview-view,.markdown-rendered) :not(font)>strong>em>mark, :is(.markdown-preview-view,.markdown-rendered).colorful-highlight :not(font)>strong>em>mark {
+    background-color: #ff0;
+    color: #000;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+
+
+
+/**********************************/
+/*           CODE                 */
+/**********************************/
+
+.cm-inline-code{
+     color:#000;
+     font-weight:bold;
+}
+.cm-hmd-codeblock{
+    font-weight:normal;
+}
+
+body{
+     --code-normal:#555;	
+	 --code-string:#ccc;
+	 --code-function:#000;
+     /*--code-background:#efffff;*/
+     --code-background:#bbffff;
+     --blockquote-color:#ccc;
+}
+
+.cm-hmd-codeblock.cm-header{
+     color:#ff0;
+}
+
+.cm-header{
+     font-weight:bold;
+     text-decoration:underline;
+     /*text-transform:uppercase;*/
+}
+
+.token.selector{
+     font-weight:bold;
+     color:#ff0;
+}
+
+.token.comment{
+     font-weight:bold;
+     color:#0cd;
+}
+
+.cm-comment{
+     font-weight:bold;
+     color:#0cd;
+}
+
+.cm-def{
+     font-weight:bold;
+     color:#000;
+}
+
+code{
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

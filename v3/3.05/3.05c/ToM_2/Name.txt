@@ -1,0 +1,17 @@
+This Tribe of Mine II|This mod introduces several balances and adds some realism. It changes the gameplay quite fundamentally and so will be a new experience for many people. It is not likely compatible with other mods.
+
+v3.05c
+~~~~~~~~~~~~~~~~~~~~~~~~~
+- Updated several cooking recipes, added new categories
+- Split Oil into Vegetable Oil and Motor Oil
+- Updated trade values and loot tables for some items
+
+FIXED
+- CookedFood category error
+- Added dirt gathering to Mud Oven
+- BasicWorkshop fix attempted
+- CookedFood now requires Fire Bundle instead of Coal
+- Trading is hopefully fixed
+
+
+

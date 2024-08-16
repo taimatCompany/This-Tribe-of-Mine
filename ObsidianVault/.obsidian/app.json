@@ -1,0 +1,35 @@
+{
+  "showUnsupportedFiles": true,
+  "defaultViewMode": "preview",
+  "livePreview": false,
+  "autoPairBrackets": false,
+  "autoPairMarkdown": false,
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A5",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 75
+  },
+  "autoConvertHtml": false,
+  "propertiesInDocument": "visible",
+  "promptDelete": false,
+  "mobileToolbarCommands": [
+    "editor:fold-all",
+    "editor:indent-list",
+    "editor:swap-line-up",
+    "editor:swap-line-down",
+    "editor:undo",
+    "editor:redo"
+  ],
+  "userIgnoreFilters": [
+    "xfr/",
+    "new/disabled/"
+  ],
+  "newFileLocation": "folder",
+  "newFileFolderPath": "fix/active",
+  "showRibbon": true,
+  "showInlineTitle": true
+}

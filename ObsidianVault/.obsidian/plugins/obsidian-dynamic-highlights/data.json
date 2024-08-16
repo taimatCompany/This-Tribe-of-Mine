@@ -1,0 +1,14 @@
+{
+  "selectionHighlighter": {
+    "highlightWordAroundCursor": true,
+    "highlightSelectedText": true,
+    "maxMatches": 100,
+    "minSelectionLength": 3,
+    "highlightDelay": 201,
+    "ignoredWords": ""
+  },
+  "staticHighlighter": {
+    "queries": {},
+    "queryOrder": []
+  }
+}

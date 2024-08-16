@@ -1,0 +1,2 @@
+- Increased cloth harvesting speed again
+- Removed raids for the first 5 days

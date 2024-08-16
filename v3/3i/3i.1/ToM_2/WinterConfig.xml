@@ -1,0 +1,906 @@
+<KosovoWinterConfig>
+    <Properties ClassName="KosovoWinterConfig">
+        <Prop Name="Entries">
+            <Entry>
+                <Properties ClassName="KosovoWinterConfigEntry">
+                    <Prop Name="Name" Value="Basic" />
+                    <Prop Name="TemperatureSet">
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="1" />
+                                <Prop Name="Temperature" Value="17.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="25" />
+                                <Prop Name="Temperature" Value="10.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="27" />
+                                <Prop Name="Temperature" Value="2.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="29" />
+                                <Prop Name="Temperature" Value="-5.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="30" />
+                                <Prop Name="Temperature" Value="-5.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="33" />
+                                <Prop Name="Temperature" Value="6.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="100" />
+                                <Prop Name="Temperature" Value="22.000000" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoWinterConfigEntry">
+                    <Prop Name="Name" Value="Winter" />
+                    <Prop Name="TemperatureSet">
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="0" />
+                                <Prop Name="Temperature" Value="-1.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="4" />
+                                <Prop Name="Temperature" Value="-2.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="6" />
+                                <Prop Name="Temperature" Value="-5.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="9" />
+                                <Prop Name="Temperature" Value="-5.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="11" />
+                                <Prop Name="Temperature" Value="4.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="14" />
+                                <Prop Name="Temperature" Value="4.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="19" />
+                                <Prop Name="Temperature" Value="18.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="21" />
+                                <Prop Name="Temperature" Value="22.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="100" />
+                                <Prop Name="Temperature" Value="22.000000" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoWinterConfigEntry">
+                    <Prop Name="Name" Value="Early1" />
+                    <Prop Name="TemperatureSet">
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="1" />
+                                <Prop Name="Temperature" Value="17.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="20" />
+                                <Prop Name="Temperature" Value="14.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="21" />
+                                <Prop Name="Temperature" Value="6.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="22" />
+                                <Prop Name="Temperature" Value="14.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="25" />
+                                <Prop Name="Temperature" Value="10.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="27" />
+                                <Prop Name="Temperature" Value="2.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="29" />
+                                <Prop Name="Temperature" Value="-5.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="30" />
+                                <Prop Name="Temperature" Value="-5.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="33" />
+                                <Prop Name="Temperature" Value="6.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="42" />
+                                <Prop Name="Temperature" Value="13.000000" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoWinterConfigEntry">
+                    <Prop Name="Name" Value="Early2" />
+                    <Prop Name="TemperatureSet">
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="1" />
+                                <Prop Name="Temperature" Value="22.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="4" />
+                                <Prop Name="Temperature" Value="17.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="7" />
+                                <Prop Name="Temperature" Value="20.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="19" />
+                                <Prop Name="Temperature" Value="17.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="20" />
+                                <Prop Name="Temperature" Value="6.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="21" />
+                                <Prop Name="Temperature" Value="14.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="25" />
+                                <Prop Name="Temperature" Value="-2.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="27" />
+                                <Prop Name="Temperature" Value="-5.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="29" />
+                                <Prop Name="Temperature" Value="-4.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="33" />
+                                <Prop Name="Temperature" Value="-2.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="35" />
+                                <Prop Name="Temperature" Value="10.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="45" />
+                                <Prop Name="Temperature" Value="22.000000" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoWinterConfigEntry">
+                    <Prop Name="Name" Value="Winter1" />
+                    <Prop Name="TemperatureSet">
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="1" />
+                                <Prop Name="Temperature" Value="-1.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="4" />
+                                <Prop Name="Temperature" Value="-2.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="6" />
+                                <Prop Name="Temperature" Value="-5.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="9" />
+                                <Prop Name="Temperature" Value="-5.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="11" />
+                                <Prop Name="Temperature" Value="4.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="14" />
+                                <Prop Name="Temperature" Value="4.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="19" />
+                                <Prop Name="Temperature" Value="18.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="21" />
+                                <Prop Name="Temperature" Value="22.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="36" />
+                                <Prop Name="Temperature" Value="22.000000" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoWinterConfigEntry">
+                    <Prop Name="Name" Value="LonerOrCouple" />
+                    <Prop Name="TemperatureSet">
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="1" />
+                                <Prop Name="Temperature" Value="22.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="18" />
+                                <Prop Name="Temperature" Value="14.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="23" />
+                                <Prop Name="Temperature" Value="-2.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="24" />
+                                <Prop Name="Temperature" Value="-4.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="27" />
+                                <Prop Name="Temperature" Value="-4.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="28" />
+                                <Prop Name="Temperature" Value="-2.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="30" />
+                                <Prop Name="Temperature" Value="8.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="32" />
+                                <Prop Name="Temperature" Value="14.000000" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoWinterConfigEntry">
+                    <Prop Name="Name" Value="Hardcore" />
+                    <Prop Name="TemperatureSet">
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="1" />
+                                <Prop Name="Temperature" Value="14.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="11" />
+                                <Prop Name="Temperature" Value="12.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="14" />
+                                <Prop Name="Temperature" Value="1.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="15" />
+                                <Prop Name="Temperature" Value="-5.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="18" />
+                                <Prop Name="Temperature" Value="-10.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="21" />
+                                <Prop Name="Temperature" Value="-10.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="23" />
+                                <Prop Name="Temperature" Value="-2.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="25" />
+                                <Prop Name="Temperature" Value="-2.000000" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoWinterConfigEntry">
+                    <Prop Name="Name" Value="HardcoreLong" />
+                    <Prop Name="TemperatureSet">
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="1" />
+                                <Prop Name="Temperature" Value="22.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="4" />
+                                <Prop Name="Temperature" Value="20.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="5" />
+                                <Prop Name="Temperature" Value="14.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="13" />
+                                <Prop Name="Temperature" Value="12.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="16" />
+                                <Prop Name="Temperature" Value="1.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="17" />
+                                <Prop Name="Temperature" Value="-5.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="21" />
+                                <Prop Name="Temperature" Value="-2.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="24" />
+                                <Prop Name="Temperature" Value="-3.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="26" />
+                                <Prop Name="Temperature" Value="-5.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="28" />
+                                <Prop Name="Temperature" Value="-8.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="30" />
+                                <Prop Name="Temperature" Value="-2.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="31" />
+                                <Prop Name="Temperature" Value="5.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="40" />
+                                <Prop Name="Temperature" Value="7.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="50" />
+                                <Prop Name="Temperature" Value="7.000000" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoWinterConfigEntry">
+                    <Prop Name="Name" Value="WS_Story1" />
+                    <Prop Name="TemperatureSet">
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="1" />
+                                <Prop Name="Temperature" Value="20.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="11" />
+                                <Prop Name="Temperature" Value="12.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="14" />
+                                <Prop Name="Temperature" Value="1.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="15" />
+                                <Prop Name="Temperature" Value="-2.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="18" />
+                                <Prop Name="Temperature" Value="-4.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="21" />
+                                <Prop Name="Temperature" Value="0.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="23" />
+                                <Prop Name="Temperature" Value="1.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="25" />
+                                <Prop Name="Temperature" Value="3.000000" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoWinterConfigEntry">
+                    <Prop Name="Name" Value="WS_Story2" />
+                    <Prop Name="TemperatureSet">
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="1" />
+                                <Prop Name="Temperature" Value="15.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="5" />
+                                <Prop Name="Temperature" Value="12.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="6" />
+                                <Prop Name="Temperature" Value="11.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="7" />
+                                <Prop Name="Temperature" Value="10.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="9" />
+                                <Prop Name="Temperature" Value="1.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="10" />
+                                <Prop Name="Temperature" Value="-1.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="15" />
+                                <Prop Name="Temperature" Value="-4.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="19" />
+                                <Prop Name="Temperature" Value="0.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="20" />
+                                <Prop Name="Temperature" Value="3.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="25" />
+                                <Prop Name="Temperature" Value="5.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="28" />
+                                <Prop Name="Temperature" Value="11.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="35" />
+                                <Prop Name="Temperature" Value="13.000000" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoWinterConfigEntry">
+                    <Prop Name="Name" Value="WS_Story3" />
+                    <Prop Name="TemperatureSet">
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="1" />
+                                <Prop Name="Temperature" Value="-3.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="2" />
+                                <Prop Name="Temperature" Value="-6.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="5" />
+                                <Prop Name="Temperature" Value="-8.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="6" />
+                                <Prop Name="Temperature" Value="-5.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="7" />
+                                <Prop Name="Temperature" Value="-3.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="9" />
+                                <Prop Name="Temperature" Value="-2.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="10" />
+                                <Prop Name="Temperature" Value="-1.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="15" />
+                                <Prop Name="Temperature" Value="-5.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="19" />
+                                <Prop Name="Temperature" Value="-3.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="20" />
+                                <Prop Name="Temperature" Value="-4.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="25" />
+                                <Prop Name="Temperature" Value="-3.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="28" />
+                                <Prop Name="Temperature" Value="-5.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="35" />
+                                <Prop Name="Temperature" Value="-3.000000" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoWinterConfigEntry">
+                    <Prop Name="Name" Value="WS_Story3_act2_debug" />
+                    <Prop Name="TemperatureSet">
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="1" />
+                                <Prop Name="Temperature" Value="-7.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="3" />
+                                <Prop Name="Temperature" Value="-5.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="4" />
+                                <Prop Name="Temperature" Value="-3.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="9" />
+                                <Prop Name="Temperature" Value="-4.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="13" />
+                                <Prop Name="Temperature" Value="-3.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="14" />
+                                <Prop Name="Temperature" Value="-4.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="19" />
+                                <Prop Name="Temperature" Value="-3.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="22" />
+                                <Prop Name="Temperature" Value="-5.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="29" />
+                                <Prop Name="Temperature" Value="-3.000000" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoWinterConfigEntry">
+                    <Prop Name="Name" Value="WinterIsComing" />
+                    <Prop Name="TemperatureSet">
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="1" />
+                                <Prop Name="Temperature" Value="25.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="10" />
+                                <Prop Name="Temperature" Value="20.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="20" />
+                                <Prop Name="Temperature" Value="15.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="30" />
+                                <Prop Name="Temperature" Value="10.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="40" />
+                                <Prop Name="Temperature" Value="5.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="50" />
+                                <Prop Name="Temperature" Value="0.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="60" />
+                                <Prop Name="Temperature" Value="-5.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="70" />
+                                <Prop Name="Temperature" Value="-10.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="80" />
+                                <Prop Name="Temperature" Value="-15.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="90" />
+                                <Prop Name="Temperature" Value="-20.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="100" />
+                                <Prop Name="Temperature" Value="-25.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="110" />
+                                <Prop Name="Temperature" Value="-30.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="120" />
+                                <Prop Name="Temperature" Value="-35.000000" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoTemperatureSettings">
+                                <Prop Name="Day" Value="130" />
+                                <Prop Name="Temperature" Value="-40.000000" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                </Properties>
+            </Entry>
+        </Prop>
+        <Prop Name="Winter starts at" Value="-1" />
+        <Prop Name="Winter effects starts at" Value="-1" />
+        <Prop Name="DebugWinter" Value="0" />
+        <Prop Name="Remove items matching tag after winter" Value="" />
+        <Prop Name="VanishChoppingMin" Value="1" />
+        <Prop Name="VanishChoppingMax" Value="2" />
+        <Prop Name="Steam frequency (s)" Value="4.000000" />
+        <Prop Name="Steam rand (s)" Value="0.400000" />
+        <Prop Name="Steam frequency locomotion mult" Value="1.000000" />
+        <Prop Name="Steam template" Value="GFX/EFFECTS/Winter/breath" />
+        <Prop Name="Steam template locomotion" Value="GFX/EFFECTS/Winter/breath-run" />
+    </Properties>
+</KosovoWinterConfig>

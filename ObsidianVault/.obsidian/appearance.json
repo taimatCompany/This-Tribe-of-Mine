@@ -1,0 +1,16 @@
+{
+  "accentColor": "#7d1408",
+  "enabledCssSnippets": [
+    "guardian_25r"
+  ],
+  "textFontFamily": "",
+  "theme": "moonstone",
+  "monospaceFontFamily": "",
+  "interfaceFontFamily": "",
+  "cssTheme": "",
+  "baseFontSize": 19,
+  "translucency": false,
+  "nativeMenus": false,
+  "baseFontSizeAction": true,
+  "showViewHeader": true
+}

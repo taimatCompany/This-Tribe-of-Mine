@@ -1,0 +1,16 @@
+<KosovoStimulantsConfig>
+    <Properties ClassName="KosovoStimulantsConfig">
+        <Prop Name="Comfort multiplier( didnt drink coffee )" Value="0.350000" />
+        <Prop Name="Comfort multiplier( didnt smoke )" Value="0.350000" />
+        <Prop Name="Remove from" Value="4" />
+        <Prop Name="Remove to" Value="6" />
+        <Prop Name="Min cigarettes to trigger trauma" Value="6" />
+        <Prop Name="Log event ( not smoking for x days )" Value="4" />
+        <Prop Name="Min booze to trigger trauma" Value="1" />
+        <Prop Name="Depression modifier ( after consumption )" Value="-8.000000" />
+        <Prop Name="Depression modifier limit" Value="31.000000" />
+        <Prop Name="NeedCigaretteText" Value="" />
+        <Prop Name="NeedCoffeeText" Value="" />
+        <Prop Name="NeedCigaretteAndCoffeeText" Value="" />
+    </Properties>
+</KosovoStimulantsConfig>

@@ -1,0 +1,36 @@
+- Visits are frequent
+- Start wounded?
+- DwellerSet= OrdinaryPeople
+	- Zlata (Student)
+	- IntroMessage = IntroMessageOrdinaryPeople
+- Timeline= HardcoreLong
+	- WarLengthInDays= 1000
+	- RemovedBlockedLocations
+	- RemovePriceDefs
+	- Left VanishItems and bombings for now
+	- Events:
+		- July 1, 25deg, Summer
+		- July 10, 20deg, 
+		- July 20, 15deg
+		- August 30, 10deg
+		- August 40, 5deg
+		- August 50, 0deg, WinterStart
+		- August 60, -5deg, BanditStart
+		- Sept 70, -10deg
+		- Sept 80, -15deg
+		- Sept 90, -20deg
+		- Oct 100, -25deg, BanditEnd
+		- Oct 110, -30deg
+		- Oct 120, -35deg
+		- Dec 130, -40deg, Last Broadcast
+	- VanishItems:
+		- Day 1-2: Timeline_Materials (test)
+- AttackRules
+	- Day 1 - 5: No raids
+	- Day 5 - 15: Power 1 every 5 to 10 days
+	- Day 16 - 30: Power 5 every 3 to 5 days
+	- Day 31 - 60: Power 10 every 2 to 3 days
+	- Day 46 - 90: Power 20 every 1 to 2 days
+- Temperature Settings
+	- Day 1= 22
+	- Day 1000(?)= -40

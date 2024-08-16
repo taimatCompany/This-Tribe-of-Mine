@@ -1,0 +1,2 @@
+- Use soap to generate poo
+- Convert kindling into wood gas.

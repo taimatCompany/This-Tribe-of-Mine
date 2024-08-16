@@ -1,0 +1,9 @@
+This Tribe of Mine II|This mod introduces several balances and adds some realism. It changes the gameplay quite fundamentally and so will be a new experience for many people. It is not likely compatible with other mods.
+
+v3.01
+~~~~~~~~~~~~~~~~~~~~~~~~~
+- Found out localization strings are outside of the actual mod folder. Which is dumb as fuck. But ok.
+- Added WinterIsComing scenario
+
+
+

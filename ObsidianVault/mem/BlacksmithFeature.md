@@ -1,0 +1,18 @@
+- [ ] Make Cooker2 the default kitchen
+	- [ ] Make cooker into blacksmith forge
+		- [ ] FireBundles
+		- [ ] Coal
+		- [ ] Metal Blocks
+		- [ ] Coins
+- [ ] MetalShop
+	- [ ] Scrap Metal
+	- [ ] Crowbars
+	- [ ] SawBlades
+	- [ ] DirtyGunParts
+	- [ ] CleanGunParts
+	- [ ] Pistol
+	- [ ] Rifle
+	- [ ] Shotgun
+	- [ ] MachineGun
+	- [ ] Knives
+	- [ ] Hardware

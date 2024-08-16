@@ -1,0 +1,334 @@
+{
+  "main": {
+    "id": "4311fe9b72a242c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "e60bc15f0508c7d3",
+        "type": "tabs",
+        "dimension": 39.36605316973415,
+        "children": [
+          {
+            "id": "110e91e2178010d7",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0pen/ImportChecklist.md",
+                "mode": "preview",
+                "source": true
+              },
+              "pinned": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "b6354783e8f557c6",
+        "type": "tabs",
+        "dimension": 60.63394683026585,
+        "children": [
+          {
+            "id": "e7ef4e88eb59fb89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dat/items/Updated/A_Berries(Vegetables).md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "35ee4dfe5b35c138",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dat/items/Updated/B_CleanWater(005_item).md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "bb31e0e727d96e75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dat/items/Updated/B_Meat(RawFood).md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "11c252fe02fdb13b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dat/items/Updated/Boiler(Heater2).md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "5070defb9fbbbde9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dat/items/Updated/G_WoodShop(BasicWorkshop2).md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3a4c077116973293",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dat/items/Updated/Garden(Garden2).md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "ba7b6ac504839c6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dat/items/Updated/ResearchBench(HomeLab).md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f212dafe0890005f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dat/items/Updated/Smelter(cooker).md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "85e37b5423fcf1d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dat/items/Updated/WoodStove(Heater).md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "67d05720be23a7d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "ccd9ff5055211cde",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "918eab8020c626ab",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "eb0bffca4add2ca5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e380f2f798cc89bb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "370d1828dc6ac145",
+    "type": "split",
+    "children": [
+      {
+        "id": "989497b7cacef4e0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7f71e745972d362",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "dat/items/Updated/A_Berries(Vegetables).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8b3afeb1c5f0a472",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "dat/items/Updated/A_Berries(Vegetables).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f14e9a0513c50db8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "63fa3883ac9dbc6e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "dat/items/Updated/A_Berries(Vegetables).md"
+              }
+            }
+          },
+          {
+            "id": "f8d2d5d1cda7b3c3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "workspaces:Manage workspace layouts": true,
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": true,
+      "canvas:Create new canvas": true,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": true,
+      "daily-notes:Open today's daily note": true,
+      "obsidian-kanban:Create new board": true,
+      "homepage:Open homepage": true
+    }
+  },
+  "active": "e7ef4e88eb59fb89",
+  "lastOpenFiles": [
+    "0pen/ImportChecklist.md",
+    "dat/items/Updated/A_Berries(Vegetables).md",
+    "dat/items/Updated/WoodStove(Heater).md",
+    "dat/items/Updated/Smelter(cooker).md",
+    "dat/items/Updated/ResearchBench(HomeLab).md",
+    "dat/items/Updated/Garden(Garden2).md",
+    "dat/items/Updated/G_WoodShop(BasicWorkshop2).md",
+    "dat/items/Updated/Boiler(Heater2).md",
+    "dat/items/Updated/B_Meat(RawFood).md",
+    "dat/items/Updated/B_CleanWater(005_item).md",
+    "lib/changes/Version 4/Update D/0_Release.md",
+    "0pen/ToM_II.md",
+    "new/NewReleaseNotes.md",
+    "lib/changes/Version 4/Update C/0_Release.md",
+    "lib/changes/Version 4/Update B/0_Release.md",
+    "lib/changes/Version 4/Update A/0_Release.md",
+    "lib/changes/Version 4/Update D",
+    "dat/items/V4/D",
+    "dat/items/V4/D",
+    "lib/changes/Version 5/Up.md",
+    "lib/changes/Version 5/Update A",
+    "lib/changes/Version 5",
+    "dat/items/V3/J_QuadBike(unassigned).md",
+    "dat/items/V3/headQuarters(HerbalWorkshop2).md",
+    "new/NewItem.md",
+    "new/NewWorkshop.md",
+    "cfg/ValueRules.md",
+    "dat/_sys/Registry.md",
+    "cfg/CraftingLocations.md",
+    "dat/_sys/Icons.md",
+    "1ndex/Home.md",
+    "img/20240816_104716.jpg",
+    "bak/240816/vanilla/english.lang",
+    "bak/240816/vanilla",
+    "bak/240816/english.lang",
+    "bak/240816/english_ToM_2.lang",
+    "bak/240816",
+    "img/his/vault/rightArm.jpeg",
+    "img/his/vault/button.jpeg",
+    "img/his/vault/pocket.jpeg",
+    "img/his/vault/playing.jpeg",
+    "img/his/vault/lips.jpeg",
+    "img/his/vault/face.jpg",
+    "img/his/vault/leftArm.jpeg",
+    "img/his/vault/fullSwim.jpeg",
+    "img/his/vault/full.jpeg"
+  ]
+}

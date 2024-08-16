@@ -1,0 +1,25 @@
+THIS TRIBE OF MINE II
+Version 3 Patch 6
+
+A complete overhaul to almost every item in inventory and crafting systems aimed at primitive technologies and old remedies. You will need to relearn how you approach survival both in short and long term. Many resources are now renewable.
+
+*** This mod is being tested and is updated frequently***
+
+New tech tree, crafting system, and resources using primitive technologies. Traps(Mud Ovens) now serve as gathering locations. Knives and Axes are easier to make but are also used as ingredients in some recipes. 
+
+FEATURES
+- New meals to cook such as pancakes, hashbrowns, salads, and oatmeal.
+- Oil, Vinegar, Engine parts (vehicles to come), Aid Vouchers, Sulfur, Potting Soil, Gunpowder, Oats, Berries, Roots, Twine, Fabric, Hardware, Rubber, Scrap Metal, and Charcoal.
+- Completely rebalanced loot tables and item values
+- Completely rebalanced trading items
+- New trader dialogs
+- Guns can be disassembled and cleaned or assembled into different guns.
+- Modified crafting stations
+
+ECONOMY
+- The economy is this version of the game has been painstaking detailed. The effort required to make an item determines its availability in the community, and its usefulness helps determine the overall market demand, which plays into the pricing. Coins also exist as a currency, and not all vendors sell all items.
+
+NEW SCENARIO - "Winter is Coming"
+- A 1000 day scenario where temperatures eventually fall to Frostpunk levels. Start with one dweller, but the city is lively and many more can eventually join.
+
+Compatibility with other mods is not known and possibly unadvised. (With exception for anything to do with characters, those are probably fine).

@@ -1,0 +1,671 @@
+<KosovoBroadcastRadioConfig>
+    <Properties ClassName="KosovoBroadcastRadioConfig">
+        <Prop Name="Timelines">
+            <Entry>
+                <Properties ClassName="KosovoBroadcastRadioTimeline">
+                    <Prop Name="Timeline" Value="WS_Story2" />
+                    <Prop Name="Announcements">
+                        <Entry>
+                            <Properties ClassName="KosovBroadcastRadioEntry">
+                                <Prop Name="Name" Value="StoryAnnouncement_SniperInPark" />
+                                <Prop Name="IsStoryEntry" Value="1" />
+                                <Prop Name="Title" Value="UI/WarStories2/Broadcast" />
+                                <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/001_park/Broadcasting/Message_true" />
+                                <Prop Name="DurationInDays" Value="-1" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_SniperInPark" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_SniperInPark_DillemaSelected_true" />
+                                <Prop Name="DefaultEventGroupName" Value="WS_Story2_SniperInPark" />
+                                <Prop Name="DefaultEventName" Value="WS_Story2_SniperInPark_AnnouncementReleased_true" />
+                                <Prop Name="Active" Value="1" />
+                                <Prop Name="IsPassed" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                                <Prop Name="IsFeedbackEntry" Value="0" />
+                                <Prop Name="IsNew" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovBroadcastRadioEntry">
+                                <Prop Name="Name" Value="StoryAnnouncement_ArmyCargoInGasStation" />
+                                <Prop Name="IsStoryEntry" Value="1" />
+                                <Prop Name="Title" Value="UI/WarStories2/Broadcast" />
+                                <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/002_gas_station/Broadcasting/Message_true" />
+                                <Prop Name="DurationInDays" Value="-1" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_ArmyCargoInGasStation" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_ArmyCargoInGasStation_DillemaSelected_true" />
+                                <Prop Name="DefaultEventGroupName" Value="WS_Story2_ArmyCargoInGasStation" />
+                                <Prop Name="DefaultEventName" Value="WS_Story2_ArmyCargoInGasStation_AnnouncementReleased_true" />
+                                <Prop Name="Active" Value="1" />
+                                <Prop Name="IsPassed" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                                <Prop Name="IsFeedbackEntry" Value="0" />
+                                <Prop Name="IsNew" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovBroadcastRadioEntry">
+                                <Prop Name="Name" Value="StoryAnnouncement_ArmyGotRebelsInMarketSquare" />
+                                <Prop Name="IsStoryEntry" Value="1" />
+                                <Prop Name="Title" Value="UI/WarStories2/Broadcast" />
+                                <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/004_market_square/Broadcasting/Message_true" />
+                                <Prop Name="DurationInDays" Value="-1" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_ArmyGotRebelsInMarketSquare" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_ArmyGotRebelsInMarketSquare_DillemaSelected_true" />
+                                <Prop Name="DefaultEventGroupName" Value="WS_Story2_ArmyGotRebelsInMarketSquare" />
+                                <Prop Name="DefaultEventName" Value="WS_Story2_ArmyGotRebelsInMarketSquare_AnnouncementReleased_true" />
+                                <Prop Name="Active" Value="1" />
+                                <Prop Name="IsPassed" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                                <Prop Name="IsFeedbackEntry" Value="0" />
+                                <Prop Name="IsNew" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovBroadcastRadioEntry">
+                                <Prop Name="Name" Value="StoryAnnouncement_BrothersInPharmacy_True" />
+                                <Prop Name="IsStoryEntry" Value="1" />
+                                <Prop Name="Title" Value="UI/WarStories2/Broadcast" />
+                                <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/008_pharmacy/Broadcasting/Message_true" />
+                                <Prop Name="DurationInDays" Value="-1" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_BrothersInPharmacy" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_BrothersInPharmacy_DillemaSelected_true" />
+                                <Prop Name="DefaultEventGroupName" Value="WS_Story2_BrothersInPharmacy" />
+                                <Prop Name="DefaultEventName" Value="WS_Story2_BrothersInPharmacy_AnnouncementReleased_true" />
+                                <Prop Name="Active" Value="1" />
+                                <Prop Name="IsPassed" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                                <Prop Name="IsFeedbackEntry" Value="0" />
+                                <Prop Name="IsNew" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovBroadcastRadioEntry">
+                                <Prop Name="Name" Value="StoryAnnouncement_BrothersInPharmacy_False" />
+                                <Prop Name="IsStoryEntry" Value="1" />
+                                <Prop Name="Title" Value="UI/WarStories2/Broadcast" />
+                                <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/008_pharmacy/Broadcasting/Message_false" />
+                                <Prop Name="DurationInDays" Value="-1" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_BrothersInPharmacy" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_BrothersInPharmacy_DillemaSelected_false" />
+                                <Prop Name="DefaultEventGroupName" Value="WS_Story2_BrothersInPharmacy" />
+                                <Prop Name="DefaultEventName" Value="WS_Story2_BrothersInPharmacy_AnnouncementReleased_false" />
+                                <Prop Name="Active" Value="1" />
+                                <Prop Name="IsPassed" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                                <Prop Name="IsFeedbackEntry" Value="0" />
+                                <Prop Name="IsNew" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovBroadcastRadioEntry">
+                                <Prop Name="Name" Value="StoryAnnouncement_FriendInBakery_True" />
+                                <Prop Name="IsStoryEntry" Value="1" />
+                                <Prop Name="Title" Value="UI/WarStories2/Broadcast" />
+                                <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/009_bakery/Broadcasting/Message_true" />
+                                <Prop Name="DurationInDays" Value="-1" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_FriendInBakery" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_FriendInBakery_DillemaSelected_true" />
+                                <Prop Name="DefaultEventGroupName" Value="WS_Story2_FriendInBakery" />
+                                <Prop Name="DefaultEventName" Value="WS_Story2_FriendInBakery_AnnouncementReleased_true" />
+                                <Prop Name="Active" Value="1" />
+                                <Prop Name="IsPassed" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                                <Prop Name="IsFeedbackEntry" Value="0" />
+                                <Prop Name="IsNew" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovBroadcastRadioEntry">
+                                <Prop Name="Name" Value="StoryAnnouncement_FriendInBakery_False" />
+                                <Prop Name="IsStoryEntry" Value="1" />
+                                <Prop Name="Title" Value="UI/WarStories2/Broadcast" />
+                                <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/009_bakery/Broadcasting/Message_false" />
+                                <Prop Name="DurationInDays" Value="-1" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_FriendInBakery" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_FriendInBakery_DillemaSelected_false" />
+                                <Prop Name="DefaultEventGroupName" Value="WS_Story2_FriendInBakery" />
+                                <Prop Name="DefaultEventName" Value="WS_Story2_FriendInBakery_AnnouncementReleased_false" />
+                                <Prop Name="Active" Value="1" />
+                                <Prop Name="IsPassed" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                                <Prop Name="IsFeedbackEntry" Value="0" />
+                                <Prop Name="IsNew" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovBroadcastRadioEntry">
+                                <Prop Name="Name" Value="StoryAnnouncement_MassacreInBrewery_True" />
+                                <Prop Name="IsStoryEntry" Value="1" />
+                                <Prop Name="Title" Value="UI/WarStories2/Broadcast" />
+                                <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/010_brewery/Broadcasting/Message_true" />
+                                <Prop Name="DurationInDays" Value="-1" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_MassacreInBrewery" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_MassacreInBrewery_DillemaSelected_true" />
+                                <Prop Name="DefaultEventGroupName" Value="WS_Story2_MassacreInBrewery" />
+                                <Prop Name="DefaultEventName" Value="WS_Story2_MassacreInBrewery_AnnouncementReleased_true" />
+                                <Prop Name="Active" Value="1" />
+                                <Prop Name="IsPassed" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                                <Prop Name="IsFeedbackEntry" Value="0" />
+                                <Prop Name="IsNew" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovBroadcastRadioEntry">
+                                <Prop Name="Name" Value="StoryAnnouncement_MassacreInBrewery_False" />
+                                <Prop Name="IsStoryEntry" Value="1" />
+                                <Prop Name="Title" Value="UI/WarStories2/Broadcast" />
+                                <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/010_brewery/Broadcasting/Message_false" />
+                                <Prop Name="DurationInDays" Value="-1" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_MassacreInBrewery" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_MassacreInBrewery_DillemaSelected_false" />
+                                <Prop Name="DefaultEventGroupName" Value="WS_Story2_MassacreInBrewery" />
+                                <Prop Name="DefaultEventName" Value="WS_Story2_MassacreInBrewery_AnnouncementReleased_false" />
+                                <Prop Name="Active" Value="1" />
+                                <Prop Name="IsPassed" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                                <Prop Name="IsFeedbackEntry" Value="0" />
+                                <Prop Name="IsNew" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovBroadcastRadioEntry">
+                                <Prop Name="Name" Value="CasualAnnouncement_PossibleLackOfCoffe" />
+                                <Prop Name="IsStoryEntry" Value="0" />
+                                <Prop Name="Title" Value="UI/WarStories2/Broadcast" />
+                                <Prop Name="Text" Value="SpecialSpeeches/WarStories/Story2/BroadcastingRadio/CasualMessages/PossibleLackOfCoffe" />
+                                <Prop Name="DurationInDays" Value="3" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_CasualBroadcastingRadioMessages" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_CasualBroadcasting_PossibleLackOfCoffe" />
+                                <Prop Name="DefaultEventGroupName" Value="" />
+                                <Prop Name="DefaultEventName" Value="" />
+                                <Prop Name="Active" Value="1" />
+                                <Prop Name="IsPassed" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                                <Prop Name="IsFeedbackEntry" Value="0" />
+                                <Prop Name="IsNew" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovBroadcastRadioEntry">
+                                <Prop Name="Name" Value="CasualAnnouncement_FuelInGasStation" />
+                                <Prop Name="IsStoryEntry" Value="0" />
+                                <Prop Name="Title" Value="UI/WarStories2/Broadcast" />
+                                <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/002_gas_station/Broadcasting/Casual_message" />
+                                <Prop Name="DurationInDays" Value="5" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_CasualBroadcastingRadioMessages" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_CasualBroadcasting_FuelInGasStation" />
+                                <Prop Name="DefaultEventGroupName" Value="WS_Story2_CasualBroadcastingRadioMessages" />
+                                <Prop Name="DefaultEventName" Value="WS_Story2_CasualBroadcasting_FuelInGasStation_AnnouncementReleased" />
+                                <Prop Name="Active" Value="1" />
+                                <Prop Name="IsPassed" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                                <Prop Name="IsFeedbackEntry" Value="0" />
+                                <Prop Name="IsNew" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovBroadcastRadioEntry">
+                                <Prop Name="Name" Value="CasualAnnouncement_ArmyIsThreateningUs" />
+                                <Prop Name="IsStoryEntry" Value="0" />
+                                <Prop Name="Title" Value="UI/WarStories2/Broadcast" />
+                                <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/002_gas_station/Broadcasting/Casual_ArmyIsThreateningUs" />
+                                <Prop Name="DurationInDays" Value="3" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_Consequences" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_Consequences_ThreateningLetter" />
+                                <Prop Name="DefaultEventGroupName" Value="WS_Story2_CasualBroadcastingRadioMessages" />
+                                <Prop Name="DefaultEventName" Value="WS_Story2_CasualBroadcasting_ArmyIsThreateningUs_AnnouncementReleased" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="IsPassed" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                                <Prop Name="IsFeedbackEntry" Value="0" />
+                                <Prop Name="IsNew" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovBroadcastRadioEntry">
+                                <Prop Name="Name" Value="CasualAnnouncement_ToystoreBasementGuy" />
+                                <Prop Name="IsStoryEntry" Value="0" />
+                                <Prop Name="Title" Value="UI/WarStories2/Broadcast" />
+                                <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/007_toystore/Broadcasting/Casual_BasementGuy" />
+                                <Prop Name="DurationInDays" Value="3" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_CasualBroadcastingRadioMessages" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_CasualBroadcastingRadioMessages_ToystoreBasementGuy" />
+                                <Prop Name="DefaultEventGroupName" Value="WS_Story2_CasualBroadcastingRadioMessages" />
+                                <Prop Name="DefaultEventName" Value="WS_Story2_CasualBroadcastingRadioMessages_ToystoreBasementGuy_AnnouncementReleased" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="IsPassed" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                                <Prop Name="IsFeedbackEntry" Value="0" />
+                                <Prop Name="IsNew" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovBroadcastRadioEntry">
+                                <Prop Name="Name" Value="CasualAnnouncement_WinterIsComing" />
+                                <Prop Name="IsStoryEntry" Value="0" />
+                                <Prop Name="Title" Value="UI/WarStories2/Broadcast" />
+                                <Prop Name="Text" Value="SpecialSpeeches/WarStories/Story2/BroadcastingRadio/CasualMessages/WinterIsComing" />
+                                <Prop Name="DurationInDays" Value="2" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_CasualBroadcastingRadioMessages" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_CasualBroadcastingRadioMessages_WinterIsComing" />
+                                <Prop Name="DefaultEventGroupName" Value="WS_Story2_CasualBroadcastingRadioMessages" />
+                                <Prop Name="DefaultEventName" Value="WS_Story2_CasualBroadcastingRadioMessages_WinterIsComing_AnnouncementReleased" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="IsPassed" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                                <Prop Name="IsFeedbackEntry" Value="0" />
+                                <Prop Name="IsNew" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovBroadcastRadioEntry">
+                                <Prop Name="Name" Value="CasualAnnouncement_ItsGettingHotter" />
+                                <Prop Name="IsStoryEntry" Value="0" />
+                                <Prop Name="Title" Value="UI/WarStories2/Broadcast" />
+                                <Prop Name="Text" Value="SpecialSpeeches/WarStories/Story2/BroadcastingRadio/CasualMessages/ItsGettingHotter" />
+                                <Prop Name="DurationInDays" Value="2" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_CasualBroadcastingRadioMessages" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_CasualBroadcastingRadioMessages_ItsGettingHotter" />
+                                <Prop Name="DefaultEventGroupName" Value="WS_Story2_CasualBroadcastingRadioMessages" />
+                                <Prop Name="DefaultEventName" Value="WS_Story2_CasualBroadcastingRadioMessages_ItsGettingHotter_AnnouncementReleased" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="IsPassed" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                                <Prop Name="IsFeedbackEntry" Value="0" />
+                                <Prop Name="IsNew" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovBroadcastRadioEntry">
+                                <Prop Name="Name" Value="CasualAnnouncement_ThereWillBeAnAttack" />
+                                <Prop Name="IsStoryEntry" Value="0" />
+                                <Prop Name="Title" Value="UI/WarStories2/Broadcast" />
+                                <Prop Name="Text" Value="SpecialSpeeches/WarStories/Story2/BroadcastingRadio/CasualMessages/ThereWillBeAnAttack" />
+                                <Prop Name="DurationInDays" Value="2" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_CasualBroadcastingRadioMessages" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_CasualBroadcastingRadioMessages_ThereWillBeAnAttack" />
+                                <Prop Name="DefaultEventGroupName" Value="WS_Story2_CasualBroadcastingRadioMessages" />
+                                <Prop Name="DefaultEventName" Value="WS_Story2_CasualBroadcastingRadioMessages_ThereWillBeAnAttack_AnnouncementReleased" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="IsPassed" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                                <Prop Name="IsFeedbackEntry" Value="0" />
+                                <Prop Name="IsNew" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovBroadcastRadioEntry">
+                                <Prop Name="Name" Value="CasualAnnouncement_CigarettesWillGetCheap" />
+                                <Prop Name="IsStoryEntry" Value="0" />
+                                <Prop Name="Title" Value="UI/WarStories2/Broadcast" />
+                                <Prop Name="Text" Value="SpecialSpeeches/WarStories/Story2/BroadcastingRadio/CasualMessages/CigarettesWillGetCheap" />
+                                <Prop Name="DurationInDays" Value="2" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_CasualBroadcastingRadioMessages" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_CasualBroadcastingRadioMessages_CigarettesWillGetCheap" />
+                                <Prop Name="DefaultEventGroupName" Value="" />
+                                <Prop Name="DefaultEventName" Value="" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="IsPassed" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                                <Prop Name="IsFeedbackEntry" Value="0" />
+                                <Prop Name="IsNew" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovBroadcastRadioEntry">
+                                <Prop Name="Name" Value="CasualAnnouncement_ThereWillBeAnAttack2" />
+                                <Prop Name="IsStoryEntry" Value="0" />
+                                <Prop Name="Title" Value="UI/WarStories2/Broadcast" />
+                                <Prop Name="Text" Value="SpecialSpeeches/WarStories/Story2/BroadcastingRadio/CasualMessages/ThereWillBeAnAttack2" />
+                                <Prop Name="DurationInDays" Value="2" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_CasualBroadcastingRadioMessages" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_CasualBroadcastingRadioMessages_ThereWillBeAnAttack2" />
+                                <Prop Name="DefaultEventGroupName" Value="WS_Story2_CasualBroadcastingRadioMessages" />
+                                <Prop Name="DefaultEventName" Value="WS_Story2_CasualBroadcastingRadioMessages_ThereWillBeAnAttack2_AnnouncementReleased" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="IsPassed" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                                <Prop Name="IsFeedbackEntry" Value="0" />
+                                <Prop Name="IsNew" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovBroadcastRadioEntry">
+                                <Prop Name="Name" Value="CasualAnnouncement_ThereWillBeAnAttack3" />
+                                <Prop Name="IsStoryEntry" Value="0" />
+                                <Prop Name="Title" Value="UI/WarStories2/Broadcast" />
+                                <Prop Name="Text" Value="SpecialSpeeches/WarStories/Story2/BroadcastingRadio/CasualMessages/ThereWillBeAnAttack3" />
+                                <Prop Name="DurationInDays" Value="2" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_CasualBroadcastingRadioMessages" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_CasualBroadcastingRadioMessages_ThereWillBeAnAttack3" />
+                                <Prop Name="DefaultEventGroupName" Value="WS_Story2_CasualBroadcastingRadioMessages" />
+                                <Prop Name="DefaultEventName" Value="WS_Story2_CasualBroadcastingRadioMessages_ThereWillBeAnAttack3_AnnouncementReleased" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="IsPassed" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                                <Prop Name="IsFeedbackEntry" Value="0" />
+                                <Prop Name="IsNew" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovBroadcastRadioEntry">
+                                <Prop Name="Name" Value="CasualAnnouncement_Brewery_WaterGiveaway" />
+                                <Prop Name="IsStoryEntry" Value="0" />
+                                <Prop Name="Title" Value="UI/WarStories2/Broadcast" />
+                                <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/010_brewery/Broadcasting/WaterGiveaway" />
+                                <Prop Name="DurationInDays" Value="0" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_MassacreInBrewery" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_MassacreInBrewery_Informer" />
+                                <Prop Name="DefaultEventGroupName" Value="WS_Story2_MassacreInBrewery" />
+                                <Prop Name="DefaultEventName" Value="WS_Story2_MassacreInBrewery_Informer_AnnouncementReleased" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="IsPassed" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                                <Prop Name="IsFeedbackEntry" Value="0" />
+                                <Prop Name="IsNew" Value="1" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                    <Prop Name="Feedback">
+                        <Entry>
+                            <Properties ClassName="KosovFeedbackRadioEntry">
+                                <Prop Name="Name" Value="StoryFeedback_SniperInPark" />
+                                <Prop Name="Title" Value="UI/WarStories2/Feedback" />
+                                <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/001_park/Broadcasting/Feedback_true" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_SniperInPark" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_SniperInPark_AnnouncementReleased_true" />
+                                <Prop Name="ReqDaysFromEvent" Value="2" />
+                                <Prop Name="EventGroupName" Value="" />
+                                <Prop Name="EventName" Value="" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovFeedbackRadioEntry">
+                                <Prop Name="Name" Value="StoryFeedback_SniperInPark2" />
+                                <Prop Name="Title" Value="UI/WarStories2/Eavesdropped" />
+                                <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/001_park/Broadcasting/Feedback_true2" />
+                                <Prop Name="ReqDay" Value="3" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_SniperInPark" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_SniperInPark_AnnouncementReleased_true" />
+                                <Prop Name="ReqDaysFromEvent" Value="1" />
+                                <Prop Name="EventGroupName" Value="" />
+                                <Prop Name="EventName" Value="" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovFeedbackRadioEntry">
+                                <Prop Name="Name" Value="StoryFeedback_ArmyCargoInGasStation" />
+                                <Prop Name="Title" Value="UI/WarStories2/Feedback" />
+                                <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/002_gas_station/Broadcasting/Feedback_true" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_ArmyCargoInGasStation" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_ArmyCargoInGasStationk_AnnouncementReleased_true" />
+                                <Prop Name="ReqDaysFromEvent" Value="2" />
+                                <Prop Name="EventGroupName" Value="" />
+                                <Prop Name="EventName" Value="" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovFeedbackRadioEntry">
+                                <Prop Name="Name" Value="StoryFeedback_ArmyGotRebelsInMarketSquare" />
+                                <Prop Name="Title" Value="UI/WarStories2/Feedback" />
+                                <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/004_market_square/Broadcasting/Feedback_true" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_ArmyGotRebelsInMarketSquare" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_ArmyGotRebelsInMarketSquare_AnnouncementReleased_true" />
+                                <Prop Name="ReqDaysFromEvent" Value="2" />
+                                <Prop Name="EventGroupName" Value="" />
+                                <Prop Name="EventName" Value="" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovFeedbackRadioEntry">
+                                <Prop Name="Name" Value="StoryFeedback_BrothersInPharmacy_True" />
+                                <Prop Name="Title" Value="UI/WarStories2/Feedback" />
+                                <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/008_pharmacy/Broadcasting/Feedback_true" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_BrothersInPharmacy" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_BrothersInPharmacy_AnnouncementReleased_true" />
+                                <Prop Name="ReqDaysFromEvent" Value="2" />
+                                <Prop Name="EventGroupName" Value="" />
+                                <Prop Name="EventName" Value="" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovFeedbackRadioEntry">
+                                <Prop Name="Name" Value="StoryFeedback_BrothersInPharmacy_False" />
+                                <Prop Name="Title" Value="UI/WarStories2/Feedback" />
+                                <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/008_pharmacy/Broadcasting/Feedback_false" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_BrothersInPharmacy" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_BrothersInPharmacy_AnnouncementReleased_false" />
+                                <Prop Name="ReqDaysFromEvent" Value="2" />
+                                <Prop Name="EventGroupName" Value="" />
+                                <Prop Name="EventName" Value="" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovFeedbackRadioEntry">
+                                <Prop Name="Name" Value="StoryFeedback_FriendInBakery_True" />
+                                <Prop Name="Title" Value="UI/WarStories2/Eavesdropped" />
+                                <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/009_bakery/Broadcasting/Feedback_true" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_FriendInBakery" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_FriendInBakery_AnnouncementReleased_true" />
+                                <Prop Name="ReqDaysFromEvent" Value="2" />
+                                <Prop Name="EventGroupName" Value="" />
+                                <Prop Name="EventName" Value="" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovFeedbackRadioEntry">
+                                <Prop Name="Name" Value="StoryFeedback_FriendInBakery_False" />
+                                <Prop Name="Title" Value="UI/WarStories2/Feedback" />
+                                <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/009_bakery/Broadcasting/Feedback_false" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_FriendInBakery" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_FriendInBakery_AnnouncementReleased_false" />
+                                <Prop Name="ReqDaysFromEvent" Value="2" />
+                                <Prop Name="EventGroupName" Value="" />
+                                <Prop Name="EventName" Value="" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovFeedbackRadioEntry">
+                                <Prop Name="Name" Value="StoryFeedback_MassacreInBrewery_True" />
+                                <Prop Name="Title" Value="UI/WarStories2/Feedback" />
+                                <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/010_brewery/Broadcasting/Feedback_true" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_MassacreInBrewery" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_MassacreInBrewery_AnnouncementReleased_true" />
+                                <Prop Name="ReqDaysFromEvent" Value="2" />
+                                <Prop Name="EventGroupName" Value="" />
+                                <Prop Name="EventName" Value="" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovFeedbackRadioEntry">
+                                <Prop Name="Name" Value="StoryFeedback_MassacreInBrewery_False" />
+                                <Prop Name="Title" Value="UI/WarStories2/Feedback" />
+                                <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/010_brewery/Broadcasting/Feedback_false" />
+                                <Prop Name="ReqDay" Value="-1" />
+                                <Prop Name="EndDay" Value="-1" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_MassacreInBrewery" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_MassacreInBrewery_AnnouncementReleased_false" />
+                                <Prop Name="ReqDaysFromEvent" Value="2" />
+                                <Prop Name="EventGroupName" Value="" />
+                                <Prop Name="EventName" Value="" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovFeedbackRadioEntry">
+                                <Prop Name="Name" Value="CasualFeedback_FuelInGasStation" />
+                                <Prop Name="Title" Value="UI/WarStories2/Feedback" />
+                                <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/002_gas_station/Broadcasting/Casual_message_feedback" />
+                                <Prop Name="ReqDay" Value="5" />
+                                <Prop Name="EndDay" Value="6" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_CasualBroadcastingRadioMessages" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_CasualBroadcasting_FuelInGasStation_AnnouncementReleased" />
+                                <Prop Name="ReqDaysFromEvent" Value="2" />
+                                <Prop Name="EventGroupName" Value="" />
+                                <Prop Name="EventName" Value="" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovFeedbackRadioEntry">
+                                <Prop Name="Name" Value="CasualInfo_WinterIsComing" />
+                                <Prop Name="Title" Value="UI/WarStories2/Received" />
+                                <Prop Name="Text" Value="SpecialSpeeches/WarStories/Story2/BroadcastingRadio/CasualMessages/Received_WinterIsComing" />
+                                <Prop Name="ReqDay" Value="8" />
+                                <Prop Name="EndDay" Value="9" />
+                                <Prop Name="ReqEventGroupName" Value="" />
+                                <Prop Name="ReqEventName" Value="" />
+                                <Prop Name="ReqDaysFromEvent" Value="-1" />
+                                <Prop Name="EventGroupName" Value="WS_Story2_CasualBroadcastingRadioMessages" />
+                                <Prop Name="EventName" Value="WS_Story2_CasualBroadcastingRadioMessages_WinterIsComing" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovFeedbackRadioEntry">
+                                <Prop Name="Name" Value="CasualInfo_ItsGettingHotter" />
+                                <Prop Name="Title" Value="UI/WarStories2/Received" />
+                                <Prop Name="Text" Value="SpecialSpeeches/WarStories/Story2/BroadcastingRadio/CasualMessages/Received_ItsGettingHotter" />
+                                <Prop Name="ReqDay" Value="17" />
+                                <Prop Name="EndDay" Value="18" />
+                                <Prop Name="ReqEventGroupName" Value="" />
+                                <Prop Name="ReqEventName" Value="" />
+                                <Prop Name="ReqDaysFromEvent" Value="-1" />
+                                <Prop Name="EventGroupName" Value="WS_Story2_CasualBroadcastingRadioMessages" />
+                                <Prop Name="EventName" Value="WS_Story2_CasualBroadcastingRadioMessages_ItsGettingHotter" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovFeedbackRadioEntry">
+                                <Prop Name="Name" Value="CasualInfo_ThereWillBeAnAttack" />
+                                <Prop Name="Title" Value="UI/WarStories2/Received" />
+                                <Prop Name="Text" Value="SpecialSpeeches/WarStories/Story2/BroadcastingRadio/CasualMessages/Received_ThereWillBeAnAttack" />
+                                <Prop Name="ReqDay" Value="5" />
+                                <Prop Name="EndDay" Value="6" />
+                                <Prop Name="ReqEventGroupName" Value="" />
+                                <Prop Name="ReqEventName" Value="" />
+                                <Prop Name="ReqDaysFromEvent" Value="-1" />
+                                <Prop Name="EventGroupName" Value="WS_Story2_CasualBroadcastingRadioMessages" />
+                                <Prop Name="EventName" Value="WS_Story2_CasualBroadcastingRadioMessages_ThereWillBeAnAttack" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovFeedbackRadioEntry">
+                                <Prop Name="Name" Value="CasualInfo_ThereWillBeAnAttack2" />
+                                <Prop Name="Title" Value="UI/WarStories2/Received" />
+                                <Prop Name="Text" Value="SpecialSpeeches/WarStories/Story2/BroadcastingRadio/CasualMessages/Received_ThereWillBeAnAttack2" />
+                                <Prop Name="ReqDay" Value="20" />
+                                <Prop Name="EndDay" Value="21" />
+                                <Prop Name="ReqEventGroupName" Value="" />
+                                <Prop Name="ReqEventName" Value="" />
+                                <Prop Name="ReqDaysFromEvent" Value="-1" />
+                                <Prop Name="EventGroupName" Value="WS_Story2_CasualBroadcastingRadioMessages" />
+                                <Prop Name="EventName" Value="WS_Story2_CasualBroadcastingRadioMessages_ThereWillBeAnAttack2" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovFeedbackRadioEntry">
+                                <Prop Name="Name" Value="CasualInfo_ThereWillBeAnAttack3" />
+                                <Prop Name="Title" Value="UI/WarStories2/Received" />
+                                <Prop Name="Text" Value="SpecialSpeeches/WarStories/Story2/BroadcastingRadio/CasualMessages/Received_ThereWillBeAnAttack3" />
+                                <Prop Name="ReqDay" Value="29" />
+                                <Prop Name="EndDay" Value="30" />
+                                <Prop Name="ReqEventGroupName" Value="" />
+                                <Prop Name="ReqEventName" Value="" />
+                                <Prop Name="ReqDaysFromEvent" Value="-1" />
+                                <Prop Name="EventGroupName" Value="WS_Story2_CasualBroadcastingRadioMessages" />
+                                <Prop Name="EventName" Value="WS_Story2_CasualBroadcastingRadioMessages_ThereWillBeAnAttack3" />
+                                <Prop Name="Active" Value="0" />
+                                <Prop Name="Day" Value="-1" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                </Properties>
+            </Entry>
+        </Prop>
+    </Properties>
+</KosovoBroadcastRadioConfig>

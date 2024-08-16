@@ -1,0 +1,534 @@
+<KosovoMainParams>
+    <Properties ClassName="KosovoMainParams">
+        <Prop Name="CellSizeX" Value="4.000000" />
+        <Prop Name="CellSizeZ" Value="4.000000" />
+        <Prop Name="RoomWalkDuration" Value="1.000000" />
+        <Prop Name="OnSpeedUpTimeMult" Value="3.000000" />
+        <Prop Name="DrawPercentageOnScavengeScreen" Value="1" />
+        <Prop Name="DrawPath" Value="0" />
+        <Prop Name="DrawAllPaths" Value="0" />
+        <Prop Name="DrawCells" Value="0" />
+        <Prop Name="DrawSounds" Value="0" />
+        <Prop Name="DrawOutdoorCells" Value="0" />
+        <Prop Name="DrawWalkingGraph" Value="0" />
+        <Prop Name="DrawRooms" Value="0" />
+        <Prop Name="DrawSightRange" Value="0" />
+        <Prop Name="HideEnemyHPBar" Value="0" />
+        <Prop Name="DwellerQueryRange" Value="0.500000" />
+        <Prop Name="ItemQueryRange" Value="0.500000" />
+        <Prop Name="WeaponQueryRange" Value="0.000000" />
+        <Prop Name="EnemyDisappearTime" Value="2.000000" />
+        <Prop Name="GhostVisualizationRange" Value="12.000000" />
+        <Prop Name="ReturnFractureOnSale" Value="0.800000" />
+        <Prop Name="FractureOfHealthOnDevastation" Value="0.500000" />
+        <Prop Name="DisableSound" Value="0" />
+        <Prop Name="WeaponDamageDebug" Value="1" />
+        <Prop Name="AllRoomsDeveloped" Value="0" />
+        <Prop Name="DayStartsAt" Value="85.000000" />
+        <Prop Name="DarknessClamp" Value="0.010000" />
+        <Prop Name="DwellerAutoFeed" Value="0" />
+        <Prop Name="GroundLevel" Value="-8.000000" />
+        <Prop Name="ClickableObjectName" Value="~ClickableObject" />
+        <Prop Name="OutdoorCellSizeX" Value="2.000000" />
+        <Prop Name="OutdoorCellSizeZ" Value="4.000000" />
+        <Prop Name="OutdoorCellCount" Value="20" />
+        <Prop Name="MoveInputOffset" Value="-1.500000" />
+        <Prop Name="AlwaysDrawDwellerMovementPath" Value="0" />
+        <Prop Name="ContextMenuOnRightButton" Value="1" />
+        <Prop Name="DisableStateIcons" />
+        <Prop Name="DisableAllStateIcons" Value="1" />
+        <Prop Name="HideStaminaBar" Value="1" />
+        <Prop Name="DisableHideAfterSideCovers" Value="1" />
+        <Prop Name="AmbientEffectTimeInterval" Value="10.000000" />
+        <Prop Name="MoveDestinationTemplate" Value="SFX/TEMP/Target Point" />
+        <Prop Name="RejectMoveDestinationTemplate" Value="" />
+        <Prop Name="TraditionalPause" Value="1" />
+        <Prop Name="DwellerClickableBBoxSize" Value="1.500000 0.010000 2.500000 1.000000" />
+        <Prop Name="EntitySpawnSoundEntryName" Value="EntitySpawn" />
+        <Prop Name="ShowItemIconsInShelterWithoutFocusedDweller" Value="1" />
+        <Prop Name="ShelterHeatUICap" Value="24" />
+        <Prop Name="FirstEnterCommentDelay" Value="1.000000" />
+        <Prop Name="ShowHPBarsOnlyInCombatMode" Value="1" />
+        <Prop Name="VisionPointsToSeeTarget" Value="2" />
+        <Prop Name="VisionPointsCount" Value="16" />
+        <Prop Name="VisionPointsSnaping" Value="0" />
+        <Prop Name="DwellerCap" Value="4" />
+        <Prop Name="DemoDayCap" Value="-1" />
+        <Prop Name="CharacterLocalizedNamesDirectory" Value="Names" />
+        <Prop Name="ItemInfluenceMultiplierForKids" Value="2.000000" />
+        <Prop Name="MinDaysToStoreGameHistory" Value="10" />
+        <Prop Name="HACKDefaultHomeSceneName" Value="!CURRENT/0_home_shelter_B" />
+        <Prop Name="HomeSceneNames">
+            <Entry Value="!CURRENT/0_home_shelter_B" />
+            <Entry Value="!CURRENT/0_home_shelter_nu3" />
+            <Entry Value="!CURRENT/0_home_shelter_radiostation" />
+        </Prop>
+        <Prop Name="MenuSceneName" Value="MainMenu" />
+        <Prop Name="AccountMenuSceneName" Value="AccountMenu" />
+        <Prop Name="ComplicationTierMaxGamesPlayed">
+            <Entry Value="1" />
+            <Entry Value="2" />
+            <Entry Value="3" />
+            <Entry Value="4" />
+            <Entry Value="5" />
+            <Entry Value="6" />
+            <Entry Value="7" />
+            <Entry Value="8" />
+        </Prop>
+        <Prop Name="IntroSequence">
+            <Entry>
+                <Properties ClassName="KosovoIntroSequenceEntry">
+                    <Prop Name="Type" Value="0" />
+                    <Prop Name="Data" Value="11BIT_black_and_white_new" />
+                    <Prop Name="Enable only on platform" Value="" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoIntroSequenceEntry">
+                    <Prop Name="Type" Value="2" />
+                    <Prop Name="Data" Value="1" />
+                    <Prop Name="Enable only on platform" Value="" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoIntroSequenceEntry">
+                    <Prop Name="Type" Value="0" />
+                    <Prop Name="Data" Value="ALIENWARE_black_and_white" />
+                    <Prop Name="Enable only on platform" Value="PC" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoIntroSequenceEntry">
+                    <Prop Name="Type" Value="2" />
+                    <Prop Name="Data" Value="1" />
+                    <Prop Name="Enable only on platform" Value="PC" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoIntroSequenceEntry">
+                    <Prop Name="Type" Value="0" />
+                    <Prop Name="Data" Value="WAR_CHILD_black_and_white" />
+                    <Prop Name="Enable only on platform" Value="" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoIntroSequenceEntry">
+                    <Prop Name="Type" Value="2" />
+                    <Prop Name="Data" Value="1" />
+                    <Prop Name="Enable only on platform" Value="" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoIntroSequenceEntry">
+                    <Prop Name="Type" Value="1" />
+                    <Prop Name="Data" Value="UI/Game_Start/Ernest_1" />
+                    <Prop Name="Enable only on platform" Value="" />
+                </Properties>
+            </Entry>
+        </Prop>
+        <Prop Name="GameplayIntroMessages">
+            <Entry Value="GameFlow/Intro_01" />
+            <Entry Value="GameFlow/Intro_02" />
+            <Entry Value="GameFlow/Intro_03" />
+            <Entry Value="GameFlow/Intro_04" />
+        </Prop>
+        <Prop Name="IntroMessageDuration" Value="7.000000" />
+        <Prop Name="IntroMessageCooldown" Value="1.000000" />
+        <Prop Name="GameplayIntroMessageDuration" Value="3.200000" />
+        <Prop Name="GameplayIntroNoMessageDuration" Value="1.000000" />
+        <Prop Name="EnableDebugSetup" Value="1" />
+        <Prop Name="DebugLocationPackName" Value="MapPack_06" />
+        <Prop Name="DebugShelterSetupName" Value="Pregnant" />
+        <Prop Name="DebugDwellerSetName" Value="Pregnant" />
+        <Prop Name="DebugTimelineName" Value="HardcoreLong" />
+        <Prop Name="DebugGamesPlayedIncrease" Value="0" />
+        <Prop Name="DayDurationInSeconds" Value="360.000000" />
+        <Prop Name="DaySecondsToWarning" Value="30.000000" />
+        <Prop Name="ScavengeReturnInDaysMin" Value="0.100000" />
+        <Prop Name="ScavengeReturnInDaysMax" Value="0.300000" />
+        <Prop Name="DayBeginHour" Value="6" />
+        <Prop Name="DayEndHour" Value="20" />
+        <Prop Name="NightEndHour" Value="5" />
+        <Prop Name="NightSecondsPerGameHour" Value="45.000000" />
+        <Prop Name="NightSecondsToWarning" Value="30.000000" />
+        <Prop Name="NightWarningRemindTimeout" Value="15.000000" />
+        <Prop Name="DayGranularityInMinutes" Value="10" />
+        <Prop Name="NightGranularityInMinutes" Value="10" />
+        <Prop Name="ScavengeProgressAreaWeight" Value="0.000000" />
+        <Prop Name="ScavengeProgressItemsWeight" Value="1.000000" />
+        <Prop Name="TimeWarningSoundInverval" Value="0.600000" />
+        <Prop Name="FirstDayBeginFadeInTime" Value="9.000000" />
+        <Prop Name="EndScavengeMessageTime" Value="3.000000" />
+        <Prop Name="SkipHoursOnEndDay" Value="2.000000" />
+        <Prop Name="BackFromScavengeSpawnPoint" Value="Entrance" />
+        <Prop Name="LateBackFromScavengeSpawnPoint" Value="ShelterSpawnPoint" />
+        <Prop Name="ProtectorBackFromScavengeSpawnPoint" Value="RunningToKidSpawnPoint" />
+        <Prop Name="ProtectorBackFromScavengeChildSpawnPoint" Value="AfterAttackChildSpawnPoint" />
+        <Prop Name="CameraRotation" Value="0.000000 0.000000 0.000000 0.000000" />
+        <Prop Name="CameraDamping" Value="0.010000" />
+        <Prop Name="CameraNearPlane" Value="10.000000" />
+        <Prop Name="CameraFarPlane" Value="400.000000" />
+        <Prop Name="CameraHeight" Value="20.000000" />
+        <Prop Name="CameraFOV" Value="52.500000" />
+        <Prop Name="CameraMaxFOV" Value="70.000000" />
+        <Prop Name="CameraMaxWidescreenFOV" Value="58.000000" />
+        <Prop Name="CameraMinCinematicFOV" Value="15.000000" />
+        <Prop Name="CameraMinFOV" Value="37.000000" />
+        <Prop Name="CameraZoomMult" Value="0.200000" />
+        <Prop Name="CameraZoomLerpSpeed" Value="200.000000" />
+        <Prop Name="HorizontalCameraMoveSpeed" Value="20.000000" />
+        <Prop Name="VerticalCameraMoveSpeed" Value="10.000000" />
+        <Prop Name="HorizontalCameraMoveThreshold" Value="0.005000" />
+        <Prop Name="VerticalCameraMoveThreshold" Value="0.005000" />
+        <Prop Name="IntroCameraMoveTime" Value="31.000000" />
+        <Prop Name="Time per character" Value="0.150000" />
+        <Prop Name="Blocking Speech Cooldown" Value="3.000000" />
+        <Prop Name="PeepSpeed" Value="0.000000" />
+        <Prop Name="PeepRangeStart" Value="0.500000" />
+        <Prop Name="PeepRangeEnd" Value="0.500000" />
+        <Prop Name="PeepStartWidth" Value="0.020000" />
+        <Prop Name="PeepCompleteWidth" Value="0.100000" />
+        <Prop Name="PeepWidthChangeTime" Value="5.000000" />
+        <Prop Name="HitProbMod Covered Target" Value="0.000000" />
+        <Prop Name="HitProbMod Covered But Leaned Target" Value="0.000000" />
+        <Prop Name="Dwellers HitProbMod Running Target" Value="0.000000" />
+        <Prop Name="Dwellers HitProbMod Walking Target" Value="0.000000" />
+        <Prop Name="Dwellers HitProbMod Slowly Moving Target" Value="0.000000" />
+        <Prop Name="Enemies HitProbMod Running Target" Value="0.000000" />
+        <Prop Name="Enemies HitProbMod Walking Target" Value="0.000000" />
+        <Prop Name="Enemies HitProbMod Slowly Moving Target" Value="0.000000" />
+        <Prop Name="Dwellers HitProbMod Back Attack" Value="0.000000" />
+        <Prop Name="Enemies HitProbMod Back Attack" Value="0.000000" />
+        <Prop Name="HitProbMod Side Attack" Value="0.000000" />
+        <Prop Name="HitProbMod Top Attack" Value="0.200000" />
+        <Prop Name="HitProbMod Attack From Cover" Value="0.000000" />
+        <Prop Name="HitProbMod Target Not In Combat" Value="0.000000" />
+        <Prop Name="Display Enemy Hit Probability" Value="1" />
+        <Prop Name="Min HitProb" Value="0.000000" />
+        <Prop Name="Max HitProb" Value="0.990000" />
+        <Prop Name="Base Distance Damage" Value="1.000000" />
+        <Prop Name="CriticalHitAnimationName" Value="suffer" />
+        <Prop Name="CriticalHitAnimationTime" Value="20.000000" />
+        <Prop Name="HitReactionAnimationName" Value="" />
+        <Prop Name="HitReactionAnimationTime" Value="0.000000" />
+        <Prop Name="EnableSlowdownOnDwellerHit" Value="0" />
+        <Prop Name="SlowdownOnDwellerHitSpeedMult" Value="1.000000" />
+        <Prop Name="SlowdownOnDwellerHitFadeInTime" Value="1.000000" />
+        <Prop Name="SlowdownOnDwellerHitFadeOutTime" Value="1.000000" />
+        <Prop Name="SlowdownOnDwellerHitDurationTime" Value="5.000000" />
+        <Prop Name="SlowdownOnDwellerHitFSETemplate" Value="GFX/FSE/SLOWDOWN_01" />
+        <Prop Name="SlowdownOnDwellerHitFSEFadeInTime" Value="1.000000" />
+        <Prop Name="SlowdownOnDwellerHitFSEFadeOutTime" Value="1.000000" />
+        <Prop Name="DamageMultOnBackAttack" Value="1.000000" />
+        <Prop Name="EnableToggleWeaponButton" Value="1" />
+        <Prop Name="DwellerWeapons">
+            <Entry Value="Machinegun" />
+            <Entry Value="Shotgun" />
+            <Entry Value="Pistol" />
+            <Entry Value="SniperRifle" />
+            <Entry Value="Hatchet" />
+            <Entry Value="Knife" />
+            <Entry Value="Shovel" />
+            <Entry Value="Crowbar" />
+            <Entry Value="Pickaxe" />
+        </Prop>
+        <Prop Name="DwellerLeanAnimationSpeedMultiplier" Value="4.000000" />
+        <Prop Name="MinimalTimeToAutoCombatMode" Value="2.000000" />
+        <Prop Name="ProbabilityOfShellCollecting" Value="0.500000" />
+        <Prop Name="SkullCombatModeEnabled" Value="1" />
+        <Prop Name="SkullCombatMode Penalty On Move" Value="0.500000" />
+        <Prop Name="SkullCombatMode Penalty On Move Distance Threshold" Value="2.000000" />
+        <Prop Name="SkullCombatMode Penalty On Shoot" Value="0.800000" />
+        <Prop Name="SkullCombatMode Penalty Cooldown Time" Value="2.000000" />
+        <Prop Name="SkullCombatMode Gray Skull Threshold" Value="0.030000" />
+        <Prop Name="SkullCombatMode Hit Animation Threshold" Value="0.350000" />
+        <Prop Name="SkullCombatMode Penalty On Covered Target" Value="7.000000" />
+        <Prop Name="SkullCombatMode Penalty On Covered But Leaned Target" Value="4.000000" />
+        <Prop Name="SkullCombatMode Penalty On Crouch Target" Value="0.000000" />
+        <Prop Name="SkullCombatMode Bonus On Crouch" Value="0.000000" />
+        <Prop Name="SkullCombatMode Bonus On Covered But Leaned" Value="0.200000" />
+        <Prop Name="Skull Fracture From Max Weapon Damage" Value="1" />
+        <Prop Name="Orange Shock Mode" Value="1" />
+        <Prop Name="SkullCombatMode Minimal Damage Percent For Critic" Value="0.250000" />
+        <Prop Name="Mixed Combat Mode" Value="0" />
+        <Prop Name="CloseCombat Duration" Value="1.000000" />
+        <Prop Name="CloseCombat Draw Probability" Value="0.000000" />
+        <Prop Name="CloseCombat Draw Probability FightersDiff Multiplier" Value="0.000000" />
+        <Prop Name="CloseCombat Cooldown On Draw" Value="2.000000" />
+        <Prop Name="CloseCombat Dweller Cooldown On Win" Value="0.000000" />
+        <Prop Name="CloseCombat Dweller Cooldown On Loose" Value="0.000000" />
+        <Prop Name="CloseCombat Enemy Cooldown On Win" Value="1.000000" />
+        <Prop Name="CloseCombat Enemy Cooldown On Loose" Value="2.000000" />
+        <Prop Name="CloseCombat Base Damage" Value="33.000000" />
+        <Prop Name="CloseCombat Range" Value="1.000000" />
+        <Prop Name="CloseCombat Animation Range" Value="1.300000" />
+        <Prop Name="CloseCombat Back Attack Animation Range" Value="1.000000" />
+        <Prop Name="CloseCombat Initial Push Animation Range" Value="1.100000" />
+        <Prop Name="CloseCombat Probability Add From Dominance" Value="0.000000" />
+        <Prop Name="CloseCombat Probability Multiplier From Damage" Value="0.000000" />
+        <Prop Name="Dweller Close Combat Range" Value="2.000000" />
+        <Prop Name="Dweller Close Combat Range In Cover" Value="2.000000" />
+        <Prop Name="CloseCombat Stamina Cost On Win" Value="0.000000" />
+        <Prop Name="CloseCombat Stamina Cost On Loose" Value="0.000000" />
+        <Prop Name="CloseCombat Push Down Range" Value="2.000000" />
+        <Prop Name="CloseCombat Pull Up Range" Value="2.000000" />
+        <Prop Name="CloseCombat Probability Power For Damage" Value="0.500000" />
+        <Prop Name="CloseCombat Attack From Shadow Range" Value="1.500000" />
+        <Prop Name="CloseCombat Attack From Shadow Prob Multiplier" Value="2.000000" />
+        <Prop Name="CloseCombat Attack From Shadow Duration" Value="2.000000" />
+        <Prop Name="CloseCombat Back Attack Max Range" Value="3.000000" />
+        <Prop Name="CloseCombat Back Attack Miminal Time Since Dweller In Sight" Value="10.000000" />
+        <Prop Name="CloseCombat Back Attack Damage Multiplier" Value="2.000000" />
+        <Prop Name="CloseCombat Back Attack Instant Kill Probability Threshold" Value="1.400000" />
+        <Prop Name="Weak Close Combat Threshold" Value="0.400000" />
+        <Prop Name="DrawFieldOfVision" Value="1" />
+        <Prop Name="DrawFieldOfVision In Shelter" Value="0" />
+        <Prop Name="Blur color" Value="255 255 255 255 1.000000" />
+        <Prop Name="Dark color" Value="0 0 0 191 1.000000" />
+        <Prop Name="Icon inactive distance (dweller)" Value="2.900000" />
+        <Prop Name="Icon invisible distance (dweller)" Value="24.000000" />
+        <Prop Name="Icon inactive distance (cursor)" Value="7.000000" />
+        <Prop Name="Icon invisible distance (cursor)" Value="7.000000" />
+        <Prop Name="TargeterHeight" Value="1.600000" />
+        <Prop Name="TargeterLoadMinScale" Value="1.100000" />
+        <Prop Name="TargeterLoadMaxScale" Value="0.700000" />
+        <Prop Name="Simple Move Cost" Value="1.000000" />
+        <Prop Name="SimpleNonStop Move Cost" Value="1.000000" />
+        <Prop Name="Stairs Move Cost" Value="0.500000" />
+        <Prop Name="Ladder Move Cost" Value="2.000000" />
+        <Prop Name="Long Ladder Move Cost" Value="3.000000" />
+        <Prop Name="Edge Left Move Cost" Value="6.000000" />
+        <Prop Name="Edge Right Move Cost" Value="6.000000" />
+        <Prop Name="Hole Move Cost" Value="1.000000" />
+        <Prop Name="Door In Move Cost" Value="1.000000" />
+        <Prop Name="Door Out Move Cost" Value="1.000000" />
+        <Prop Name="RunWeightInterpolationTimeForDweller" Value="0.500000" />
+        <Prop Name="RunWeightInterpolationTimeForOthers" Value="1.500000" />
+        <Prop Name="DepthOfMovement" Value="1.000000" />
+        <Prop Name="DwellerRunningTagDuration" Value="3.000000" />
+        <Prop Name="WalkClosedDoorCostMultiplier" Value="5.000000" />
+        <Prop Name="WalkLockedDoorCostMultiplier" Value="10.000000" />
+        <Prop Name="WalkBlockedDoorCostMultiplier" Value="15.000000" />
+        <Prop Name="WalkOpenDoorCostMultiplier" Value="1.000000" />
+        <Prop Name="WalkBlockingRubbleCostMultiplier" Value="10.000000" />
+        <Prop Name="WalkCrateCostMultiplier" Value="10.000000" />
+        <Prop Name="PreferKnownPath" Value="0" />
+        <Prop Name="MaxDwellerPathMultiplier" Value="5.000000" />
+        <Prop Name="MinDwellerPathToUseMultiplier" Value="20.000000" />
+        <Prop Name="EnemyWoundedMaxValue" Value="120.000000" />
+        <Prop Name="EnemyWoundedLevels">
+            <Entry>
+                <Properties ClassName="KosovoEnemyWoundedLevelEntry">
+                    <Prop Name="Walk speed multiplier" Value="1.000000" />
+                    <Prop Name="Slow walk speed multiplier" Value="1.000000" />
+                    <Prop Name="Run speed multiplier" Value="1.000000" />
+                    <Prop Name="Special movement multiplier" Value="1.000000" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoEnemyWoundedLevelEntry">
+                    <Prop Name="Walk speed multiplier" Value="1.000000" />
+                    <Prop Name="Slow walk speed multiplier" Value="1.000000" />
+                    <Prop Name="Run speed multiplier" Value="1.000000" />
+                    <Prop Name="Special movement multiplier" Value="1.000000" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoEnemyWoundedLevelEntry">
+                    <Prop Name="Walk speed multiplier" Value="0.500000" />
+                    <Prop Name="Slow walk speed multiplier" Value="0.500000" />
+                    <Prop Name="Run speed multiplier" Value="0.500000" />
+                    <Prop Name="Special movement multiplier" Value="0.500000" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoEnemyWoundedLevelEntry">
+                    <Prop Name="Walk speed multiplier" Value="0.250000" />
+                    <Prop Name="Slow walk speed multiplier" Value="0.250000" />
+                    <Prop Name="Run speed multiplier" Value="0.250000" />
+                    <Prop Name="Special movement multiplier" Value="0.250000" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoEnemyWoundedLevelEntry">
+                    <Prop Name="Walk speed multiplier" Value="0.250000" />
+                    <Prop Name="Slow walk speed multiplier" Value="0.250000" />
+                    <Prop Name="Run speed multiplier" Value="0.250000" />
+                    <Prop Name="Special movement multiplier" Value="0.250000" />
+                </Properties>
+            </Entry>
+        </Prop>
+        <Prop Name="NightJobs">
+            <Entry>
+                <Properties ClassName="KosovoNightJobEntry">
+                    <Prop Name="Night Job Name" Value="Guard" />
+                    <Prop Name="Influences" />
+                    <Prop Name="Level Influences" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoNightJobEntry">
+                    <Prop Name="Night Job Name" Value="Sleep" />
+                    <Prop Name="Influences" />
+                    <Prop Name="Level Influences">
+                        <Entry>
+                            <Properties ClassName="KosovoDwellerStateElementConfigParameterInfluence">
+                                <Prop Name="Name" Value="Tired" />
+                                <Prop Name="Value" Value="-2.000000" />
+                                <Prop Name="Level Change Behaviour" Value="2" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoDwellerStateElementConfigParameterInfluence">
+                                <Prop Name="Name" Value="BadSleep" />
+                                <Prop Name="Value" Value="1.000000" />
+                                <Prop Name="Level Change Behaviour" Value="1" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoNightJobEntry">
+                    <Prop Name="Night Job Name" Value="SleepInBed" />
+                    <Prop Name="Influences">
+                        <Entry>
+                            <Properties ClassName="KosovoDwellerStateElementConfigParameterInfluence">
+                                <Prop Name="Name" Value="Wounded" />
+                                <Prop Name="Value" Value="-6.000000" />
+                                <Prop Name="Level Change Behaviour" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoDwellerStateElementConfigParameterInfluence">
+                                <Prop Name="Name" Value="Sick" />
+                                <Prop Name="Value" Value="-6.000000" />
+                                <Prop Name="Level Change Behaviour" Value="0" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                    <Prop Name="Level Influences">
+                        <Entry>
+                            <Properties ClassName="KosovoDwellerStateElementConfigParameterInfluence">
+                                <Prop Name="Name" Value="Tired" />
+                                <Prop Name="Value" Value="-3.000000" />
+                                <Prop Name="Level Change Behaviour" Value="2" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoNightJobEntry">
+                    <Prop Name="Night Job Name" Value="WeaponGuard" />
+                    <Prop Name="Influences" />
+                    <Prop Name="Level Influences" />
+                </Properties>
+            </Entry>
+        </Prop>
+        <Prop Name="BaseDwellerDefense" Value="1.000000" />
+        <Prop Name="SleepingDwellerDefenseMult" Value="0.250000" />
+        <Prop Name="DefenseFromWeaponMult" Value="1.000000" />
+        <Prop Name="DefenseFromMeleeWeaponMult" Value="0.250000" />
+        <Prop Name="MinDefenseAmmunition" Value="1.000000" />
+        <Prop Name="MaxDefenseAmmunition" Value="3.000000" />
+        <Prop Name="DefenseWeapons">
+            <Entry Value="Pistol" />
+            <Entry Value="Shotgun" />
+            <Entry Value="Machinegun" />
+            <Entry Value="SniperRifle" />
+        </Prop>
+        <Prop Name="DefenseMeleeWeapons">
+            <Entry Value="Knife" />
+            <Entry Value="Crowbar" />
+            <Entry Value="Shovel" />
+            <Entry Value="Hatchet" />
+            <Entry Value="Helmet" />
+            <Entry Value="Vest" />
+        </Prop>
+        <Prop Name="Instant Sleep Level (Tired)" Value="4" />
+        <Prop Name="Texts Container" Value="StateSpeeches/Tired/InstantSleep" />
+        <Prop Name="Simple Move Cost Mult" Value="1.000000" />
+        <Prop Name="Stairs Move Cost Mult" Value="1.000000" />
+        <Prop Name="Ladder Move Cost Mult" Value="1.000000" />
+        <Prop Name="Long Ladder Move Cost Mult" Value="1.000000" />
+        <Prop Name="Edge Left Move Cost Mult" Value="1.000000" />
+        <Prop Name="Edge Right Move Cost Mult" Value="1.000000" />
+        <Prop Name="Hole Move Cost Mult" Value="1.000000" />
+        <Prop Name="Door In Move Cost Mult" Value="1.000000" />
+        <Prop Name="Door Out Move Cost Mult" Value="1.000000" />
+        <Prop Name="DebugDrawDwellerClickableBBoxes" Value="0" />
+        <Prop Name="DebugPrintShelterParams" Value="0" />
+        <Prop Name="DebugDisplayTradeItemValues" Value="0" />
+        <Prop Name="DebugDisplayConstructionSpots" Value="0" />
+        <Prop Name="DebugDisplayLOS" Value="0" />
+        <Prop Name="DebugSaveGameData" Value="1" />
+        <Prop Name="DebugContainersEquipment" Value="0" />
+        <Prop Name="DebugAddAllItemsToShelter" Value="0" />
+        <Prop Name="DebugDisableOutlines" Value="0" />
+        <Prop Name="DebugEnableAllDLC" Value="1" />
+        <Prop Name="DisableDwellerResolvingPosition" Value="0" />
+        <Prop Name="DebugSkipIntro" Value="0" />
+        <Prop Name="DebugDrawDwellerTags" Value="0" />
+        <Prop Name="DebugDrawVisitorsTags" Value="0" />
+        <Prop Name="GodMode" Value="0" />
+        <Prop Name="AutoMoveCameraSpeed" Value="1.000000" />
+        <Prop Name="Text events valid thru" Value="256" />
+        <Prop Name="Depression correlation add" Value="-0.000000" />
+        <Prop Name="Depression correlation sub" Value="-2.000015" />
+        <Prop Name="Gamepad camera offset" Value="0.000000 0.000000 -0.000000 0.000000" />
+        <Prop Name="Gamepad camera look range" Value="-0.000000" />
+        <Prop Name="Gamepad Turn Back On Stairs Angle" Value="-131073.000000" />
+        <Prop Name="Gamepad Placement Helper Name" Value="&#x01;HelperObjects/Empty" />
+        <Prop Name="Gamepad Rotation Time Multiplier" Value="0.660000" />
+        <Prop Name="Gamepad Camera Zoom Mult" Value="0.400000" />
+        <Prop Name="Gamepad CoverSpeed Multiplier" Value="3.000000" />
+        <Prop Name="GamepadVibration DwellerDamage Strength" Value="0.600000" />
+        <Prop Name="GamepadVibration DwellerDamage Duration" Value="0.300000" />
+        <Prop Name="GamepadVibration DwellerAttacks Strength" Value="0.300000" />
+        <Prop Name="GamepadVibration DwellerAttacks Duration" Value="0.300000" />
+        <Prop Name="GamepadVibration DwellerCloseCombatDelay" Value="0.700000" />
+        <Prop Name="GamepadVibration DwellerFall Strength" Value="0.400000" />
+        <Prop Name="GamepadVibration DwellerFall Duration" Value="0.100000" />
+        <Prop Name="GamepadVibration DwellerSlamDoor Strength" Value="0.150000" />
+        <Prop Name="GamepadVibration DwellerSlamDoor Duration" Value="0.300000" />
+        <Prop Name="Gamepad CursorSpeedMultiplier" Value="10.000000" />
+        <Prop Name="Gamepad TimeToCursorMode" Value="0.500000" />
+        <Prop Name="DieAnimations">
+            <Entry Value="Die" />
+        </Prop>
+        <Prop Name="DieInCloseCombatAnimations">
+            <Entry Value="toWounded-battle" />
+        </Prop>
+        <Prop Name="Chance To Put Hands Into Pockets" Value="0.070000" />
+        <Prop Name="Chance To Hurt &lt;0,1&gt;" Value="0.500000" />
+        <Prop Name="Add Wounds" Value="23.000000" />
+        <Prop Name="Dont Hurt When Wounds Level Above" Value="1.000000" />
+        <Prop Name="DwellerTagsToRemove">
+            <Entry Value="InteractionWithChild_CharacterLocked" />
+            <Entry Value="Student" />
+            <Entry Value="Teacher" />
+            <Entry Value="NoWaitAnim" />
+            <Entry Value="ChildGuide" />
+            <Entry Value="Main_Visitor" />
+            <Entry Value="StayWithChild" />
+            <Entry Value="ChildInteraction" />
+            <Entry Value="BackFromScavenge_IBroughtBrokenToy" />
+            <Entry Value="LateFromScavenge" />
+            <Entry Value="WS_Story1_TakeCareOfAmelia" />
+            <Entry Value="WS_Story1_GaveAmeliaMeds" />
+            <Entry Value="WS_Story1_GaveAmeliaFood" />
+            <Entry Value="BackFromScavenge_Break" />
+            <Entry Value="DuringDeadChildCare" />
+            <Entry Value="WS_Story1_DuringAmeliaCure" />
+            <Entry Value="WS_Story1_DuringDeadChildFeeding" />
+            <Entry Value="DeadChildGiveToy" />
+            <Entry Value="Speaking" />
+            <Entry Value="DwellerIsBusy" />
+            <Entry Value="NPCSpeechAction" />
+            <Entry Value="CutsceneOngoing" />
+            <Entry Value="DuringCheer" />
+            <Entry Value="DuringCheerPhaseTwo" />
+        </Prop>
+    </Properties>
+</KosovoMainParams>

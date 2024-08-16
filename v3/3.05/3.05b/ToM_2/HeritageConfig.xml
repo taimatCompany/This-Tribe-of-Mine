@@ -1,0 +1,2321 @@
+<KosovoHeritageConfig>
+    <Properties ClassName="KosovoHeritageConfig">
+        <Prop Name="Timelines">
+            <Entry>
+                <Properties ClassName="KosovoHeritageTimeline">
+                    <Prop Name="Timeline" Value="WS_Story3" />
+                    <Prop Name="Heritages">
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="ANJA_PRIVATE_WOODEN_AUROCHS" />
+                                <Prop Name="SlotsToTake" Value="1" />
+                                <Prop Name="IsUnique" Value="1" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/ANJA_PRIVATE_WOODEN_AUROCHS/00_Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/ANJA_PRIVATE_WOODEN_AUROCHS/00_Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/00_ItemDescriptions/00_AnjaItem" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Art" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_04.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="1.000000 1.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="0.000000" />
+                                <Prop Name="FuelCount" Value="3" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_HeritageBurned" />
+                                        <Prop Name="EventId" Value="WS_Story3_HeritageBurned_ANJA_PRIVATE_WOODEN_AUROCHS" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_HeritageSecured" />
+                                        <Prop Name="EventId" Value="WS_Story3_HeritageSecured_ANJA_PRIVATE_WOODEN_AUROCHS" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="ANJA_PRIVATE_FAMILY_HOUSE_WATERCOLOR_PAINTING" />
+                                <Prop Name="SlotsToTake" Value="2" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/ANJA_PRIVATE_FAMILY_HOUSE_WATERCOLOR_PAINTING/00_Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/ANJA_PRIVATE_FAMILY_HOUSE_WATERCOLOR_PAINTING/00_Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/00_ItemDescriptions/00_AnjaItem" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Art" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_05.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="0.000000 2.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="0.000000" />
+                                <Prop Name="FuelCount" Value="8" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="ANJA_PRIVATE_OIL_PAINTING_OF_POGOREN" />
+                                <Prop Name="SlotsToTake" Value="2" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/ANJA_PRIVATE_OIL_PAINTING_OF_POGOREN/00_Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/ANJA_PRIVATE_OIL_PAINTING_OF_POGOREN/00_Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/00_ItemDescriptions/00_AnjaItem" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Art" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_05.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="1.000000 2.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="0.000000" />
+                                <Prop Name="FuelCount" Value="8" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="ANJA_PRIVATE_WOODEN_ABSTRACT_SCUPLTURE_01" />
+                                <Prop Name="SlotsToTake" Value="1" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/ANJA_PRIVATE_WOODEN_ABSTRACT_SCUPLTURE_01/00_Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/ANJA_PRIVATE_WOODEN_ABSTRACT_SCUPLTURE_01/00_Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/00_ItemDescriptions/00_AnjaItem" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Art" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_05.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="2.000000 2.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="0.000000" />
+                                <Prop Name="FuelCount" Value="5" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="ANJA_PRIVATE_WOODEN_ABSTRACT_SCUPLTURE_02" />
+                                <Prop Name="SlotsToTake" Value="1" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/ANJA_PRIVATE_WOODEN_ABSTRACT_SCUPLTURE_02/00_Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/ANJA_PRIVATE_WOODEN_ABSTRACT_SCUPLTURE_02/00_Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/00_ItemDescriptions/00_AnjaItem" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Art" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_06.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="0.000000" />
+                                <Prop Name="FuelCount" Value="6" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="ANJA_PRIVATE_COMMON_FAMILY_ALBUM" />
+                                <Prop Name="SlotsToTake" Value="1" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/ANJA_PRIVATE_COMMON_FAMILY_ALBUM/00_Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/ANJA_PRIVATE_COMMON_FAMILY_ALBUM/00_Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/00_ItemDescriptions/00_AnjaItem" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Documents" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_06.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="1.000000 0.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="0.000000" />
+                                <Prop Name="FuelCount" Value="2" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="ANJA_PRIVATE_COMMON_GOLDEN_NECKLACE" />
+                                <Prop Name="SlotsToTake" Value="1" />
+                                <Prop Name="IsUnique" Value="1" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/ANJA_PRIVATE_COMMON_GOLDEN_NECKLACE/00_Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/ANJA_PRIVATE_COMMON_GOLDEN_NECKLACE/00_Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/00_ItemDescriptions/00_AnjaItem" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Art" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_06.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="2.000000 0.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="5.000000" />
+                                <Prop Name="FuelCount" Value="0" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory">
+                                    <Entry>
+                                        <Properties ClassName="KosovoHeritageEndlogRuleEntry">
+                                            <Prop Name="LocalizedText" Value="EndLog/WarStories/Story3/Heritage/ANJA_PRIVATE_COMMON_GOLDEN_NECKLACE/GH_GivenAtCarWorkshop_TEXT" />
+                                            <Prop Name="LocalizedTextFuture" Value="EndLog/WarStories/Story3/Heritage/ANJA_PRIVATE_COMMON_GOLDEN_NECKLACE/GH_GivenAtCarWorkshop_FUTURE" />
+                                            <Prop Name="MustBeSecured" Value="0" />
+                                            <Prop Name="Required Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Truck" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Truck_Quest_Done" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                            <Prop Name="Dissabled by Events" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoHeritageEndlogRuleEntry">
+                                            <Prop Name="LocalizedText" Value="EndLog/WarStories/Story3/Heritage/ANJA_PRIVATE_COMMON_GOLDEN_NECKLACE/GH_NotGivenAtCarWorkshop_TEXT" />
+                                            <Prop Name="LocalizedTextFuture" Value="EndLog/WarStories/Story3/Heritage/ANJA_PRIVATE_COMMON_GOLDEN_NECKLACE/GH_NotGivenAtCarWorkshop_FUTURE" />
+                                            <Prop Name="MustBeSecured" Value="1" />
+                                            <Prop Name="Required Events" />
+                                            <Prop Name="Dissabled by Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Truck" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Truck_Quest_Done" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="ANJA_PRIVATE_COMMON_FATHER_WATCH" />
+                                <Prop Name="SlotsToTake" Value="1" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/ANJA_PRIVATE_COMMON_FATHER_WATCH/00_Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/ANJA_PRIVATE_COMMON_FATHER_WATCH/00_Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/00_ItemDescriptions/00_AnjaItem" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Art" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_06.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="0.000000 1.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="0.000000" />
+                                <Prop Name="FuelCount" Value="1" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="PITA_BACKPACK" />
+                                <Prop Name="SlotsToTake" Value="1" />
+                                <Prop Name="IsUnique" Value="1" />
+                                <Prop Name="Required for securing achievement" Value="0" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/PITA_BACKPACK_RELIGIOUS_STUFF/00_Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/PITA_BACKPACK_RELIGIOUS_STUFF/00_Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/00_ItemDescriptions/01_PitaBackpack" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Art" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_06.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="1.000000 1.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="0.000000" />
+                                <Prop Name="FuelCount" Value="1" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="PITA_BACKPACK_JEWISH_STUFF" />
+                                <Prop Name="SlotsToTake" Value="3" />
+                                <Prop Name="IsUnique" Value="1" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/PITA_BACKPACK_RELIGIOUS_STUFF/00_Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/PITA_BACKPACK_RELIGIOUS_STUFF/00_Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/00_ItemDescriptions/02_PitaStuf" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Relic" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_06.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="0.000000 2.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="1.000000" />
+                                <Prop Name="FuelCount" Value="5" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_PitaBackpackJewishStuff_Burned" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_PitaBackpackJewishStuff_Secured" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="NENEDIC_VASE" />
+                                <Prop Name="SlotsToTake" Value="1" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/NENEDIC_VASE/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/NENEDIC_VASE/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/00_ItemDescriptions/03_InstituteItems" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Relic" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_02.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="1.000000" />
+                                <Prop Name="FuelCount" Value="1" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_NenedicVase_Burned" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_NenedicVase_Secure" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="WARRIOR_GEAR" />
+                                <Prop Name="SlotsToTake" Value="3" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/WARRIOR_GEAR/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/WARRIOR_GEAR/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/WARRIOR_GEAR/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Relic" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_02.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="2.000000 0.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="1.000000" />
+                                <Prop Name="FuelCount" Value="2" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_WarriorGear_Secured" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="WSZECHBOG" />
+                                <Prop Name="SlotsToTake" Value="2" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/WSZECHBOG/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/WSZECHBOG/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/WSZECHBOG/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Relic" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_01.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="1.000000 0.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="4.000000" />
+                                <Prop Name="FuelCount" Value="8" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_Wszechbog_Burned" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_Wszechbog_Secured" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="TURS_SKULL" />
+                                <Prop Name="SlotsToTake" Value="2" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/TURS_SKULL/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/TURS_SKULL/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/TURS_SKULL/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Relic" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_02.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="2.000000 1.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="1.000000" />
+                                <Prop Name="FuelCount" Value="3" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_TursSkull_Secured" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="LOCATION_ACT" />
+                                <Prop Name="SlotsToTake" Value="1" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/LOCATION_ACT/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/LOCATION_ACT/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/LOCATION_ACT/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Documents" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_01.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="2.000000 0.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="3.000000" />
+                                <Prop Name="FuelCount" Value="4" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_LocationAct_Burned" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_LocationAct_Secured" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="KASIDOR_MANUSCRIPT" />
+                                <Prop Name="SlotsToTake" Value="2" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/KASIDOR_MANUSCRIPT/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/KASIDOR_MANUSCRIPT/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/KASIDOR_MANUSCRIPT/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Documents" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_02.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="1.000000 1.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="1.000000" />
+                                <Prop Name="FuelCount" Value="6" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_KasidorManuscript_Burned" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="PANTALEON_SCULPTURE" />
+                                <Prop Name="SlotsToTake" Value="3" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/PANTALEON_SCULPTURE/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/PANTALEON_SCULPTURE/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/PANTALEON_SCULPTURE/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Art" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_02.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="0.000000 2.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="1.000000" />
+                                <Prop Name="FuelCount" Value="8" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_PantaleonSculpture_Burned" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_PantaleonSculpture_Secured" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="HUNERIC_BANNER" />
+                                <Prop Name="SlotsToTake" Value="2" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/HUNERIC_BANNER/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/HUNERIC_BANNER/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/HUNERIC_BANNER/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Relic" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_03.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="1.000000" />
+                                <Prop Name="FuelCount" Value="5" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_HunericBanner_Burned" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_HunericBanner_Secured" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="LADY_WITH_LILAC_BOUQUET" />
+                                <Prop Name="SlotsToTake" Value="2" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/LADY_WITH_LILAC_BOUQUET/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/LADY_WITH_LILAC_BOUQUET/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/LADY_WITH_LILAC_BOUQUET/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Art" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_03.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="1.000000 0.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="1.000000" />
+                                <Prop Name="FuelCount" Value="7" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_LadyWithLilacBouquet_Burned" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_LadyWithLilacBouquet_Secured" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="REKKARDS_SWORD" />
+                                <Prop Name="SlotsToTake" Value="2" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/REKKARDS_SWORD/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/REKKARDS_SWORD/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/REKKARDS_SWORD/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Relic" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_02.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="1.000000 2.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="1.000000" />
+                                <Prop Name="FuelCount" Value="1" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_RekkardsSword_Secured" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="XIII_CENTURY_VASE" />
+                                <Prop Name="SlotsToTake" Value="1" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/XIII_CENTURY_VASE/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/XIII_CENTURY_VASE/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/XIII_CENTURY_VASE/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Relic" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_03.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="2.000000 0.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="1.000000" />
+                                <Prop Name="FuelCount" Value="2" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_XIIICenturyVase_Burned" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_XIICenturyVase_Secured" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="POGOREN_PANORAMA" />
+                                <Prop Name="SlotsToTake" Value="2" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/POGOREN_PANORAMA/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/POGOREN_PANORAMA/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/POGOREN_PANORAMA/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Art" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_01.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="1.000000 1.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="2.000000" />
+                                <Prop Name="FuelCount" Value="5" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_PogorenPanorama_Burned" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_PogorenPanorama_Secured" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="TOWNSPEOPLE_STATUS_EDICT" />
+                                <Prop Name="SlotsToTake" Value="1" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/TOWNSPEOPLE_STATUS_EDICT/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/TOWNSPEOPLE_STATUS_EDICT/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/TOWNSPEOPLE_STATUS_EDICT/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Documents" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_03.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="0.000000 1.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="1.000000" />
+                                <Prop Name="FuelCount" Value="4" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="CONFEDERATION_ACT" />
+                                <Prop Name="SlotsToTake" Value="1" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/CONFEDERATION_ACT/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/CONFEDERATION_ACT/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/CONFEDERATION_ACT/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Documents" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_03.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="1.000000 1.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="1.000000" />
+                                <Prop Name="FuelCount" Value="4" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_HeritageBurned" />
+                                        <Prop Name="EventId" Value="WS_Story3_HeritageBurned_CONFEDERATION_ACT" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_ConfederationAct_Secured" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="ERARIC_GOLDEN_SCEPTER" />
+                                <Prop Name="SlotsToTake" Value="1" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/ERARIC_GOLDEN_SCEPTER/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/ERARIC_GOLDEN_SCEPTER/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/ERARIC_GOLDEN_SCEPTER/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Relic" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_03.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="2.000000 1.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="1.000000" />
+                                <Prop Name="FuelCount" Value="1" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_EraricGoldenScepter_Burned" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_EraricGoldenScepter_Secured" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="GOVERNORATE_STATUTE" />
+                                <Prop Name="SlotsToTake" Value="2" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/GOVERNORATE_STATUTE/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/GOVERNORATE_STATUTE/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/GOVERNORATE_STATUTE/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Documents" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_01.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="0.000000 1.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="1.000000" />
+                                <Prop Name="FuelCount" Value="5" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="JANUS_KUN_MANUSCRIPT" />
+                                <Prop Name="SlotsToTake" Value="1" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/JANUS_KUN_MANUSCRIPT/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/JANUS_KUN_MANUSCRIPT/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/JANUS_KUN_MANUSCRIPT/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Documents" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_01.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="2.000000 1.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="1.000000" />
+                                <Prop Name="FuelCount" Value="4" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_JanusKunManuscript_Secured" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="MYRA_BELOVA_DIARY" />
+                                <Prop Name="SlotsToTake" Value="1" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/MYRA_BELOVA_DIARY/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/MYRA_BELOVA_DIARY/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/MYRA_BELOVA_DIARY/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Documents" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_03.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="1.000000 2.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="1.000000" />
+                                <Prop Name="FuelCount" Value="4" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_MyraBelovaDiary_Burned" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_MyraBelovaDiary_Secured" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="BROTHERS_FROM_OLD_GRAZNAVIA" />
+                                <Prop Name="SlotsToTake" Value="1" />
+                                <Prop Name="IsUnique" Value="1" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/BROTHERS_FROM_OLD_GRAZNAVIA/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/BROTHERS_FROM_OLD_GRAZNAVIA/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/BROTHERS_FROM_OLD_GRAZNAVIA/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Art" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_03.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="2.000000 2.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="4.000000" />
+                                <Prop Name="FuelCount" Value="0" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_BrothersFromOldGraznavia_Burned" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory">
+                                    <Entry>
+                                        <Properties ClassName="KosovoHeritageEndlogRuleEntry">
+                                            <Prop Name="LocalizedText" Value="EndLog/WarStories/Story3/Heritage/BROTHERS_FROM_OLD_GRAZNAVIA/GH_GivenToOrphanage_TEXT" />
+                                            <Prop Name="LocalizedTextFuture" Value="EndLog/WarStories/Story3/Heritage/BROTHERS_FROM_OLD_GRAZNAVIA/GH_GivenToOrphanage_FUTURE" />
+                                            <Prop Name="MustBeSecured" Value="0" />
+                                            <Prop Name="Required Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Protector" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Protector_Quest2_Done" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                            <Prop Name="Dissabled by Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Heritage_BrothersFromOldGraznavia_Burned" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoHeritageEndlogRuleEntry">
+                                            <Prop Name="LocalizedText" Value="EndLog/WarStories/Story3/Heritage/BROTHERS_FROM_OLD_GRAZNAVIA/GH_NotGiven_ColonelEnding_TEXT" />
+                                            <Prop Name="LocalizedTextFuture" Value="EndLog/WarStories/Story3/Heritage/BROTHERS_FROM_OLD_GRAZNAVIA/GH_NotGiven_ColonelEnding_FUTURE" />
+                                            <Prop Name="MustBeSecured" Value="1" />
+                                            <Prop Name="Required Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Backbone" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Backbone_ColonelEnding" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                            <Prop Name="Dissabled by Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Protector" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Protector_Quest2_Done" />
+                                                    </Properties>
+                                                </Entry>
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Heritage_BrothersFromOldGraznavia_Burned" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoHeritageEndlogRuleEntry">
+                                            <Prop Name="LocalizedText" Value="EndLog/WarStories/Story3/Heritage/BROTHERS_FROM_OLD_GRAZNAVIA/GH_NotGiven_PaserEnding_TEXT" />
+                                            <Prop Name="LocalizedTextFuture" Value="EndLog/WarStories/Story3/Heritage/BROTHERS_FROM_OLD_GRAZNAVIA/GH_NotGiven_PaserEnding_FUTURE" />
+                                            <Prop Name="MustBeSecured" Value="1" />
+                                            <Prop Name="Required Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Backbone" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Backbone_PaserEnding" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                            <Prop Name="Dissabled by Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Protector" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Protector_Quest2_Done" />
+                                                    </Properties>
+                                                </Entry>
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Heritage_BrothersFromOldGraznavia_Burned" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="POGOREN_MANUSCRIPT" />
+                                <Prop Name="SlotsToTake" Value="1" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/POGOREN_MANUSCRIPT/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/POGOREN_MANUSCRIPT/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/POGOREN_MANUSCRIPT/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Documents" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_01.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="0.000000 2.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="1.000000" />
+                                <Prop Name="FuelCount" Value="6" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_PogorenManuscript_Secured" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="POGOREN_PHOTOS" />
+                                <Prop Name="SlotsToTake" Value="2" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/POGOREN_PHOTOS/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/POGOREN_PHOTOS/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/POGOREN_PHOTOS/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Documents" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_01.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="1.000000 2.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="1.000000" />
+                                <Prop Name="FuelCount" Value="6" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="REKKARDS_MARRIAGE_PAINTING" />
+                                <Prop Name="SlotsToTake" Value="3" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/REKKARDS_MARRIAGE_PAINTING/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/REKKARDS_MARRIAGE_PAINTING/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/00_ItemDescriptions/03_InstituteItems" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Art" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_04.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="1.000000" />
+                                <Prop Name="FuelCount" Value="6" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_RekkardsMarriagePainting_Secured" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="SEFER_HA_ZOHAR" />
+                                <Prop Name="SlotsToTake" Value="2" />
+                                <Prop Name="IsUnique" Value="1" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/SEFER_HA_ZOHAR/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/SEFER_HA_ZOHAR/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/SEFER_HA_ZOHAR/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Documents" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_01.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="2.000000 2.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="2.000000" />
+                                <Prop Name="FuelCount" Value="0" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_SeferHaZohar_Burned" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_SeferHaZohar_Secured" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory">
+                                    <Entry>
+                                        <Properties ClassName="KosovoHeritageEndlogRuleEntry">
+                                            <Prop Name="LocalizedText" Value="EndLog/WarStories/Story3/Heritage/SEFER_HA_ZOHAR/GH_GivenToRailwayPeople_TEXT" />
+                                            <Prop Name="LocalizedTextFuture" Value="EndLog/WarStories/Story3/Heritage/SEFER_HA_ZOHAR/GH_GivenToRailwayPeople_FUTURE" />
+                                            <Prop Name="MustBeSecured" Value="0" />
+                                            <Prop Name="Required Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Protector" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Protector_Quest3_Done" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                            <Prop Name="Dissabled by Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Heritage_SeferHaZohar_Burned" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoHeritageEndlogRuleEntry">
+                                            <Prop Name="LocalizedText" Value="EndLog/WarStories/Story3/Heritage/SEFER_HA_ZOHAR/GH_NotGiven_ColonelEnding_TEXT" />
+                                            <Prop Name="LocalizedTextFuture" Value="EndLog/WarStories/Story3/Heritage/SEFER_HA_ZOHAR/GH_NotGiven_ColonelEnding_FUTURE" />
+                                            <Prop Name="MustBeSecured" Value="1" />
+                                            <Prop Name="Required Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Backbone" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Backbone_ColonelEnding" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                            <Prop Name="Dissabled by Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Protector" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Protector_Quest3_Done" />
+                                                    </Properties>
+                                                </Entry>
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Heritage_SeferHaZohar_Burned" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoHeritageEndlogRuleEntry">
+                                            <Prop Name="LocalizedText" Value="EndLog/WarStories/Story3/Heritage/SEFER_HA_ZOHAR/GH_NotGiven_PaserEnding_TEXT" />
+                                            <Prop Name="LocalizedTextFuture" Value="EndLog/WarStories/Story3/Heritage/SEFER_HA_ZOHAR/GH_NotGiven_PaserEnding_FUTURE" />
+                                            <Prop Name="MustBeSecured" Value="1" />
+                                            <Prop Name="Required Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Backbone" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Backbone_PaserEnding" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                            <Prop Name="Dissabled by Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Protector" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Protector_Quest3_Done" />
+                                                    </Properties>
+                                                </Entry>
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Heritage_SeferHaZohar_Burned" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="IVO_NADANS_WRITINGS" />
+                                <Prop Name="SlotsToTake" Value="1" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/IVO_NADANS_WRITINGS/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/IVO_NADANS_WRITINGS/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/IVO_NADANS_WRITINGS/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Documents" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_04.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="2.000000 0.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="1.000000" />
+                                <Prop Name="FuelCount" Value="5" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="WAR_CRIMES_ACTS" />
+                                <Prop Name="SlotsToTake" Value="1" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/WAR_CRIMES_ACTS/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/WAR_CRIMES_ACTS/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/00_ItemDescriptions/03_InstituteItems" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Documents" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_02.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="1.000000 0.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="1.000000" />
+                                <Prop Name="FuelCount" Value="5" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_WarCrimes_Secure" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="TITOS_VINYLS" />
+                                <Prop Name="SlotsToTake" Value="1" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/TITOS_VINYLS/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/TITOS_VINYLS/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/00_ItemDescriptions/04_NeighbourItem" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Art" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_05.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="1.000000 1.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="0.000000" />
+                                <Prop Name="FuelCount" Value="3" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="COLLECTION_LIST_C01" />
+                                <Prop Name="SlotsToTake" Value="1" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/COLLECTION_LIST_C01/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/COLLECTION_LIST_C01/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/COLLECTION_LIST_C01/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Documents" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_05.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="0.000000" />
+                                <Prop Name="FuelCount" Value="4" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="POSTCARDS_C01" />
+                                <Prop Name="SlotsToTake" Value="2" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/POSTCARDS_C01/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/POSTCARDS_C01/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/POSTCARDS_C01/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Art" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_04.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="2.000000 2.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="0.000000" />
+                                <Prop Name="FuelCount" Value="6" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="SKETCHES_C01" />
+                                <Prop Name="SlotsToTake" Value="1" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/SKETCHES_C01/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/SKETCHES_C01/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/SKETCHES_C01/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Art" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_04.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="0.000000 2.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="0.000000" />
+                                <Prop Name="FuelCount" Value="3" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="DOCS_C01" />
+                                <Prop Name="SlotsToTake" Value="2" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/DOCS_C01/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/DOCS_C01/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/DOCS_C01/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Art" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_04.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="1.000000 2.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="0.000000" />
+                                <Prop Name="FuelCount" Value="6" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory" />
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="LEECH_SWAMP_PAINTING" />
+                                <Prop Name="SlotsToTake" Value="1" />
+                                <Prop Name="IsUnique" Value="1" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/LEECH_SWAMP_PAINTING/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/LEECH_SWAMP_PAINTING/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/LEECH_SWAMP_PAINTING/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Documents" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_06.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="2.000000 1.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="1.000000" />
+                                <Prop Name="FuelCount" Value="2" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_LeechSwampPainting_Burned" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory">
+                                    <Entry>
+                                        <Properties ClassName="KosovoHeritageEndlogRuleEntry">
+                                            <Prop Name="LocalizedText" Value="EndLog/WarStories/Story3/Heritage/LEECH_SWAMP_PAINTING/GH_ColonelEnding_TEXT" />
+                                            <Prop Name="LocalizedTextFuture" Value="EndLog/WarStories/Story3/Heritage/LEECH_SWAMP_PAINTING/GH_ColonelEnding_FUTURE" />
+                                            <Prop Name="MustBeSecured" Value="0" />
+                                            <Prop Name="Required Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Backbone" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Backbone_ColonelEnding" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                            <Prop Name="Dissabled by Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Heritage_LeechSwampPainting_Burned" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoHeritageEndlogRuleEntry">
+                                            <Prop Name="LocalizedText" Value="EndLog/WarStories/Story3/Heritage/LEECH_SWAMP_PAINTING/GH_PaserEnding_GivenColonel_TEXT" />
+                                            <Prop Name="LocalizedTextFuture" Value="EndLog/WarStories/Story3/Heritage/LEECH_SWAMP_PAINTING/GH_PaserEnding_GivenColonel_FUTURE" />
+                                            <Prop Name="MustBeSecured" Value="0" />
+                                            <Prop Name="Required Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Backbone" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Backbone_PaserEnding" />
+                                                    </Properties>
+                                                </Entry>
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Colonel" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Colonel_Quest_Done" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                            <Prop Name="Dissabled by Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Heritage_LeechSwampPainting_Burned" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoHeritageEndlogRuleEntry">
+                                            <Prop Name="LocalizedText" Value="EndLog/WarStories/Story3/Heritage/LEECH_SWAMP_PAINTING/GH_PaserEnding_NotGivenColonel_TEXT" />
+                                            <Prop Name="LocalizedTextFuture" Value="EndLog/WarStories/Story3/Heritage/LEECH_SWAMP_PAINTING/GH_PaserEnding_NotGivenColonel_FUTURE" />
+                                            <Prop Name="MustBeSecured" Value="1" />
+                                            <Prop Name="Required Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Backbone" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Backbone_PaserEnding" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                            <Prop Name="Dissabled by Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Colonel" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Colonel_Quest_Done" />
+                                                    </Properties>
+                                                </Entry>
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Heritage_LeechSwampPainting_Burned" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="CASE_FILES" />
+                                <Prop Name="SlotsToTake" Value="2" />
+                                <Prop Name="IsUnique" Value="1" />
+                                <Prop Name="Required for securing achievement" Value="1" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/CASE_FILE/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/CASE_FILE/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/CASE_FILE/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Art" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_04.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="2.000000 1.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="3.000000" />
+                                <Prop Name="FuelCount" Value="6" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                        <Prop Name="EventId" Value="WS_Story3_Heritage_CaseFiles_Burned" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory">
+                                    <Entry>
+                                        <Properties ClassName="KosovoHeritageEndlogRuleEntry">
+                                            <Prop Name="LocalizedText" Value="EndLog/WarStories/Story3/Heritage/CASE_FILES/GH_ColonelEnding_NotGivenPaser_TEXT" />
+                                            <Prop Name="LocalizedTextFuture" Value="EndLog/WarStories/Story3/Heritage/CASE_FILES/GH_ColonelEnding_NotGivenPaser_FUTURE" />
+                                            <Prop Name="MustBeSecured" Value="1" />
+                                            <Prop Name="Required Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Backbone" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Backbone_ColonelEnding" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                            <Prop Name="Dissabled by Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Paser" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Paser_Quest_Done" />
+                                                    </Properties>
+                                                </Entry>
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Heritage_CaseFiles_Burned" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoHeritageEndlogRuleEntry">
+                                            <Prop Name="LocalizedText" Value="EndLog/WarStories/Story3/Heritage/CASE_FILES/GH_PaserEnding_TEXT" />
+                                            <Prop Name="LocalizedTextFuture" Value="EndLog/WarStories/Story3/Heritage/CASE_FILES/GH_PaserEnding_FUTURE" />
+                                            <Prop Name="MustBeSecured" Value="0" />
+                                            <Prop Name="Required Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Backbone" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Backbone_PaserEnding" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                            <Prop Name="Dissabled by Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Heritage" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Heritage_CaseFiles_Burned" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="0" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageEntry">
+                                <Prop Name="IdName" Value="COLLECTION" />
+                                <Prop Name="SlotsToTake" Value="1" />
+                                <Prop Name="IsUnique" Value="0" />
+                                <Prop Name="Required for securing achievement" Value="0" />
+                                <Prop Name="StrName" Value="Items/WarStories/Story3/HeritageItems/COLLECTION/Name" />
+                                <Prop Name="Description" Value="Items/WarStories/Story3/HeritageItems/COLLECTION/Description" />
+                                <Prop Name="ItemDescription" Value="Items/WarStories/Story3/HeritageItems/COLLECTION/ItemDescription" />
+                                <Prop Name="Category" Value="Items/WarStories/Story3/HeritageCategories/Art" />
+                                <Prop Name="ArtImageTextureName" Value="UI/HeritageManagementUI/HM_collection/HM_collection_06.dds" />
+                                <Prop Name="ArtImageTextureTileData" Value="2.000000 2.000000 3.000000 3.000000" />
+                                <Prop Name="InventoryIconTextureName" Value="UI/KosovoIcons/sheet07_O.dds" />
+                                <Prop Name="InventoryIconIndex" Value="54" />
+                                <Prop Name="ReqQuestEventGroupName" Value="" />
+                                <Prop Name="ReqQuestEventName" Value="" />
+                                <Prop Name="Value" Value="6.000000" />
+                                <Prop Name="FuelCount" Value="0" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnSecureEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="OnEvacuateEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="" />
+                                        <Prop Name="EventId" Value="" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Stage_1 GameHistory">
+                                    <Entry>
+                                        <Properties ClassName="KosovoHeritageEndlogRuleEntry">
+                                            <Prop Name="LocalizedText" Value="EndLog/WarStories/Story3/Heritage/COLLECTION/GH_ColonelEnding_TEXT" />
+                                            <Prop Name="LocalizedTextFuture" Value="EndLog/WarStories/Story3/Heritage/COLLECTION/GH_ColonelEnding_FUTURE" />
+                                            <Prop Name="MustBeSecured" Value="0" />
+                                            <Prop Name="Required Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Backbone" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Backbone_ColonelEnding" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                            <Prop Name="Dissabled by Events" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoHeritageEndlogRuleEntry">
+                                            <Prop Name="LocalizedText" Value="EndLog/WarStories/Story3/Heritage/COLLECTION/GH_PaserEnding_TEXT" />
+                                            <Prop Name="LocalizedTextFuture" Value="EndLog/WarStories/Story3/Heritage/COLLECTION/GH_PaserEnding_FUTURE" />
+                                            <Prop Name="MustBeSecured" Value="0" />
+                                            <Prop Name="Required Events">
+                                                <Entry>
+                                                    <Properties ClassName="KosovoEventDef">
+                                                        <Prop Name="EventGroupId" Value="WS_Story3_Backbone" />
+                                                        <Prop Name="EventId" Value="WS_Story3_Backbone_PaserEnding" />
+                                                    </Properties>
+                                                </Entry>
+                                            </Prop>
+                                            <Prop Name="Dissabled by Events" />
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                                <Prop Name="EndLogNotUseInDestroyedScreen" Value="1" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                    <Prop Name="Steal Rules">
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageStealRuleEntry">
+                                <Prop Name="Heritage item ID" Value="LEECH_SWAMP_PAINTING" />
+                                <Prop Name="DwellerNames">
+                                    <Entry Value="Anja" />
+                                    <Entry Value="Pita" />
+                                </Prop>
+                                <Prop Name="Location" Value="!CURRENT/WAR_STORY_3/011_army_base" />
+                                <Prop Name="Localized description" Value="LocationsTexts/WarStories/Story3/011_army_base/StealArtifact_Description" />
+                                <Prop Name="Required Events">
+                                    <Entry>
+                                        <Properties ClassName="KosovoEventDef">
+                                            <Prop Name="EventGroupId" Value="WS_Story3_Colonel" />
+                                            <Prop Name="EventId" Value="WS_Story3_Colonel_Quest_Start" />
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                                <Prop Name="Dissabled by Events">
+                                    <Entry>
+                                        <Properties ClassName="KosovoEventDef">
+                                            <Prop Name="EventGroupId" Value="WS_Story3_Colonel" />
+                                            <Prop Name="EventId" Value="WS_Story3_Colonel_Quest_Done" />
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageStealRuleEntry">
+                                <Prop Name="Heritage item ID" Value="BROTHERS_FROM_OLD_GRAZNAVIA" />
+                                <Prop Name="DwellerNames">
+                                    <Entry Value="Anja" />
+                                    <Entry Value="Pita" />
+                                </Prop>
+                                <Prop Name="Location" Value="!CURRENT/WAR_STORY_3/009_orphanage" />
+                                <Prop Name="Localized description" Value="LocationsTexts/WarStories/Story3/009_orphanage/StealArtifact_Description" />
+                                <Prop Name="Required Events">
+                                    <Entry>
+                                        <Properties ClassName="KosovoEventDef">
+                                            <Prop Name="EventGroupId" Value="WS_Story3_Protector" />
+                                            <Prop Name="EventId" Value="WS_Story3_Protector_Quest2_Start" />
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                                <Prop Name="Dissabled by Events">
+                                    <Entry>
+                                        <Properties ClassName="KosovoEventDef">
+                                            <Prop Name="EventGroupId" Value="WS_Story3_Protector" />
+                                            <Prop Name="EventId" Value="WS_Story3_Protector_Quest2_Done" />
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageStealRuleEntry">
+                                <Prop Name="Heritage item ID" Value="ANJA_PRIVATE_COMMON_GOLDEN_NECKLACE" />
+                                <Prop Name="DwellerNames" />
+                                <Prop Name="Location" Value="!CURRENT/WAR_STORY_3/008_car_workshop" />
+                                <Prop Name="Localized description" Value="LocationsTexts/WarStories/Story3/008_car_workshop/StealArtifact_Description" />
+                                <Prop Name="Required Events">
+                                    <Entry>
+                                        <Properties ClassName="KosovoEventDef">
+                                            <Prop Name="EventGroupId" Value="WS_Story3_Truck" />
+                                            <Prop Name="EventId" Value="WS_Story3_Truck_Quest_Start" />
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                                <Prop Name="Dissabled by Events">
+                                    <Entry>
+                                        <Properties ClassName="KosovoEventDef">
+                                            <Prop Name="EventGroupId" Value="WS_Story3_Truck" />
+                                            <Prop Name="EventId" Value="WS_Story3_Truck_Quest_Done" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoEventDef">
+                                            <Prop Name="EventGroupId" Value="WS_Story3_Truck" />
+                                            <Prop Name="EventId" Value="WS_Story3_Truck_CrowDead" />
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageStealRuleEntry">
+                                <Prop Name="Heritage item ID" Value="SEFER_HA_ZOHAR" />
+                                <Prop Name="DwellerNames">
+                                    <Entry Value="Anja" />
+                                </Prop>
+                                <Prop Name="Location" Value="!CURRENT/WAR_STORY_3/005_railway_station" />
+                                <Prop Name="Localized description" Value="LocationsTexts/WarStories/Story3/005_railway_station/StealArtifact_Description" />
+                                <Prop Name="Required Events">
+                                    <Entry>
+                                        <Properties ClassName="KosovoEventDef">
+                                            <Prop Name="EventGroupId" Value="WS_Story3_Protector" />
+                                            <Prop Name="EventId" Value="WS_Story3_Protector_Quest3_Start" />
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                                <Prop Name="Dissabled by Events">
+                                    <Entry>
+                                        <Properties ClassName="KosovoEventDef">
+                                            <Prop Name="EventGroupId" Value="WS_Story3_Protector" />
+                                            <Prop Name="EventId" Value="WS_Story3_Protector_Quest3_Done" />
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageStealRuleEntry">
+                                <Prop Name="Heritage item ID" Value="CASE_FILES" />
+                                <Prop Name="DwellerNames">
+                                    <Entry Value="Anja" />
+                                    <Entry Value="Pita" />
+                                </Prop>
+                                <Prop Name="Location" Value="!CURRENT/WAR_STORY_3/003_construction_site" />
+                                <Prop Name="Localized description" Value="LocationsTexts/WarStories/Story3/003_construction_site/StealArtifact_Description" />
+                                <Prop Name="Required Events">
+                                    <Entry>
+                                        <Properties ClassName="KosovoEventDef">
+                                            <Prop Name="EventGroupId" Value="WS_Story3_Paser" />
+                                            <Prop Name="EventId" Value="WS_Story3_Paser_Quest_Start" />
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                                <Prop Name="Dissabled by Events">
+                                    <Entry>
+                                        <Properties ClassName="KosovoEventDef">
+                                            <Prop Name="EventGroupId" Value="WS_Story3_Paser" />
+                                            <Prop Name="EventId" Value="WS_Story3_Paser_Quest_Done" />
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                    <Prop Name="EndlogDestroyedText" Value="EndLog/WarStories/Story3/Heritage/Screen2Header" />
+                    <Prop Name="EndlogSurvivedText" Value="" />
+                    <Prop Name="EndlogStandardText" Value="EndLog/WarStories/Story3/Heritage/Screen1Header" />
+                    <Prop Name="EndlogColonelText" Value="" />
+                    <Prop Name="DestroyedBurnedText" Value="EndLog/WarStories/Story3/Heritage/DestroyedBurnedText" />
+                    <Prop Name="DestroyedOtherText" Value="EndLog/WarStories/Story3/Heritage/DestroyedOtherText" />
+                    <Prop Name="MaxEndlogBurnedHeritages" Value="6" />
+                    <Prop Name="MaxEndlogOtherDestroyedHeritages" Value="6" />
+                    <Prop Name="MaxEndlogUniqueHeritages" Value="900" />
+                    <Prop Name="HeritageBoxCapacity" Value="3" />
+                    <Prop Name="Container endangered threshold" Value="0.750000" />
+                    <Prop Name="Collapsing AI trigger threshold" Value="0.750000" />
+                    <Prop Name="Reinforcement collapse progress reduction" Value="0.500000" />
+                    <Prop Name="Walking speed multiplier when carrying heritage" Value="1.150000" />
+                    <Prop Name="Reinforced pillars count for achievement" Value="8" />
+                    <Prop Name="ShelterChangeEvent">
+                        <Properties ClassName="KosovoEventDef">
+                            <Prop Name="EventGroupId" Value="WS_Story3_Shelter" />
+                            <Prop Name="EventId" Value="WS_Story3_Shelter_Change" />
+                        </Properties>
+                    </Prop>
+                    <Prop Name="EvacuateEvent">
+                        <Properties ClassName="KosovoEventDef">
+                            <Prop Name="EventGroupId" Value="WS_Story3_Shelter" />
+                            <Prop Name="EventId" Value="WS_Story3_Shelter_Evacuate" />
+                        </Properties>
+                    </Prop>
+                    <Prop Name="Burning tiers">
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageBurningTier">
+                                <Prop Name="Burned cout" Value="1" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_HeritageBurningTier" />
+                                        <Prop Name="EventId" Value="WS_Story3_HeritageBurningTier_1" />
+                                    </Properties>
+                                </Prop>
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageBurningTier">
+                                <Prop Name="Burned cout" Value="3" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_HeritageBurningTier" />
+                                        <Prop Name="EventId" Value="WS_Story3_HeritageBurningTier_2" />
+                                    </Properties>
+                                </Prop>
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageBurningTier">
+                                <Prop Name="Burned cout" Value="7" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_HeritageBurningTier" />
+                                        <Prop Name="EventId" Value="WS_Story3_HeritageBurningTier_3" />
+                                    </Properties>
+                                </Prop>
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageBurningTier">
+                                <Prop Name="Burned cout" Value="30" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_HeritageBurningTier" />
+                                        <Prop Name="EventId" Value="WS_Story3_HeritageBurningTier_30" />
+                                    </Properties>
+                                </Prop>
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovoHeritageBurningTier">
+                                <Prop Name="Burned cout" Value="30" />
+                                <Prop Name="OnBurnEvent">
+                                    <Properties ClassName="KosovoEventDef">
+                                        <Prop Name="EventGroupId" Value="WS_Story3_HeritageBurningTier" />
+                                        <Prop Name="EventId" Value="WS_Story3_HeritageBurningTier_Achievement" />
+                                    </Properties>
+                                </Prop>
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                </Properties>
+            </Entry>
+        </Prop>
+    </Properties>
+</KosovoHeritageConfig>

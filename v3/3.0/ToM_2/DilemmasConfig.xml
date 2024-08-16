@@ -1,0 +1,303 @@
+<KosovoDilemmasConfig>
+    <Properties ClassName="KosovoDilemmasConfig">
+        <Prop Name="Timelines">
+            <Entry>
+                <Properties ClassName="KosovoDilemmasTimeline">
+                    <Prop Name="Timeline" Value="WS_Story2" />
+                    <Prop Name="Dilemmas">
+                        <Entry>
+                            <Properties ClassName="KosovDilemmEntry">
+                                <Prop Name="Location" Value="-------------- BEZ WYBORU ----------------" />
+                                <Prop Name="ReqEventGroupName" Value="" />
+                                <Prop Name="ReqEventName" Value="" />
+                                <Prop Name="Title" Value="" />
+                                <Prop Name="ContinueAnswer">
+                                    <Properties ClassName="KosovDilemmAnswer">
+                                        <Prop Name="Text" Value="" />
+                                        <Prop Name="EventGroupName" Value="" />
+                                        <Prop Name="EventName" Value="" />
+                                        <Prop Name="ColorTextureName" Value="" />
+                                        <Prop Name="ColorTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                        <Prop Name="BlackWhiteTextureName" Value="" />
+                                        <Prop Name="BlackWhiteTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Answers" />
+                                <Prop Name="OnEndDay" Value="1" />
+                                <Prop Name="Active" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovDilemmEntry">
+                                <Prop Name="Location" Value="!CURRENT/WAR_STORY_2/001_park" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_SniperInPark" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_SniperInPark_InformationEarned" />
+                                <Prop Name="Title" Value="UI/WarStories2/Dillemas/title_01" />
+                                <Prop Name="ContinueAnswer">
+                                    <Properties ClassName="KosovDilemmAnswer">
+                                        <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/001_park/Dilemmas/Description" />
+                                        <Prop Name="EventGroupName" Value="WS_Story2_SniperInPark" />
+                                        <Prop Name="EventName" Value="WS_Story2_SniperInPark_DillemaSelected_true" />
+                                        <Prop Name="ColorTextureName" Value="UI\DillemaUI\dillemas_tiles.dds" />
+                                        <Prop Name="ColorTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                        <Prop Name="BlackWhiteTextureName" Value="" />
+                                        <Prop Name="BlackWhiteTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Answers" />
+                                <Prop Name="OnEndDay" Value="1" />
+                                <Prop Name="Active" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovDilemmEntry">
+                                <Prop Name="Location" Value="!CURRENT/WAR_STORY_2/002_gas_station" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_ArmyCargoInGasStation" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_ArmyCargoInGasStation_InformationEarned" />
+                                <Prop Name="Title" Value="UI/WarStories2/Dillemas/title_01" />
+                                <Prop Name="ContinueAnswer">
+                                    <Properties ClassName="KosovDilemmAnswer">
+                                        <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/002_gas_station/Dilemmas/Description" />
+                                        <Prop Name="EventGroupName" Value="WS_Story2_ArmyCargoInGasStation" />
+                                        <Prop Name="EventName" Value="WS_Story2_ArmyCargoInGasStation_DillemaSelected_true" />
+                                        <Prop Name="ColorTextureName" Value="UI\DillemaUI\dillemas_tiles.dds" />
+                                        <Prop Name="ColorTextureTileData" Value="1.000000 0.000000 3.000000 3.000000" />
+                                        <Prop Name="BlackWhiteTextureName" Value="" />
+                                        <Prop Name="BlackWhiteTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Answers" />
+                                <Prop Name="OnEndDay" Value="1" />
+                                <Prop Name="Active" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovDilemmEntry">
+                                <Prop Name="Location" Value="!CURRENT/WAR_STORY_2/004_market_square" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_ArmyGotRebelsInMarketSquare" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_ArmyGotRebelsInMarketSquare_InformationEarned" />
+                                <Prop Name="Title" Value="UI/WarStories2/Dillemas/title_01" />
+                                <Prop Name="ContinueAnswer">
+                                    <Properties ClassName="KosovDilemmAnswer">
+                                        <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/004_market_square/Dilemmas/Description" />
+                                        <Prop Name="EventGroupName" Value="WS_Story2_ArmyGotRebelsInMarketSquare" />
+                                        <Prop Name="EventName" Value="WS_Story2_ArmyGotRebelsInMarketSquare_DillemaSelected_true" />
+                                        <Prop Name="ColorTextureName" Value="UI\DillemaUI\dillemas_tiles.dds" />
+                                        <Prop Name="ColorTextureTileData" Value="2.000000 0.000000 3.000000 3.000000" />
+                                        <Prop Name="BlackWhiteTextureName" Value="" />
+                                        <Prop Name="BlackWhiteTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Answers" />
+                                <Prop Name="OnEndDay" Value="1" />
+                                <Prop Name="Active" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovDilemmEntry">
+                                <Prop Name="Location" Value="-------------- Z WYBOREM ----------------" />
+                                <Prop Name="ReqEventGroupName" Value="" />
+                                <Prop Name="ReqEventName" Value="" />
+                                <Prop Name="Title" Value="" />
+                                <Prop Name="ContinueAnswer">
+                                    <Properties ClassName="KosovDilemmAnswer">
+                                        <Prop Name="Text" Value="" />
+                                        <Prop Name="EventGroupName" Value="" />
+                                        <Prop Name="EventName" Value="" />
+                                        <Prop Name="ColorTextureName" Value="" />
+                                        <Prop Name="ColorTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                        <Prop Name="BlackWhiteTextureName" Value="" />
+                                        <Prop Name="BlackWhiteTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Answers" />
+                                <Prop Name="OnEndDay" Value="1" />
+                                <Prop Name="Active" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovDilemmEntry">
+                                <Prop Name="Location" Value="!CURRENT/WAR_STORY_2/008_pharmacy" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_BrothersInPharmacy" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_BrothersInPharmacy_InformationEarned" />
+                                <Prop Name="Title" Value="UI/WarStories2/Dillemas/title_02" />
+                                <Prop Name="ContinueAnswer">
+                                    <Properties ClassName="KosovDilemmAnswer">
+                                        <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/008_pharmacy/Dilemmas/Description" />
+                                        <Prop Name="EventGroupName" Value="" />
+                                        <Prop Name="EventName" Value="" />
+                                        <Prop Name="ColorTextureName" Value="" />
+                                        <Prop Name="ColorTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                        <Prop Name="BlackWhiteTextureName" Value="" />
+                                        <Prop Name="BlackWhiteTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Answers">
+                                    <Entry>
+                                        <Properties ClassName="KosovDilemmAnswer">
+                                            <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/008_pharmacy/Dilemmas/Answer_true" />
+                                            <Prop Name="EventGroupName" Value="WS_Story2_BrothersInPharmacy" />
+                                            <Prop Name="EventName" Value="WS_Story2_BrothersInPharmacy_DillemaSelected_true" />
+                                            <Prop Name="ColorTextureName" Value="UI\DillemaUI\dillemas_tiles.dds" />
+                                            <Prop Name="ColorTextureTileData" Value="2.000000 1.000000 3.000000 3.000000" />
+                                            <Prop Name="BlackWhiteTextureName" Value="UI\DillemaUI\dillemas_tiles_bw.dds" />
+                                            <Prop Name="BlackWhiteTextureTileData" Value="2.000000 1.000000 3.000000 3.000000" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovDilemmAnswer">
+                                            <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/008_pharmacy/Dilemmas/Answer_false" />
+                                            <Prop Name="EventGroupName" Value="WS_Story2_BrothersInPharmacy" />
+                                            <Prop Name="EventName" Value="WS_Story2_BrothersInPharmacy_DillemaSelected_false" />
+                                            <Prop Name="ColorTextureName" Value="UI\DillemaUI\dillemas_tiles.dds" />
+                                            <Prop Name="ColorTextureTileData" Value="0.000000 2.000000 3.000000 3.000000" />
+                                            <Prop Name="BlackWhiteTextureName" Value="UI\DillemaUI\dillemas_tiles_bw.dds" />
+                                            <Prop Name="BlackWhiteTextureTileData" Value="0.000000 2.000000 3.000000 3.000000" />
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                                <Prop Name="OnEndDay" Value="1" />
+                                <Prop Name="Active" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovDilemmEntry">
+                                <Prop Name="Location" Value="!CURRENT/WAR_STORY_2/009_bakery" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_FriendInBakery" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_FriendInBakery_InformationEarned" />
+                                <Prop Name="Title" Value="UI/WarStories2/Dillemas/title_02" />
+                                <Prop Name="ContinueAnswer">
+                                    <Properties ClassName="KosovDilemmAnswer">
+                                        <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/009_bakery/Dilemmas/Description" />
+                                        <Prop Name="EventGroupName" Value="" />
+                                        <Prop Name="EventName" Value="" />
+                                        <Prop Name="ColorTextureName" Value="" />
+                                        <Prop Name="ColorTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                        <Prop Name="BlackWhiteTextureName" Value="" />
+                                        <Prop Name="BlackWhiteTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Answers">
+                                    <Entry>
+                                        <Properties ClassName="KosovDilemmAnswer">
+                                            <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/009_bakery/Dilemmas/Answer_true" />
+                                            <Prop Name="EventGroupName" Value="WS_Story2_FriendInBakery" />
+                                            <Prop Name="EventName" Value="WS_Story2_FriendInBakery_DillemaSelected_true" />
+                                            <Prop Name="ColorTextureName" Value="UI\DillemaUI\dillemas_tiles.dds" />
+                                            <Prop Name="ColorTextureTileData" Value="0.000000 1.000000 3.000000 3.000000" />
+                                            <Prop Name="BlackWhiteTextureName" Value="UI\DillemaUI\dillemas_tiles_bw.dds" />
+                                            <Prop Name="BlackWhiteTextureTileData" Value="0.000000 1.000000 3.000000 3.000000" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovDilemmAnswer">
+                                            <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/009_bakery/Dilemmas/Answer_false" />
+                                            <Prop Name="EventGroupName" Value="WS_Story2_FriendInBakery" />
+                                            <Prop Name="EventName" Value="WS_Story2_FriendInBakery_DillemaSelected_false" />
+                                            <Prop Name="ColorTextureName" Value="UI\DillemaUI\dillemas_tiles.dds" />
+                                            <Prop Name="ColorTextureTileData" Value="1.000000 1.000000 3.000000 3.000000" />
+                                            <Prop Name="BlackWhiteTextureName" Value="UI\DillemaUI\dillemas_tiles_bw.dds" />
+                                            <Prop Name="BlackWhiteTextureTileData" Value="1.000000 1.000000 3.000000 3.000000" />
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                                <Prop Name="OnEndDay" Value="1" />
+                                <Prop Name="Active" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovDilemmEntry">
+                                <Prop Name="Location" Value="!CURRENT/WAR_STORY_2/010_brewery" />
+                                <Prop Name="ReqEventGroupName" Value="WS_Story2_MassacreInBrewery" />
+                                <Prop Name="ReqEventName" Value="WS_Story2_MassacreInBrewery_InformationEarned" />
+                                <Prop Name="Title" Value="UI/WarStories2/Dillemas/title_02" />
+                                <Prop Name="ContinueAnswer">
+                                    <Properties ClassName="KosovDilemmAnswer">
+                                        <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/010_brewery/Dilemmas/Description" />
+                                        <Prop Name="EventGroupName" Value="" />
+                                        <Prop Name="EventName" Value="" />
+                                        <Prop Name="ColorTextureName" Value="" />
+                                        <Prop Name="ColorTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                        <Prop Name="BlackWhiteTextureName" Value="" />
+                                        <Prop Name="BlackWhiteTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Answers">
+                                    <Entry>
+                                        <Properties ClassName="KosovDilemmAnswer">
+                                            <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/010_brewery/Dilemmas/Answer_true" />
+                                            <Prop Name="EventGroupName" Value="WS_Story2_MassacreInBrewery" />
+                                            <Prop Name="EventName" Value="WS_Story2_MassacreInBrewery_DillemaSelected_true" />
+                                            <Prop Name="ColorTextureName" Value="UI\DillemaUI\dillemas_tiles.dds" />
+                                            <Prop Name="ColorTextureTileData" Value="1.000000 2.000000 3.000000 3.000000" />
+                                            <Prop Name="BlackWhiteTextureName" Value="UI\DillemaUI\dillemas_tiles_bw.dds" />
+                                            <Prop Name="BlackWhiteTextureTileData" Value="1.000000 2.000000 3.000000 3.000000" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovDilemmAnswer">
+                                            <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/010_brewery/Dilemmas/Answer_false" />
+                                            <Prop Name="EventGroupName" Value="WS_Story2_MassacreInBrewery" />
+                                            <Prop Name="EventName" Value="WS_Story2_MassacreInBrewery_DillemaSelected_false" />
+                                            <Prop Name="ColorTextureName" Value="UI\DillemaUI\dillemas_tiles.dds" />
+                                            <Prop Name="ColorTextureTileData" Value="2.000000 2.000000 3.000000 3.000000" />
+                                            <Prop Name="BlackWhiteTextureName" Value="UI\DillemaUI\dillemas_tiles_bw.dds" />
+                                            <Prop Name="BlackWhiteTextureTileData" Value="2.000000 2.000000 3.000000 3.000000" />
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                                <Prop Name="OnEndDay" Value="1" />
+                                <Prop Name="Active" Value="1" />
+                            </Properties>
+                        </Entry>
+                        <Entry>
+                            <Properties ClassName="KosovDilemmEntry">
+                                <Prop Name="Location" Value="!CURRENT/WAR_STORY_2/014_port" />
+                                <Prop Name="ReqEventGroupName" Value="" />
+                                <Prop Name="ReqEventName" Value="" />
+                                <Prop Name="Title" Value="UI/WarStories2/Dillemas/title_boat" />
+                                <Prop Name="ContinueAnswer">
+                                    <Properties ClassName="KosovDilemmAnswer">
+                                        <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/014_port/Dilemmas/Description" />
+                                        <Prop Name="EventGroupName" Value="" />
+                                        <Prop Name="EventName" Value="" />
+                                        <Prop Name="ColorTextureName" Value="" />
+                                        <Prop Name="ColorTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                        <Prop Name="BlackWhiteTextureName" Value="" />
+                                        <Prop Name="BlackWhiteTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                    </Properties>
+                                </Prop>
+                                <Prop Name="Answers">
+                                    <Entry>
+                                        <Properties ClassName="KosovDilemmAnswer">
+                                            <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/014_port/Dilemmas/Answer_true" />
+                                            <Prop Name="EventGroupName" Value="WS_Story2_Port" />
+                                            <Prop Name="EventName" Value="WS_Story2_Port_DilemmaSelected_true" />
+                                            <Prop Name="ColorTextureName" Value="" />
+                                            <Prop Name="ColorTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                            <Prop Name="BlackWhiteTextureName" Value="" />
+                                            <Prop Name="BlackWhiteTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovDilemmAnswer">
+                                            <Prop Name="Text" Value="LocationsTexts/WarStories/Story2/014_port/Dilemmas/Answer_false" />
+                                            <Prop Name="EventGroupName" Value="WS_Story2_Port" />
+                                            <Prop Name="EventName" Value="WS_Story2_Port_DilemmaSelected_false" />
+                                            <Prop Name="ColorTextureName" Value="" />
+                                            <Prop Name="ColorTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                            <Prop Name="BlackWhiteTextureName" Value="" />
+                                            <Prop Name="BlackWhiteTextureTileData" Value="0.000000 0.000000 3.000000 3.000000" />
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                                <Prop Name="OnEndDay" Value="0" />
+                                <Prop Name="Active" Value="1" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                </Properties>
+            </Entry>
+        </Prop>
+    </Properties>
+</KosovoDilemmasConfig>

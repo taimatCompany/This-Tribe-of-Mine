@@ -1,0 +1,516 @@
+<KosovoSoundParams>
+    <Properties ClassName="KosovoSoundParams">
+        <Prop Name="Entries">
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="Shot" />
+                    <Prop Name="Tag" Value="Shot" />
+                    <Prop Name="Range" Value="45.000000" />
+                    <Prop Name="Duration" Value="2.000000" />
+                    <Prop Name="Visible" Value="1" />
+                    <Prop Name="VisibleFromEnemy" Value="1" />
+                    <Prop Name="VisibleFromEverybody" Value="0" />
+                    <Prop Name="SFX repeat time" Value="0.000000" />
+                    <Prop Name="SoundTableEntryName" Value="" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="AlarmChildren" />
+                    <Prop Name="Tag" Value="AlarmChildren" />
+                    <Prop Name="Range" Value="999.000000" />
+                    <Prop Name="Duration" Value="2.000000" />
+                    <Prop Name="Visible" Value="1" />
+                    <Prop Name="VisibleFromEnemy" Value="1" />
+                    <Prop Name="VisibleFromEverybody" Value="1" />
+                    <Prop Name="SFX repeat time" Value="0.000000" />
+                    <Prop Name="SoundTableEntryName" Value="" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="SniperShot" />
+                    <Prop Name="Tag" Value="SniperShot" />
+                    <Prop Name="Range" Value="15.000000" />
+                    <Prop Name="Duration" Value="2.000000" />
+                    <Prop Name="Visible" Value="1" />
+                    <Prop Name="VisibleFromEnemy" Value="1" />
+                    <Prop Name="VisibleFromEverybody" Value="0" />
+                    <Prop Name="SFX repeat time" Value="0.000000" />
+                    <Prop Name="SoundTableEntryName" Value="" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="Walk" />
+                    <Prop Name="Tag" Value="CloseSteps" />
+                    <Prop Name="Range" Value="0.000000" />
+                    <Prop Name="Duration" Value="-1.000000" />
+                    <Prop Name="Visible" Value="0" />
+                    <Prop Name="VisibleFromEnemy" Value="0" />
+                    <Prop Name="VisibleFromEverybody" Value="0" />
+                    <Prop Name="SFX repeat time" Value="1.100000" />
+                    <Prop Name="SoundTableEntryName" Value="" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="Run" />
+                    <Prop Name="Tag" Value="Common" />
+                    <Prop Name="Range" Value="5.300000" />
+                    <Prop Name="Duration" Value="-1.000000" />
+                    <Prop Name="Visible" Value="1" />
+                    <Prop Name="VisibleFromEnemy" Value="0" />
+                    <Prop Name="VisibleFromEverybody" Value="0" />
+                    <Prop Name="SFX repeat time" Value="0.750000" />
+                    <Prop Name="SoundTableEntryName" Value="" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="Fall" />
+                    <Prop Name="Tag" Value="Common" />
+                    <Prop Name="Range" Value="5.000000" />
+                    <Prop Name="Duration" Value="3.000000" />
+                    <Prop Name="Visible" Value="1" />
+                    <Prop Name="VisibleFromEnemy" Value="0" />
+                    <Prop Name="VisibleFromEverybody" Value="0" />
+                    <Prop Name="SFX repeat time" Value="0.000000" />
+                    <Prop Name="SoundTableEntryName" Value="" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="ForceAction" />
+                    <Prop Name="Tag" Value="" />
+                    <Prop Name="Range" Value="8.000000" />
+                    <Prop Name="Duration" Value="2.000000" />
+                    <Prop Name="Visible" Value="1" />
+                    <Prop Name="VisibleFromEnemy" Value="0" />
+                    <Prop Name="VisibleFromEverybody" Value="0" />
+                    <Prop Name="SFX repeat time" Value="0.000000" />
+                    <Prop Name="SoundTableEntryName" Value="ScavengeForce" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="AlertShout" />
+                    <Prop Name="Tag" Value="PlayerPositionShout" />
+                    <Prop Name="Range" Value="15.000000" />
+                    <Prop Name="Duration" Value="2.000000" />
+                    <Prop Name="Visible" Value="1" />
+                    <Prop Name="VisibleFromEnemy" Value="1" />
+                    <Prop Name="VisibleFromEverybody" Value="0" />
+                    <Prop Name="SFX repeat time" Value="0.000000" />
+                    <Prop Name="SoundTableEntryName" Value="" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="RatNoise" />
+                    <Prop Name="Tag" Value="" />
+                    <Prop Name="Range" Value="8.000000" />
+                    <Prop Name="Duration" Value="2.000000" />
+                    <Prop Name="Visible" Value="1" />
+                    <Prop Name="VisibleFromEnemy" Value="1" />
+                    <Prop Name="VisibleFromEverybody" Value="0" />
+                    <Prop Name="SFX repeat time" Value="0.000000" />
+                    <Prop Name="SoundTableEntryName" Value="" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="AlertShoutLoud" />
+                    <Prop Name="Tag" Value="PlayerPositionShout" />
+                    <Prop Name="Range" Value="25.000000" />
+                    <Prop Name="Duration" Value="2.000000" />
+                    <Prop Name="Visible" Value="1" />
+                    <Prop Name="VisibleFromEnemy" Value="1" />
+                    <Prop Name="VisibleFromEverybody" Value="0" />
+                    <Prop Name="SFX repeat time" Value="0.000000" />
+                    <Prop Name="SoundTableEntryName" Value="" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="DoubleClickShout" />
+                    <Prop Name="Tag" Value="" />
+                    <Prop Name="Range" Value="8.000000" />
+                    <Prop Name="Duration" Value="0.100000" />
+                    <Prop Name="Visible" Value="1" />
+                    <Prop Name="VisibleFromEnemy" Value="0" />
+                    <Prop Name="VisibleFromEverybody" Value="0" />
+                    <Prop Name="SFX repeat time" Value="0.000000" />
+                    <Prop Name="SoundTableEntryName" Value="" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="Radio" />
+                    <Prop Name="Tag" Value="Radio" />
+                    <Prop Name="Range" Value="12.000000" />
+                    <Prop Name="Duration" Value="-1.000000" />
+                    <Prop Name="Visible" Value="1" />
+                    <Prop Name="VisibleFromEnemy" Value="1" />
+                    <Prop Name="VisibleFromEverybody" Value="1" />
+                    <Prop Name="SFX repeat time" Value="1.000000" />
+                    <Prop Name="SoundTableEntryName" Value="Radio" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="NormalScavengeSnd" />
+                    <Prop Name="Tag" Value="" />
+                    <Prop Name="Range" Value="2.500000" />
+                    <Prop Name="Duration" Value="-1.000000" />
+                    <Prop Name="Visible" Value="1" />
+                    <Prop Name="VisibleFromEnemy" Value="0" />
+                    <Prop Name="VisibleFromEverybody" Value="0" />
+                    <Prop Name="SFX repeat time" Value="1.500000" />
+                    <Prop Name="SoundTableEntryName" Value="Scavenge" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="LightScavengeSnd" />
+                    <Prop Name="Tag" Value="" />
+                    <Prop Name="Range" Value="1.250000" />
+                    <Prop Name="Duration" Value="-1.000000" />
+                    <Prop Name="Visible" Value="1" />
+                    <Prop Name="VisibleFromEnemy" Value="0" />
+                    <Prop Name="VisibleFromEverybody" Value="0" />
+                    <Prop Name="SFX repeat time" Value="1.500000" />
+                    <Prop Name="SoundTableEntryName" Value="Scavenge" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="HeavyScavengeSnd" />
+                    <Prop Name="Tag" Value="" />
+                    <Prop Name="Range" Value="5.000000" />
+                    <Prop Name="Duration" Value="-1.000000" />
+                    <Prop Name="Visible" Value="1" />
+                    <Prop Name="VisibleFromEnemy" Value="0" />
+                    <Prop Name="VisibleFromEverybody" Value="0" />
+                    <Prop Name="SFX repeat time" Value="1.500000" />
+                    <Prop Name="SoundTableEntryName" Value="Scavenge" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="NoisyWindow" />
+                    <Prop Name="Tag" Value="" />
+                    <Prop Name="Range" Value="5.000000" />
+                    <Prop Name="Duration" Value="1.000000" />
+                    <Prop Name="Visible" Value="1" />
+                    <Prop Name="VisibleFromEnemy" Value="1" />
+                    <Prop Name="VisibleFromEverybody" Value="1" />
+                    <Prop Name="SFX repeat time" Value="1.500000" />
+                    <Prop Name="SoundTableEntryName" Value="Scavenge" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="CalmFriend" />
+                    <Prop Name="Tag" Value="CalmFriend" />
+                    <Prop Name="Range" Value="15.000000" />
+                    <Prop Name="Duration" Value="0.100000" />
+                    <Prop Name="Visible" Value="0" />
+                    <Prop Name="VisibleFromEnemy" Value="0" />
+                    <Prop Name="VisibleFromEverybody" Value="0" />
+                    <Prop Name="SFX repeat time" Value="0.000000" />
+                    <Prop Name="SoundTableEntryName" Value="" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="ClearRubbleSnd" />
+                    <Prop Name="Tag" Value="" />
+                    <Prop Name="Range" Value="5.000000" />
+                    <Prop Name="Duration" Value="-1.000000" />
+                    <Prop Name="Visible" Value="1" />
+                    <Prop Name="VisibleFromEnemy" Value="0" />
+                    <Prop Name="VisibleFromEverybody" Value="0" />
+                    <Prop Name="SFX repeat time" Value="1.500000" />
+                    <Prop Name="SoundTableEntryName" Value="ClearRubble" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="LockPick" />
+                    <Prop Name="Tag" Value="" />
+                    <Prop Name="Range" Value="1.000000" />
+                    <Prop Name="Duration" Value="-1.000000" />
+                    <Prop Name="Visible" Value="1" />
+                    <Prop Name="VisibleFromEnemy" Value="1" />
+                    <Prop Name="VisibleFromEverybody" Value="1" />
+                    <Prop Name="SFX repeat time" Value="1.500000" />
+                    <Prop Name="SoundTableEntryName" Value="" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="Crowbar" />
+                    <Prop Name="Tag" Value="" />
+                    <Prop Name="Range" Value="13.000000" />
+                    <Prop Name="Duration" Value="-1.000000" />
+                    <Prop Name="Visible" Value="1" />
+                    <Prop Name="VisibleFromEnemy" Value="1" />
+                    <Prop Name="VisibleFromEverybody" Value="1" />
+                    <Prop Name="SFX repeat time" Value="1.500000" />
+                    <Prop Name="SoundTableEntryName" Value="" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="ScavengerAskHisPartner" />
+                    <Prop Name="Tag" Value="ScavengerAskHisPartner" />
+                    <Prop Name="Range" Value="15.000000" />
+                    <Prop Name="Duration" Value="2.000000" />
+                    <Prop Name="Visible" Value="0" />
+                    <Prop Name="VisibleFromEnemy" Value="0" />
+                    <Prop Name="VisibleFromEverybody" Value="0" />
+                    <Prop Name="SFX repeat time" Value="0.000000" />
+                    <Prop Name="SoundTableEntryName" Value="" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="ScavengerAskPartnerForFinish" />
+                    <Prop Name="Tag" Value="ScavengerAskPartnerForFinish" />
+                    <Prop Name="Range" Value="15.000000" />
+                    <Prop Name="Duration" Value="2.000000" />
+                    <Prop Name="Visible" Value="0" />
+                    <Prop Name="VisibleFromEnemy" Value="0" />
+                    <Prop Name="VisibleFromEverybody" Value="0" />
+                    <Prop Name="SFX repeat time" Value="0.000000" />
+                    <Prop Name="SoundTableEntryName" Value="" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="SoldierAskHisPartner" />
+                    <Prop Name="Tag" Value="SoldierAskHisPartner" />
+                    <Prop Name="Range" Value="20.000000" />
+                    <Prop Name="Duration" Value="2.000000" />
+                    <Prop Name="Visible" Value="1" />
+                    <Prop Name="VisibleFromEnemy" Value="1" />
+                    <Prop Name="VisibleFromEverybody" Value="0" />
+                    <Prop Name="SFX repeat time" Value="1.500000" />
+                    <Prop Name="SoundTableEntryName" Value="" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="CloseCombat" />
+                    <Prop Name="Tag" Value="CloseCombat" />
+                    <Prop Name="Range" Value="8.000000" />
+                    <Prop Name="Duration" Value="2.000000" />
+                    <Prop Name="Visible" Value="1" />
+                    <Prop Name="VisibleFromEnemy" Value="1" />
+                    <Prop Name="VisibleFromEverybody" Value="0" />
+                    <Prop Name="SFX repeat time" Value="0.000000" />
+                    <Prop Name="SoundTableEntryName" Value="" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="DeathShout" />
+                    <Prop Name="Tag" Value="DeathShout" />
+                    <Prop Name="Range" Value="12.000000" />
+                    <Prop Name="Duration" Value="3.000000" />
+                    <Prop Name="Visible" Value="1" />
+                    <Prop Name="VisibleFromEnemy" Value="1" />
+                    <Prop Name="VisibleFromEverybody" Value="1" />
+                    <Prop Name="SFX repeat time" Value="0.000000" />
+                    <Prop Name="SoundTableEntryName" Value="" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="Hatchet" />
+                    <Prop Name="Tag" Value="" />
+                    <Prop Name="Range" Value="13.000000" />
+                    <Prop Name="Duration" Value="-1.000000" />
+                    <Prop Name="Visible" Value="1" />
+                    <Prop Name="VisibleFromEnemy" Value="1" />
+                    <Prop Name="VisibleFromEverybody" Value="1" />
+                    <Prop Name="SFX repeat time" Value="1.500000" />
+                    <Prop Name="SoundTableEntryName" Value="" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoSoundParamsEntry">
+                    <Prop Name="Name" Value="Kids_NeedHelp" />
+                    <Prop Name="Tag" Value="Kids_NeedHelp" />
+                    <Prop Name="Range" Value="999.000000" />
+                    <Prop Name="Duration" Value="2.000000" />
+                    <Prop Name="Visible" Value="1" />
+                    <Prop Name="VisibleFromEnemy" Value="1" />
+                    <Prop Name="VisibleFromEverybody" Value="1" />
+                    <Prop Name="SFX repeat time" Value="0.000000" />
+                    <Prop Name="SoundTableEntryName" Value="" />
+                </Properties>
+            </Entry>
+        </Prop>
+        <Prop Name="Music">
+            <Entry>
+                <Properties ClassName="KosovoMusicParamsEntry">
+                    <Prop Name="Name" Value="Menu" />
+                    <Prop Name="Loop" Value="1" />
+                    <Prop Name="Volume" Value="0.700000" />
+                    <Prop Name="FileName" Value="Music/piotrmusial_-_twom_menu_full.ogg" />
+                    <Prop Name="Occurrence limit in last played" Value="0" />
+                    <Prop Name="Last played" Value="0" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoMusicParamsEntry">
+                    <Prop Name="Name" Value="EndLog" />
+                    <Prop Name="Loop" Value="1" />
+                    <Prop Name="Volume" Value="0.700000" />
+                    <Prop Name="FileName" Value="Music/piotrmusial_-_twom_menu_full.ogg" />
+                    <Prop Name="Occurrence limit in last played" Value="0" />
+                    <Prop Name="Last played" Value="0" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoMusicParamsEntry">
+                    <Prop Name="Name" Value="EndLogPositive" />
+                    <Prop Name="Loop" Value="1" />
+                    <Prop Name="Volume" Value="0.600000" />
+                    <Prop Name="FileName" Value="Music/piotrmusial_-_twom_positive.ogg" />
+                    <Prop Name="Occurrence limit in last played" Value="0" />
+                    <Prop Name="Last played" Value="0" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoMusicParamsEntry">
+                    <Prop Name="Name" Value="Danger" />
+                    <Prop Name="Loop" Value="1" />
+                    <Prop Name="Volume" Value="0.500000" />
+                    <Prop Name="FileName" Value="Music/piotrmusial_-_twom_danger.ogg" />
+                    <Prop Name="Occurrence limit in last played" Value="0" />
+                    <Prop Name="Last played" Value="0" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoMusicParamsEntry">
+                    <Prop Name="Name" Value="Scavenge" />
+                    <Prop Name="Loop" Value="1" />
+                    <Prop Name="Volume" Value="0.500000" />
+                    <Prop Name="FileName" Value="Music/piotrmusial_-_war_of_mine_scavenge_full.ogg" />
+                    <Prop Name="Occurrence limit in last played" Value="0" />
+                    <Prop Name="Last played" Value="0" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoMusicParamsEntry">
+                    <Prop Name="Name" Value="Home1" />
+                    <Prop Name="Loop" Value="1" />
+                    <Prop Name="Volume" Value="0.600000" />
+                    <Prop Name="FileName" Value="Music/piotrmusial_-_twom_dom_a.ogg" />
+                    <Prop Name="Occurrence limit in last played" Value="0" />
+                    <Prop Name="Last played" Value="0" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoMusicParamsEntry">
+                    <Prop Name="Name" Value="Home2" />
+                    <Prop Name="Loop" Value="1" />
+                    <Prop Name="Volume" Value="0.600000" />
+                    <Prop Name="FileName" Value="Music/piotrmusial_-_twom_dom_b+.ogg" />
+                    <Prop Name="Occurrence limit in last played" Value="0" />
+                    <Prop Name="Last played" Value="0" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoMusicParamsEntry">
+                    <Prop Name="Name" Value="Home3" />
+                    <Prop Name="Loop" Value="1" />
+                    <Prop Name="Volume" Value="0.600000" />
+                    <Prop Name="FileName" Value="Music/piotrmusial_-_twom_dom_c+.ogg" />
+                    <Prop Name="Occurrence limit in last played" Value="0" />
+                    <Prop Name="Last played" Value="0" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoMusicParamsEntry">
+                    <Prop Name="Name" Value="HomePositive" />
+                    <Prop Name="Loop" Value="1" />
+                    <Prop Name="Volume" Value="0.600000" />
+                    <Prop Name="FileName" Value="Music/piotrmusial_-_twom_positive.ogg" />
+                    <Prop Name="Occurrence limit in last played" Value="0" />
+                    <Prop Name="Last played" Value="0" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoMusicParamsEntry">
+                    <Prop Name="Name" Value="HomeWinter1" />
+                    <Prop Name="Loop" Value="1" />
+                    <Prop Name="Volume" Value="0.600000" />
+                    <Prop Name="FileName" Value="Music/piotrmusial_-_twom_zima_a++.ogg" />
+                    <Prop Name="Occurrence limit in last played" Value="0" />
+                    <Prop Name="Last played" Value="0" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoMusicParamsEntry">
+                    <Prop Name="Name" Value="HomeWinter2" />
+                    <Prop Name="Loop" Value="1" />
+                    <Prop Name="Volume" Value="0.600000" />
+                    <Prop Name="FileName" Value="Music/piotrmusial_-_twom_zima_b+.ogg" />
+                    <Prop Name="Occurrence limit in last played" Value="0" />
+                    <Prop Name="Last played" Value="0" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoMusicParamsEntry">
+                    <Prop Name="Name" Value="HomeWinter3" />
+                    <Prop Name="Loop" Value="1" />
+                    <Prop Name="Volume" Value="0.600000" />
+                    <Prop Name="FileName" Value="Music/piotrmusial_-_twom_zima_c.ogg" />
+                    <Prop Name="Occurrence limit in last played" Value="0" />
+                    <Prop Name="Last played" Value="0" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoMusicParamsEntry">
+                    <Prop Name="Name" Value="Scavenge2" />
+                    <Prop Name="Loop" Value="1" />
+                    <Prop Name="Volume" Value="0.500000" />
+                    <Prop Name="FileName" Value="Music/piotrmusial_-_alone.ogg" />
+                    <Prop Name="Occurrence limit in last played" Value="0" />
+                    <Prop Name="Last played" Value="0" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoMusicParamsEntry">
+                    <Prop Name="Name" Value="Danger2" />
+                    <Prop Name="Loop" Value="1" />
+                    <Prop Name="Volume" Value="0.500000" />
+                    <Prop Name="FileName" Value="Music/piotrmusial_-_still_alive_inside.ogg" />
+                    <Prop Name="Occurrence limit in last played" Value="0" />
+                    <Prop Name="Last played" Value="0" />
+                </Properties>
+            </Entry>
+        </Prop>
+        <Prop Name="Scavenge default music entries">
+            <Entry Value="Scavenge" />
+            <Entry Value="Scavenge2" />
+        </Prop>
+        <Prop Name="Shelter default music entries">
+            <Entry Value="Home1" />
+            <Entry Value="Home2" />
+            <Entry Value="Home3" />
+        </Prop>
+        <Prop Name="Shelter winter music entries">
+            <Entry Value="HomeWinter1" />
+            <Entry Value="HomeWinter2" />
+            <Entry Value="HomeWinter3" />
+        </Prop>
+        <Prop Name="Shelter cheerful music entries">
+            <Entry Value="HomePositive" />
+        </Prop>
+    </Properties>
+</KosovoSoundParams>

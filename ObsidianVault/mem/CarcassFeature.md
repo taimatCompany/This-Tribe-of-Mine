@@ -1,0 +1,3 @@
+- Collect from traps
+- Harvest for clutter
+- Harvest for meat

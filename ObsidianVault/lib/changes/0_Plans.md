@@ -1,0 +1,8 @@
+- Update Garage
+- Add Metal blocks
+- Recycle all kinds of metal objects
+- Craft metal objects from blocks
+- Find recipes that use scrap and ensure we can't use metal blocks instead
+- Update Vehicle recipe
+- Update WoodGas
+- Blueprints for engineParts and other complex items

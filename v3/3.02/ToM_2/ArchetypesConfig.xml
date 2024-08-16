@@ -1,0 +1,1449 @@
+<KosovoArchetypesConfig>
+    <Properties ClassName="KosovoArchetypesConfig">
+        <Prop Name="Archetypes">
+            <Entry>
+                <Properties ClassName="KosovoArchetypeData">
+                    <Prop Name="Archetype Name" Value="Generic" />
+                    <Prop Name="Child Of" Value="" />
+                    <Prop Name="Components">
+                        <Entry Class="KosovoWalkerMiscConfig">
+                            <Properties ClassName="KosovoWalkerMiscConfig">
+                                <Prop Name="Walk sound id" Value="Walk" />
+                                <Prop Name="Run sound id" Value="Run" />
+                                <Prop Name="Fall sound id" Value="Fall" />
+                                <Prop Name="One At A Time" Value="1" />
+                                <Prop Name="Ignore Doors" Value="0" />
+                                <Prop Name="Add Ignore Mask" Value="0" />
+                            </Properties>
+                            <Properties ClassName="KosovoWalkingConfig" />
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoSensorConfig">
+                            <Properties ClassName="KosovoSensorConfig">
+                                <Prop Name="SightRange" Value="15.000000" />
+                                <Prop Name="SightRangeOnLadder" Value="4.000000" />
+                                <Prop Name="HearingMult" Value="1.000000" />
+                                <Prop Name="SightRememberTime" Value="6.000000" />
+                                <Prop Name="OmnidirectionalSight" Value="0" />
+                                <Prop Name="SightAngle" Value="45.000000" />
+                                <Prop Name="SightBackOffset" Value="1.500000" />
+                                <Prop Name="FractureOfSightAngleToSee" Value="0.080000" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoHPComponentConfig">
+                            <Properties ClassName="KosovoHPComponentConfig">
+                                <Prop Name="Health" Value="100.000000" />
+                                <Prop Name="VisibleInUI" Value="1" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoParamComponentConfig">
+                            <Properties ClassName="KosovoParamComponentConfig" />
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="KosovoEnemyParamsComponent" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoNPCRequestComponentConfig">
+                            <Properties ClassName="KosovoNPCRequestComponentConfig" />
+                            <Properties ClassName="KosovoTradingComponentConfig">
+                                <Prop Name="TraderName" Value="Disarmer" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                    <Prop Name="AdditionalTags">
+                        <Entry Tag="NPCRequestDisabled" />
+                        <Entry Tag="TradeDisabled" />
+                        <Entry Tag="Disposable" />
+                    </Prop>
+                    <Prop Name="AdditionalBehaviourTreeNames" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoArchetypeData">
+                    <Prop Name="Archetype Name" Value="Coward" />
+                    <Prop Name="Child Of" Value="Generic" />
+                    <Prop Name="Components">
+                        <Entry Class="KosovoCombatComponentConfig">
+                            <Properties ClassName="KosovoCombatComponentConfig">
+                                <Prop Name="BaseHitProbability" Value="0.250000" />
+                                <Prop Name="BaseCloseCombatHitProbability" Value="0.250000" />
+                                <Prop Name="CloseCombatHitProbabilityFluctuationPeriod" Value="1.000000" />
+                                <Prop Name="CloseCombatHitProbabilityFluctuationAmplitude" Value="0.000000" />
+                                <Prop Name="CloseCombatHitProbabilityFluctuationAmplitudeCutoff" Value="0.000000" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoWalkerConfig">
+                            <Properties ClassName="KosovoWalkerConfig">
+                                <Prop Name="Walk speed" Value="2.300000" />
+                                <Prop Name="Slow walk speed" Value="1.000000" />
+                                <Prop Name="Run speed" Value="6.000000" />
+                                <Prop Name="Special movement multiplier" Value="1.000000" />
+                                <Prop Name="Stairs movement speed multiplier (WALK)" Value="0.800000" />
+                                <Prop Name="Stairs movement speed multiplier (RUN)" Value="0.800000" />
+                                <Prop Name="MinMoraleLevelToDisableRun" Value="2147483647" />
+                            </Properties>
+                            <Properties ClassName="KosovoWalkingConfig" />
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoSpeechComponentConfig">
+                            <Properties ClassName="KosovoSpeechComponentConfig">
+                                <Prop Name="SpeechTags">
+                                    <Entry Value="Coward" />
+                                </Prop>
+                                <Prop Name="DialogueTags" />
+                                <Prop Name="Speech Variant" Value="" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                    <Prop Name="AdditionalTags">
+                        <Entry Tag="Unarmed" />
+                        <Entry Tag="Human" />
+                        <Entry Tag="Partner" />
+                        <Entry Tag="Coward" />
+                        <Entry Tag="StateEffectsBlocker" />
+                    </Prop>
+                    <Prop Name="AdditionalBehaviourTreeNames">
+                        <Entry Value="EnemyStateTree" />
+                    </Prop>
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoArchetypeData">
+                    <Prop Name="Archetype Name" Value="Coward_Weak" />
+                    <Prop Name="Child Of" Value="Coward" />
+                    <Prop Name="Components">
+                        <Entry Class="KosovoCombatComponentConfig">
+                            <Properties ClassName="KosovoCombatComponentConfig">
+                                <Prop Name="BaseHitProbability" Value="0.000000" />
+                                <Prop Name="BaseCloseCombatHitProbability" Value="0.000000" />
+                                <Prop Name="CloseCombatHitProbabilityFluctuationPeriod" Value="1.000000" />
+                                <Prop Name="CloseCombatHitProbabilityFluctuationAmplitude" Value="0.000000" />
+                                <Prop Name="CloseCombatHitProbabilityFluctuationAmplitudeCutoff" Value="0.000000" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoHPComponentConfig">
+                            <Properties ClassName="KosovoHPComponentConfig">
+                                <Prop Name="Health" Value="50.000000" />
+                                <Prop Name="VisibleInUI" Value="1" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoWalkerConfig">
+                            <Properties ClassName="KosovoWalkerConfig">
+                                <Prop Name="Walk speed" Value="2.000000" />
+                                <Prop Name="Slow walk speed" Value="1.000000" />
+                                <Prop Name="Run speed" Value="4.000000" />
+                                <Prop Name="Special movement multiplier" Value="1.000000" />
+                                <Prop Name="Stairs movement speed multiplier (WALK)" Value="0.800000" />
+                                <Prop Name="Stairs movement speed multiplier (RUN)" Value="0.800000" />
+                                <Prop Name="MinMoraleLevelToDisableRun" Value="2147483647" />
+                            </Properties>
+                            <Properties ClassName="KosovoWalkingConfig" />
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                    <Prop Name="AdditionalTags" />
+                    <Prop Name="AdditionalBehaviourTreeNames" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoArchetypeData">
+                    <Prop Name="Archetype Name" Value="Warrior" />
+                    <Prop Name="Child Of" Value="Generic" />
+                    <Prop Name="Components">
+                        <Entry Class="KosovoCombatComponentConfig">
+                            <Properties ClassName="KosovoCombatComponentConfig">
+                                <Prop Name="BaseHitProbability" Value="0.650000" />
+                                <Prop Name="BaseCloseCombatHitProbability" Value="0.500000" />
+                                <Prop Name="CloseCombatHitProbabilityFluctuationPeriod" Value="1.000000" />
+                                <Prop Name="CloseCombatHitProbabilityFluctuationAmplitude" Value="0.000000" />
+                                <Prop Name="CloseCombatHitProbabilityFluctuationAmplitudeCutoff" Value="0.000000" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoWalkerConfig">
+                            <Properties ClassName="KosovoWalkerConfig">
+                                <Prop Name="Walk speed" Value="2.500000" />
+                                <Prop Name="Slow walk speed" Value="1.200000" />
+                                <Prop Name="Run speed" Value="4.500000" />
+                                <Prop Name="Special movement multiplier" Value="1.000000" />
+                                <Prop Name="Stairs movement speed multiplier (WALK)" Value="0.950000" />
+                                <Prop Name="Stairs movement speed multiplier (RUN)" Value="0.900000" />
+                                <Prop Name="MinMoraleLevelToDisableRun" Value="2147483647" />
+                            </Properties>
+                            <Properties ClassName="KosovoWalkingConfig" />
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoSpeechComponentConfig">
+                            <Properties ClassName="KosovoSpeechComponentConfig">
+                                <Prop Name="SpeechTags">
+                                    <Entry Value="Warrior" />
+                                </Prop>
+                                <Prop Name="DialogueTags" />
+                                <Prop Name="Speech Variant" Value="" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                    <Prop Name="AdditionalTags">
+                        <Entry Tag="Warrior" />
+                        <Entry Tag="Armed" />
+                        <Entry Tag="Partner" />
+                    </Prop>
+                    <Prop Name="AdditionalBehaviourTreeNames" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoArchetypeData">
+                    <Prop Name="Archetype Name" Value="Warrior_Soldier" />
+                    <Prop Name="Child Of" Value="Warrior" />
+                    <Prop Name="Components">
+                        <Entry Class="KosovoCombatComponentConfig">
+                            <Properties ClassName="KosovoCombatComponentConfig">
+                                <Prop Name="BaseHitProbability" Value="1.000000" />
+                                <Prop Name="BaseCloseCombatHitProbability" Value="0.700000" />
+                                <Prop Name="CloseCombatHitProbabilityFluctuationPeriod" Value="1.000000" />
+                                <Prop Name="CloseCombatHitProbabilityFluctuationAmplitude" Value="0.000000" />
+                                <Prop Name="CloseCombatHitProbabilityFluctuationAmplitudeCutoff" Value="0.000000" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoSpeechComponentConfig">
+                            <Properties ClassName="KosovoSpeechComponentConfig">
+                                <Prop Name="SpeechTags">
+                                    <Entry Value="Warrior" />
+                                    <Entry Value="Soldier" />
+                                    <Entry Value="Aggresive" />
+                                </Prop>
+                                <Prop Name="DialogueTags" />
+                                <Prop Name="Speech Variant" Value="" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                    <Prop Name="AdditionalTags" />
+                    <Prop Name="AdditionalBehaviourTreeNames" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoArchetypeData">
+                    <Prop Name="Archetype Name" Value="Warrior_Aggresive" />
+                    <Prop Name="Child Of" Value="Warrior" />
+                    <Prop Name="Components">
+                        <Entry Class="KosovoSpeechComponentConfig">
+                            <Properties ClassName="KosovoSpeechComponentConfig">
+                                <Prop Name="SpeechTags">
+                                    <Entry Value="Warrior" />
+                                    <Entry Value="Aggresive" />
+                                </Prop>
+                                <Prop Name="DialogueTags" />
+                                <Prop Name="Speech Variant" Value="" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                    <Prop Name="AdditionalTags" />
+                    <Prop Name="AdditionalBehaviourTreeNames" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoArchetypeData">
+                    <Prop Name="Archetype Name" Value="Dweller_Generic" />
+                    <Prop Name="Child Of" Value="" />
+                    <Prop Name="Components">
+                        <Entry Class="KosovoDwellerControllerConfig">
+                            <Properties ClassName="KosovoDwellerControllerConfig">
+                                <Prop Name="Guard mult." Value="1.000000" />
+                                <Prop Name="GuestBTTrees">
+                                    <Entry Value="Join" />
+                                </Prop>
+                            </Properties>
+                            <Properties ClassName="KosovoParamComponentConfig" />
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoWalkerConfig">
+                            <Properties ClassName="KosovoWalkerConfig">
+                                <Prop Name="Walk speed" Value="2.500000" />
+                                <Prop Name="Slow walk speed" Value="2.500000" />
+                                <Prop Name="Run speed" Value="6.500000" />
+                                <Prop Name="Special movement multiplier" Value="1.000000" />
+                                <Prop Name="Stairs movement speed multiplier (WALK)" Value="0.800000" />
+                                <Prop Name="Stairs movement speed multiplier (RUN)" Value="0.800000" />
+                                <Prop Name="MinMoraleLevelToDisableRun" Value="2147483647" />
+                            </Properties>
+                            <Properties ClassName="KosovoWalkingConfig" />
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoSensorConfig">
+                            <Properties ClassName="KosovoSensorConfig">
+                                <Prop Name="SightRange" Value="40.000000" />
+                                <Prop Name="SightRangeOnLadder" Value="40.000000" />
+                                <Prop Name="HearingMult" Value="1.000000" />
+                                <Prop Name="SightRememberTime" Value="3.000000" />
+                                <Prop Name="OmnidirectionalSight" Value="1" />
+                                <Prop Name="SightAngle" Value="-1.000000" />
+                                <Prop Name="SightBackOffset" Value="1.000000" />
+                                <Prop Name="FractureOfSightAngleToSee" Value="0.000000" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoHPComponentConfig">
+                            <Properties ClassName="KosovoHPComponentConfig">
+                                <Prop Name="Health" Value="100.000000" />
+                                <Prop Name="VisibleInUI" Value="1" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoSpeechComponentConfig">
+                            <Properties ClassName="KosovoSpeechComponentConfig">
+                                <Prop Name="SpeechTags" />
+                                <Prop Name="DialogueTags" />
+                                <Prop Name="Speech Variant" Value="" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoCombatComponentConfig">
+                            <Properties ClassName="KosovoCombatComponentConfig">
+                                <Prop Name="BaseHitProbability" Value="0.500000" />
+                                <Prop Name="BaseCloseCombatHitProbability" Value="0.500000" />
+                                <Prop Name="CloseCombatHitProbabilityFluctuationPeriod" Value="1.000000" />
+                                <Prop Name="CloseCombatHitProbabilityFluctuationAmplitude" Value="0.000000" />
+                                <Prop Name="CloseCombatHitProbabilityFluctuationAmplitudeCutoff" Value="0.000000" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoSmartObjectsComponentConfig">
+                            <Properties ClassName="KosovoSmartObjectsComponentConfig">
+                                <Prop Name="SmartObjectTemplates">
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/RoamingPoints/CasualActivities" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/NPCChair" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SimpleContainer_ScavengeFridge" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/NoisyWindow" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SimpleContainer_SzafkaLazienkowa" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SimpleContainer_Bed" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/Sink" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/StoryItem_Picture" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SmartItem_SearchingItemsInTrash" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SmartItem_SearchingItemsInFurniture" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/RoamingPoints/SmokePoint" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SmartItem_FloorSit" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/NPCChair_longsitting" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SmartItem_FloorSit(C)" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/NPCChair_longsitting(C)" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/NPCChair_playing_poker" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SmartItem_FloorSleepOnBack(C)" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/Intra/SmartItem_Intro_school" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                                <Prop Name="Probability" Value="1.000000" />
+                                <Prop Name="TimePeriod" Value="0.000000" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoEmotionalComponentConfig">
+                            <Properties ClassName="KosovoEmotionalComponentConfig">
+                                <Prop Name="Psyche tag" Value="Normal" />
+                                <Prop Name="Psyche tag modifier" Value="" />
+                                <Prop Name="Trauma treshold" Value="100.000000" />
+                                <Prop Name="Morale config">
+                                    <Entry>
+                                        <Properties ClassName="KosovoMoraleConfig">
+                                            <Prop Name="Morale level" Value="0" />
+                                            <Prop Name="Depressed value" Value="0.000000" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoMoraleConfig">
+                                            <Prop Name="Morale level" Value="1" />
+                                            <Prop Name="Depressed value" Value="20.000000" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoMoraleConfig">
+                                            <Prop Name="Morale level" Value="2" />
+                                            <Prop Name="Depressed value" Value="40.000000" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoMoraleConfig">
+                                            <Prop Name="Morale level" Value="3" />
+                                            <Prop Name="Depressed value" Value="60.000000" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoMoraleConfig">
+                                            <Prop Name="Morale level" Value="4" />
+                                            <Prop Name="Depressed value" Value="80.000000" />
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoGuitarPlayerComponentConfig">
+                            <Properties ClassName="KosovoGuitarPlayerComponentConfig">
+                                <Prop Name="PlayerTags">
+                                    <Entry Value="Low" />
+                                </Prop>
+                                <Prop Name="ProbabilityOfGoodPlay" Value="0.500000" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoStimulantComponentConfig">
+                            <Properties ClassName="KosovoStimulantComponentConfig">
+                                <Prop Name="Coffes per day" Value="-1" />
+                                <Prop Name="Cigarettes per day" Value="-1" />
+                                <Prop Name="Booze to become drunkard" Value="4" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                    <Prop Name="AdditionalTags">
+                        <Entry Tag="Dweller" />
+                        <Entry Tag="Human" />
+                    </Prop>
+                    <Prop Name="AdditionalBehaviourTreeNames">
+                        <Entry Value="Join" />
+                        <Entry Value="StateTree" />
+                        <Entry Value="TagsCleanup" />
+                    </Prop>
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoArchetypeData">
+                    <Prop Name="Archetype Name" Value="Dweller_Kid" />
+                    <Prop Name="Child Of" Value="" />
+                    <Prop Name="Components">
+                        <Entry Class="KosovoDwellerControllerConfig">
+                            <Properties ClassName="KosovoDwellerControllerConfig">
+                                <Prop Name="Guard mult." Value="1.000000" />
+                                <Prop Name="GuestBTTrees">
+                                    <Entry Value="Join" />
+                                </Prop>
+                            </Properties>
+                            <Properties ClassName="KosovoParamComponentConfig" />
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoWalkerConfig">
+                            <Properties ClassName="KosovoWalkerConfig">
+                                <Prop Name="Walk speed" Value="2.400000" />
+                                <Prop Name="Slow walk speed" Value="1.250000" />
+                                <Prop Name="Run speed" Value="4.500000" />
+                                <Prop Name="Special movement multiplier" Value="1.000000" />
+                                <Prop Name="Stairs movement speed multiplier (WALK)" Value="1.000000" />
+                                <Prop Name="Stairs movement speed multiplier (RUN)" Value="0.800000" />
+                                <Prop Name="MinMoraleLevelToDisableRun" Value="3" />
+                            </Properties>
+                            <Properties ClassName="KosovoWalkingConfig" />
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoSensorConfig">
+                            <Properties ClassName="KosovoSensorConfig">
+                                <Prop Name="SightRange" Value="40.000000" />
+                                <Prop Name="SightRangeOnLadder" Value="40.000000" />
+                                <Prop Name="HearingMult" Value="1.000000" />
+                                <Prop Name="SightRememberTime" Value="3.000000" />
+                                <Prop Name="OmnidirectionalSight" Value="1" />
+                                <Prop Name="SightAngle" Value="-1.000000" />
+                                <Prop Name="SightBackOffset" Value="1.000000" />
+                                <Prop Name="FractureOfSightAngleToSee" Value="0.000000" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoHPComponentConfig">
+                            <Properties ClassName="KosovoHPComponentConfig">
+                                <Prop Name="Health" Value="100.000000" />
+                                <Prop Name="VisibleInUI" Value="1" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoSpeechComponentConfig">
+                            <Properties ClassName="KosovoSpeechComponentConfig">
+                                <Prop Name="SpeechTags">
+                                    <Entry Value="Kids" />
+                                </Prop>
+                                <Prop Name="DialogueTags" />
+                                <Prop Name="Speech Variant" Value="" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoCombatComponentConfig">
+                            <Properties ClassName="KosovoCombatComponentConfig">
+                                <Prop Name="BaseHitProbability" Value="0.500000" />
+                                <Prop Name="BaseCloseCombatHitProbability" Value="0.500000" />
+                                <Prop Name="CloseCombatHitProbabilityFluctuationPeriod" Value="1.000000" />
+                                <Prop Name="CloseCombatHitProbabilityFluctuationAmplitude" Value="0.000000" />
+                                <Prop Name="CloseCombatHitProbabilityFluctuationAmplitudeCutoff" Value="0.000000" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoSmartObjectsComponentConfig">
+                            <Properties ClassName="KosovoSmartObjectsComponentConfig">
+                                <Prop Name="SmartObjectTemplates">
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/RoamingPoints/CasualActivities" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/NPCChair" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SimpleContainer_ScavengeFridge" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/NoisyWindow" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SimpleContainer_SzafkaLazienkowa" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SimpleContainer_Bed" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/Sink" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/StoryItem_Picture" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SmartItem_SearchingItemsInTrash" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SmartItem_SearchingItemsInFurniture" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/RoamingPoints/SmokePoint" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SmartItem_FloorSit" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/NPCChair_longsitting" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SmartItem_FloorSit(C)" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/NPCChair_longsitting(C)" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/NPCChair_playing_poker" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SmartItem_FloorSleepOnBack(C)" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/Intra/SmartItem_Intro_school" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                                <Prop Name="Probability" Value="1.000000" />
+                                <Prop Name="TimePeriod" Value="0.000000" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoEmotionalComponentConfig">
+                            <Properties ClassName="KosovoEmotionalComponentConfig">
+                                <Prop Name="Psyche tag" Value="Normal" />
+                                <Prop Name="Psyche tag modifier" Value="" />
+                                <Prop Name="Trauma treshold" Value="999.000000" />
+                                <Prop Name="Morale config">
+                                    <Entry>
+                                        <Properties ClassName="KosovoMoraleConfig">
+                                            <Prop Name="Morale level" Value="0" />
+                                            <Prop Name="Depressed value" Value="0.000000" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoMoraleConfig">
+                                            <Prop Name="Morale level" Value="1" />
+                                            <Prop Name="Depressed value" Value="20.000000" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoMoraleConfig">
+                                            <Prop Name="Morale level" Value="2" />
+                                            <Prop Name="Depressed value" Value="35.000000" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoMoraleConfig">
+                                            <Prop Name="Morale level" Value="3" />
+                                            <Prop Name="Depressed value" Value="60.000000" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoMoraleConfig">
+                                            <Prop Name="Morale level" Value="4" />
+                                            <Prop Name="Depressed value" Value="90.000000" />
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoGuitarPlayerComponentConfig">
+                            <Properties ClassName="KosovoGuitarPlayerComponentConfig">
+                                <Prop Name="PlayerTags">
+                                    <Entry Value="Kid" />
+                                </Prop>
+                                <Prop Name="ProbabilityOfGoodPlay" Value="1.000000" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoStimulantComponentConfig">
+                            <Properties ClassName="KosovoStimulantComponentConfig">
+                                <Prop Name="Coffes per day" Value="-1" />
+                                <Prop Name="Cigarettes per day" Value="-1" />
+                                <Prop Name="Booze to become drunkard" Value="-1" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                    <Prop Name="AdditionalTags">
+                        <Entry Tag="Dweller" />
+                        <Entry Tag="Human" />
+                        <Entry Tag="ChildInteractionEnabled" />
+                    </Prop>
+                    <Prop Name="AdditionalBehaviourTreeNames">
+                        <Entry Value="Stoppers" />
+                    </Prop>
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoArchetypeData">
+                    <Prop Name="Archetype Name" Value="WS1_Dweller_Adam" />
+                    <Prop Name="Child Of" Value="" />
+                    <Prop Name="Components">
+                        <Entry Class="KosovoDwellerControllerConfig">
+                            <Properties ClassName="KosovoDwellerControllerConfig">
+                                <Prop Name="Guard mult." Value="1.000000" />
+                                <Prop Name="GuestBTTrees">
+                                    <Entry Value="Join" />
+                                </Prop>
+                            </Properties>
+                            <Properties ClassName="KosovoParamComponentConfig" />
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoWalkerConfig">
+                            <Properties ClassName="KosovoWalkerConfig">
+                                <Prop Name="Walk speed" Value="2.500000" />
+                                <Prop Name="Slow walk speed" Value="2.500000" />
+                                <Prop Name="Run speed" Value="6.500000" />
+                                <Prop Name="Special movement multiplier" Value="1.000000" />
+                                <Prop Name="Stairs movement speed multiplier (WALK)" Value="0.800000" />
+                                <Prop Name="Stairs movement speed multiplier (RUN)" Value="0.800000" />
+                                <Prop Name="MinMoraleLevelToDisableRun" Value="2147483647" />
+                            </Properties>
+                            <Properties ClassName="KosovoWalkingConfig" />
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoSensorConfig">
+                            <Properties ClassName="KosovoSensorConfig">
+                                <Prop Name="SightRange" Value="40.000000" />
+                                <Prop Name="SightRangeOnLadder" Value="40.000000" />
+                                <Prop Name="HearingMult" Value="1.000000" />
+                                <Prop Name="SightRememberTime" Value="3.000000" />
+                                <Prop Name="OmnidirectionalSight" Value="1" />
+                                <Prop Name="SightAngle" Value="-1.000000" />
+                                <Prop Name="SightBackOffset" Value="1.000000" />
+                                <Prop Name="FractureOfSightAngleToSee" Value="0.000000" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoHPComponentConfig">
+                            <Properties ClassName="KosovoHPComponentConfig">
+                                <Prop Name="Health" Value="100.000000" />
+                                <Prop Name="VisibleInUI" Value="1" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoSpeechComponentConfig">
+                            <Properties ClassName="KosovoSpeechComponentConfig">
+                                <Prop Name="SpeechTags" />
+                                <Prop Name="DialogueTags" />
+                                <Prop Name="Speech Variant" Value="" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoCombatComponentConfig">
+                            <Properties ClassName="KosovoCombatComponentConfig">
+                                <Prop Name="BaseHitProbability" Value="0.500000" />
+                                <Prop Name="BaseCloseCombatHitProbability" Value="0.500000" />
+                                <Prop Name="CloseCombatHitProbabilityFluctuationPeriod" Value="1.000000" />
+                                <Prop Name="CloseCombatHitProbabilityFluctuationAmplitude" Value="0.000000" />
+                                <Prop Name="CloseCombatHitProbabilityFluctuationAmplitudeCutoff" Value="0.000000" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoSmartObjectsComponentConfig">
+                            <Properties ClassName="KosovoSmartObjectsComponentConfig">
+                                <Prop Name="SmartObjectTemplates">
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/RoamingPoints/CasualActivities" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/NPCChair" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SimpleContainer_ScavengeFridge" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/NoisyWindow" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SimpleContainer_SzafkaLazienkowa" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SimpleContainer_Bed" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/Sink" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/StoryItem_Picture" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SmartItem_SearchingItemsInTrash" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SmartItem_SearchingItemsInFurniture" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/RoamingPoints/SmokePoint" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SmartItem_FloorSit" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/NPCChair_longsitting" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SmartItem_FloorSit(C)" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/NPCChair_longsitting(C)" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/NPCChair_playing_poker" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SmartItem_FloorSleepOnBack(C)" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/Intra/SmartItem_Intro_school" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                                <Prop Name="Probability" Value="1.000000" />
+                                <Prop Name="TimePeriod" Value="0.000000" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoEmotionalComponentConfig">
+                            <Properties ClassName="KosovoEmotionalComponentConfig">
+                                <Prop Name="Psyche tag" Value="Normal" />
+                                <Prop Name="Psyche tag modifier" Value="" />
+                                <Prop Name="Trauma treshold" Value="100.000000" />
+                                <Prop Name="Morale config">
+                                    <Entry>
+                                        <Properties ClassName="KosovoMoraleConfig">
+                                            <Prop Name="Morale level" Value="0" />
+                                            <Prop Name="Depressed value" Value="0.000000" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoMoraleConfig">
+                                            <Prop Name="Morale level" Value="1" />
+                                            <Prop Name="Depressed value" Value="20.000000" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoMoraleConfig">
+                                            <Prop Name="Morale level" Value="2" />
+                                            <Prop Name="Depressed value" Value="40.000000" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoMoraleConfig">
+                                            <Prop Name="Morale level" Value="3" />
+                                            <Prop Name="Depressed value" Value="60.000000" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoMoraleConfig">
+                                            <Prop Name="Morale level" Value="4" />
+                                            <Prop Name="Depressed value" Value="80.000000" />
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoGuitarPlayerComponentConfig">
+                            <Properties ClassName="KosovoGuitarPlayerComponentConfig">
+                                <Prop Name="PlayerTags">
+                                    <Entry Value="Low" />
+                                </Prop>
+                                <Prop Name="ProbabilityOfGoodPlay" Value="0.500000" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoStimulantComponentConfig">
+                            <Properties ClassName="KosovoStimulantComponentConfig">
+                                <Prop Name="Coffes per day" Value="-1" />
+                                <Prop Name="Cigarettes per day" Value="-1" />
+                                <Prop Name="Booze to become drunkard" Value="4" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                    <Prop Name="AdditionalTags">
+                        <Entry Tag="Dweller" />
+                        <Entry Tag="Human" />
+                    </Prop>
+                    <Prop Name="AdditionalBehaviourTreeNames">
+                        <Entry Value="Join" />
+                        <Entry Value="StateTree" />
+                        <Entry Value="TagsCleanup" />
+                    </Prop>
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoArchetypeData">
+                    <Prop Name="Archetype Name" Value="WS2_Dweller_Esma" />
+                    <Prop Name="Child Of" Value="" />
+                    <Prop Name="Components">
+                        <Entry Class="KosovoDwellerControllerConfig">
+                            <Properties ClassName="KosovoDwellerControllerConfig">
+                                <Prop Name="Guard mult." Value="1.000000" />
+                                <Prop Name="GuestBTTrees">
+                                    <Entry Value="Join" />
+                                </Prop>
+                            </Properties>
+                            <Properties ClassName="KosovoParamComponentConfig" />
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoWalkerConfig">
+                            <Properties ClassName="KosovoWalkerConfig">
+                                <Prop Name="Walk speed" Value="2.500000" />
+                                <Prop Name="Slow walk speed" Value="2.500000" />
+                                <Prop Name="Run speed" Value="6.500000" />
+                                <Prop Name="Special movement multiplier" Value="1.000000" />
+                                <Prop Name="Stairs movement speed multiplier (WALK)" Value="0.800000" />
+                                <Prop Name="Stairs movement speed multiplier (RUN)" Value="0.800000" />
+                                <Prop Name="MinMoraleLevelToDisableRun" Value="2147483647" />
+                            </Properties>
+                            <Properties ClassName="KosovoWalkingConfig" />
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoSensorConfig">
+                            <Properties ClassName="KosovoSensorConfig">
+                                <Prop Name="SightRange" Value="40.000000" />
+                                <Prop Name="SightRangeOnLadder" Value="40.000000" />
+                                <Prop Name="HearingMult" Value="1.000000" />
+                                <Prop Name="SightRememberTime" Value="3.000000" />
+                                <Prop Name="OmnidirectionalSight" Value="1" />
+                                <Prop Name="SightAngle" Value="-1.000000" />
+                                <Prop Name="SightBackOffset" Value="1.000000" />
+                                <Prop Name="FractureOfSightAngleToSee" Value="0.000000" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoHPComponentConfig">
+                            <Properties ClassName="KosovoHPComponentConfig">
+                                <Prop Name="Health" Value="100.000000" />
+                                <Prop Name="VisibleInUI" Value="1" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoSpeechComponentConfig">
+                            <Properties ClassName="KosovoSpeechComponentConfig">
+                                <Prop Name="SpeechTags" />
+                                <Prop Name="DialogueTags" />
+                                <Prop Name="Speech Variant" Value="" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoCombatComponentConfig">
+                            <Properties ClassName="KosovoCombatComponentConfig">
+                                <Prop Name="BaseHitProbability" Value="0.500000" />
+                                <Prop Name="BaseCloseCombatHitProbability" Value="0.500000" />
+                                <Prop Name="CloseCombatHitProbabilityFluctuationPeriod" Value="1.000000" />
+                                <Prop Name="CloseCombatHitProbabilityFluctuationAmplitude" Value="0.000000" />
+                                <Prop Name="CloseCombatHitProbabilityFluctuationAmplitudeCutoff" Value="0.000000" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoSmartObjectsComponentConfig">
+                            <Properties ClassName="KosovoSmartObjectsComponentConfig">
+                                <Prop Name="SmartObjectTemplates">
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/RoamingPoints/CasualActivities" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/NPCChair" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SimpleContainer_ScavengeFridge" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/NoisyWindow" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SimpleContainer_SzafkaLazienkowa" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SimpleContainer_Bed" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/Sink" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/StoryItem_Picture" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SmartItem_SearchingItemsInTrash" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SmartItem_SearchingItemsInFurniture" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/RoamingPoints/SmokePoint" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SmartItem_FloorSit" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/NPCChair_longsitting" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SmartItem_FloorSit(C)" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/NPCChair_longsitting(C)" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/NPCChair_playing_poker" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/SmartItem_FloorSleepOnBack(C)" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoSmartObjectEntry">
+                                            <Prop Name="TemplateName" Value="LevelItems/Intra/SmartItem_Intro_school" />
+                                            <Prop Name="Exclude" Value="0" />
+                                            <Prop Name="Entities" />
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                                <Prop Name="Probability" Value="1.000000" />
+                                <Prop Name="TimePeriod" Value="0.000000" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoEmotionalComponentConfig">
+                            <Properties ClassName="KosovoEmotionalComponentConfig">
+                                <Prop Name="Psyche tag" Value="Normal" />
+                                <Prop Name="Psyche tag modifier" Value="" />
+                                <Prop Name="Trauma treshold" Value="100.000000" />
+                                <Prop Name="Morale config">
+                                    <Entry>
+                                        <Properties ClassName="KosovoMoraleConfig">
+                                            <Prop Name="Morale level" Value="0" />
+                                            <Prop Name="Depressed value" Value="0.000000" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoMoraleConfig">
+                                            <Prop Name="Morale level" Value="1" />
+                                            <Prop Name="Depressed value" Value="20.000000" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoMoraleConfig">
+                                            <Prop Name="Morale level" Value="2" />
+                                            <Prop Name="Depressed value" Value="40.000000" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoMoraleConfig">
+                                            <Prop Name="Morale level" Value="3" />
+                                            <Prop Name="Depressed value" Value="60.000000" />
+                                        </Properties>
+                                    </Entry>
+                                    <Entry>
+                                        <Properties ClassName="KosovoMoraleConfig">
+                                            <Prop Name="Morale level" Value="4" />
+                                            <Prop Name="Depressed value" Value="80.000000" />
+                                        </Properties>
+                                    </Entry>
+                                </Prop>
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoGuitarPlayerComponentConfig">
+                            <Properties ClassName="KosovoGuitarPlayerComponentConfig">
+                                <Prop Name="PlayerTags">
+                                    <Entry Value="Low" />
+                                </Prop>
+                                <Prop Name="ProbabilityOfGoodPlay" Value="0.500000" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                        <Entry Class="KosovoStimulantComponentConfig">
+                            <Properties ClassName="KosovoStimulantComponentConfig">
+                                <Prop Name="Coffes per day" Value="-1" />
+                                <Prop Name="Cigarettes per day" Value="-1" />
+                                <Prop Name="Booze to become drunkard" Value="4" />
+                            </Properties>
+                            <Properties ClassName="KosovoComponentConfig">
+                                <Prop Name="LuaClassName" Value="" />
+                            </Properties>
+                        </Entry>
+                    </Prop>
+                    <Prop Name="AdditionalTags">
+                        <Entry Tag="Dweller" />
+                        <Entry Tag="Human" />
+                    </Prop>
+                    <Prop Name="AdditionalBehaviourTreeNames">
+                        <Entry Value="Join" />
+                        <Entry Value="StateTree" />
+                        <Entry Value="TagsCleanup" />
+                    </Prop>
+                </Properties>
+            </Entry>
+        </Prop>
+    </Properties>
+</KosovoArchetypesConfig>
