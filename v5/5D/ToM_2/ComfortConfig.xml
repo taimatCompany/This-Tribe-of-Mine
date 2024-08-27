@@ -1,0 +1,1352 @@
+<KosovoComfortConfig>
+    <Properties ClassName="KosovoComfortConfig">
+        <Prop Name="Shelter description(One)">
+            <Properties ClassName="KosovoShelterTextDefinition">
+                <Prop Name="Opening texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterOpeningTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/OpeningTexts/OneDweller/A" />
+                            <Prop Name="Depression modifier from" Value="0" />
+                            <Prop Name="Depression modifier to" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterOpeningTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/OpeningTexts/OneDweller/B" />
+                            <Prop Name="Depression modifier from" Value="3" />
+                            <Prop Name="Depression modifier to" Value="3" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterOpeningTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/OpeningTexts/OneDweller/C" />
+                            <Prop Name="Depression modifier from" Value="4" />
+                            <Prop Name="Depression modifier to" Value="5" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterOpeningTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/OpeningTexts/OneDweller/D" />
+                            <Prop Name="Depression modifier from" Value="6" />
+                            <Prop Name="Depression modifier to" Value="100" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Chairs texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/OneDweller/A" />
+                            <Prop Name="Chairs count" Value="1" />
+                            <Prop Name="Armchairs count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/OneDweller/B" />
+                            <Prop Name="Chairs count" Value="2" />
+                            <Prop Name="Armchairs count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/OneDweller/B" />
+                            <Prop Name="Chairs count" Value="3" />
+                            <Prop Name="Armchairs count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/OneDweller/C" />
+                            <Prop Name="Chairs count" Value="1" />
+                            <Prop Name="Armchairs count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/OneDweller/D" />
+                            <Prop Name="Chairs count" Value="2" />
+                            <Prop Name="Armchairs count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/OneDweller/D" />
+                            <Prop Name="Chairs count" Value="3" />
+                            <Prop Name="Armchairs count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/OneDweller/C" />
+                            <Prop Name="Chairs count" Value="1" />
+                            <Prop Name="Armchairs count" Value="3" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/OneDweller/D" />
+                            <Prop Name="Chairs count" Value="2" />
+                            <Prop Name="Armchairs count" Value="3" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/OneDweller/D" />
+                            <Prop Name="Chairs count" Value="3" />
+                            <Prop Name="Armchairs count" Value="3" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Beds texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBedsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BedsTexts/OneDweller/A" />
+                            <Prop Name="Beds count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBedsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BedsTexts/OneDweller/B" />
+                            <Prop Name="Beds count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBedsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BedsTexts/OneDweller/B" />
+                            <Prop Name="Beds count" Value="3" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Radio texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterRadioTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/RadioTexts/OneDweller/A" />
+                            <Prop Name="Radio count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterRadioTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/RadioTexts/OneDweller/B" />
+                            <Prop Name="Radio count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterRadioTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/RadioTexts/OneDweller/B" />
+                            <Prop Name="Radio count" Value="3" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Guitar texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterGuitarAndZlataTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/GuitarTexts/OneDweller/A" />
+                            <Prop Name="Zlatas count" Value="1" />
+                            <Prop Name="Guitars count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterGuitarAndZlataTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/GuitarTexts/OneDweller/A" />
+                            <Prop Name="Zlatas count" Value="1" />
+                            <Prop Name="Guitars count" Value="3" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterGuitarAndZlataTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/GuitarTexts/OneDweller/A" />
+                            <Prop Name="Zlatas count" Value="2" />
+                            <Prop Name="Guitars count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterGuitarAndZlataTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/GuitarTexts/OneDweller/A" />
+                            <Prop Name="Zlatas count" Value="2" />
+                            <Prop Name="Guitars count" Value="3" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterGuitarAndZlataTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/GuitarTexts/OneDweller/A" />
+                            <Prop Name="Zlatas count" Value="3" />
+                            <Prop Name="Guitars count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterGuitarAndZlataTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/GuitarTexts/OneDweller/A" />
+                            <Prop Name="Zlatas count" Value="3" />
+                            <Prop Name="Guitars count" Value="3" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Book texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBooksTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BookTexts/OneDweller/A" />
+                            <Prop Name="Books count from" Value="0" />
+                            <Prop Name="Books count to" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBooksTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BookTexts/OneDweller/B" />
+                            <Prop Name="Books count from" Value="3" />
+                            <Prop Name="Books count to" Value="5" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBooksTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BookTexts/OneDweller/C" />
+                            <Prop Name="Books count from" Value="6" />
+                            <Prop Name="Books count to" Value="9" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBooksTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BookTexts/OneDweller/D" />
+                            <Prop Name="Books count from" Value="10" />
+                            <Prop Name="Books count to" Value="1000000" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Closeing texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterClosingTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ClosingTexts/OneDweller/A" />
+                            <Prop Name="Depression modifier from" Value="0" />
+                            <Prop Name="Depression modifier to" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterClosingTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ClosingTexts/OneDweller/B" />
+                            <Prop Name="Depression modifier from" Value="3" />
+                            <Prop Name="Depression modifier to" Value="3" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterClosingTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ClosingTexts/OneDweller/C" />
+                            <Prop Name="Depression modifier from" Value="4" />
+                            <Prop Name="Depression modifier to" Value="5" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterClosingTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ClosingTexts/OneDweller/D" />
+                            <Prop Name="Depression modifier from" Value="6" />
+                            <Prop Name="Depression modifier to" Value="100" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Defence texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterDefenceTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/DefenceTexts/OneDweller/A" />
+                            <Prop Name="Defence value from" Value="0" />
+                            <Prop Name="Defence value to" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterDefenceTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/DefenceTexts/OneDweller/B" />
+                            <Prop Name="Defence value from" Value="2" />
+                            <Prop Name="Defence value to" Value="4" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterDefenceTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/DefenceTexts/OneDweller/C" />
+                            <Prop Name="Defence value from" Value="5" />
+                            <Prop Name="Defence value to" Value="6" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterDefenceTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/DefenceTexts/OneDweller/D" />
+                            <Prop Name="Defence value from" Value="7" />
+                            <Prop Name="Defence value to" Value="100" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Stimulants texts">
+                    <Properties ClassName="KosovoShelterStimulantsTextDefinition">
+                        <Prop Name="ConsumeCoffee" Value="Items/StimulantsDescription/ConsumeCoffee" />
+                        <Prop Name="ConsumeCigarettes" Value="Items/StimulantsDescription/ConsumeCigarettes" />
+                        <Prop Name="LackOfCoffee" Value="Items/StimulantsDescription/LackOfCoffee" />
+                        <Prop Name="LackOfCigarettes" Value="Items/StimulantsDescription/LackOfCigarettes" />
+                        <Prop Name="LackOfCoffeAndCigarettes" Value="Items/StimulantsDescription/LackOfCoffeeAndCigarettes" />
+                    </Properties>
+                </Prop>
+                <Prop Name="Child texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChildTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChildTexts/OneDweller/A" />
+                            <Prop Name="Parameter Name" Value="Morale" />
+                            <Prop Name="Parameter Level" Value="0" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChildTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChildTexts/OneDweller/A" />
+                            <Prop Name="Parameter Name" Value="Morale" />
+                            <Prop Name="Parameter Level" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChildTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChildTexts/OneDweller/B" />
+                            <Prop Name="Parameter Name" Value="Morale" />
+                            <Prop Name="Parameter Level" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChildTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChildTexts/OneDweller/C" />
+                            <Prop Name="Parameter Name" Value="Morale" />
+                            <Prop Name="Parameter Level" Value="3" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChildTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChildTexts/OneDweller/D" />
+                            <Prop Name="Parameter Name" Value="Morale" />
+                            <Prop Name="Parameter Level" Value="4" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+            </Properties>
+        </Prop>
+        <Prop Name="Shelter description(Many)">
+            <Properties ClassName="KosovoShelterTextDefinition">
+                <Prop Name="Opening texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterOpeningTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/OpeningTexts/Many/A" />
+                            <Prop Name="Depression modifier from" Value="0" />
+                            <Prop Name="Depression modifier to" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterOpeningTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/OpeningTexts/Many/B" />
+                            <Prop Name="Depression modifier from" Value="3" />
+                            <Prop Name="Depression modifier to" Value="3" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterOpeningTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/OpeningTexts/Many/C" />
+                            <Prop Name="Depression modifier from" Value="4" />
+                            <Prop Name="Depression modifier to" Value="5" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterOpeningTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/OpeningTexts/Many/D" />
+                            <Prop Name="Depression modifier from" Value="6" />
+                            <Prop Name="Depression modifier to" Value="100" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Chairs texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/A" />
+                            <Prop Name="Chairs count" Value="1" />
+                            <Prop Name="Armchairs count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/B" />
+                            <Prop Name="Chairs count" Value="2" />
+                            <Prop Name="Armchairs count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/C" />
+                            <Prop Name="Chairs count" Value="3" />
+                            <Prop Name="Armchairs count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/D" />
+                            <Prop Name="Chairs count" Value="1" />
+                            <Prop Name="Armchairs count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/E" />
+                            <Prop Name="Chairs count" Value="2" />
+                            <Prop Name="Armchairs count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/F" />
+                            <Prop Name="Chairs count" Value="3" />
+                            <Prop Name="Armchairs count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/G" />
+                            <Prop Name="Chairs count" Value="1" />
+                            <Prop Name="Armchairs count" Value="3" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/H" />
+                            <Prop Name="Chairs count" Value="2" />
+                            <Prop Name="Armchairs count" Value="3" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/I" />
+                            <Prop Name="Chairs count" Value="3" />
+                            <Prop Name="Armchairs count" Value="3" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Beds texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBedsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BedsTexts/Many/A" />
+                            <Prop Name="Beds count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBedsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BedsTexts/Many/B" />
+                            <Prop Name="Beds count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBedsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BedsTexts/Many/C" />
+                            <Prop Name="Beds count" Value="3" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Radio texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterRadioTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/RadioTexts/Many/A" />
+                            <Prop Name="Radio count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterRadioTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/RadioTexts/Many/B" />
+                            <Prop Name="Radio count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterRadioTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/RadioTexts/Many/B" />
+                            <Prop Name="Radio count" Value="3" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Guitar texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterGuitarAndZlataTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/GuitarTexts/Many/B" />
+                            <Prop Name="Zlatas count" Value="2" />
+                            <Prop Name="Guitars count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterGuitarAndZlataTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/GuitarTexts/Many/B" />
+                            <Prop Name="Zlatas count" Value="3" />
+                            <Prop Name="Guitars count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterGuitarAndZlataTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/GuitarTexts/Many/A" />
+                            <Prop Name="Zlatas count" Value="1" />
+                            <Prop Name="Guitars count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterGuitarAndZlataTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/GuitarTexts/Many/C" />
+                            <Prop Name="Zlatas count" Value="2" />
+                            <Prop Name="Guitars count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterGuitarAndZlataTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/GuitarTexts/Many/C" />
+                            <Prop Name="Zlatas count" Value="3" />
+                            <Prop Name="Guitars count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterGuitarAndZlataTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/GuitarTexts/Many/C" />
+                            <Prop Name="Zlatas count" Value="3" />
+                            <Prop Name="Guitars count" Value="3" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterGuitarAndZlataTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/GuitarTexts/Many/C" />
+                            <Prop Name="Zlatas count" Value="2" />
+                            <Prop Name="Guitars count" Value="3" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Book texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBooksTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BookTexts/Many/A" />
+                            <Prop Name="Books count from" Value="0" />
+                            <Prop Name="Books count to" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBooksTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BookTexts/Many/B" />
+                            <Prop Name="Books count from" Value="3" />
+                            <Prop Name="Books count to" Value="5" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBooksTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BookTexts/Many/C" />
+                            <Prop Name="Books count from" Value="6" />
+                            <Prop Name="Books count to" Value="9" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBooksTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BookTexts/Many/D" />
+                            <Prop Name="Books count from" Value="10" />
+                            <Prop Name="Books count to" Value="1000000" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Closeing texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterClosingTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ClosingTexts/Many/A" />
+                            <Prop Name="Depression modifier from" Value="0" />
+                            <Prop Name="Depression modifier to" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterClosingTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ClosingTexts/Many/B" />
+                            <Prop Name="Depression modifier from" Value="3" />
+                            <Prop Name="Depression modifier to" Value="3" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterClosingTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ClosingTexts/Many/C" />
+                            <Prop Name="Depression modifier from" Value="4" />
+                            <Prop Name="Depression modifier to" Value="5" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterClosingTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ClosingTexts/Many/D" />
+                            <Prop Name="Depression modifier from" Value="6" />
+                            <Prop Name="Depression modifier to" Value="100" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Defence texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterDefenceTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/DefenceTexts/Many/A" />
+                            <Prop Name="Defence value from" Value="0" />
+                            <Prop Name="Defence value to" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterDefenceTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/DefenceTexts/Many/B" />
+                            <Prop Name="Defence value from" Value="2" />
+                            <Prop Name="Defence value to" Value="4" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterDefenceTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/DefenceTexts/Many/C" />
+                            <Prop Name="Defence value from" Value="5" />
+                            <Prop Name="Defence value to" Value="6" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterDefenceTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/DefenceTexts/Many/D" />
+                            <Prop Name="Defence value from" Value="7" />
+                            <Prop Name="Defence value to" Value="100" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Stimulants texts">
+                    <Properties ClassName="KosovoShelterStimulantsTextDefinition">
+                        <Prop Name="ConsumeCoffee" Value="Items/StimulantsDescription/ConsumeCoffee" />
+                        <Prop Name="ConsumeCigarettes" Value="Items/StimulantsDescription/ConsumeCigarettes" />
+                        <Prop Name="LackOfCoffee" Value="Items/StimulantsDescription/LackOfCoffee" />
+                        <Prop Name="LackOfCigarettes" Value="Items/StimulantsDescription/LackOfCigarettes" />
+                        <Prop Name="LackOfCoffeAndCigarettes" Value="Items/StimulantsDescription/LackOfCoffeeAndCigarettes" />
+                    </Properties>
+                </Prop>
+                <Prop Name="Child texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChildTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChildTexts/Many/A" />
+                            <Prop Name="Parameter Name" Value="Morale" />
+                            <Prop Name="Parameter Level" Value="0" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChildTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChildTexts/Many/A" />
+                            <Prop Name="Parameter Name" Value="Morale" />
+                            <Prop Name="Parameter Level" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChildTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChildTexts/Many/B" />
+                            <Prop Name="Parameter Name" Value="Morale" />
+                            <Prop Name="Parameter Level" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChildTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChildTexts/Many/C" />
+                            <Prop Name="Parameter Name" Value="Morale" />
+                            <Prop Name="Parameter Level" Value="3" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChildTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChildTexts/Many/D" />
+                            <Prop Name="Parameter Name" Value="Morale" />
+                            <Prop Name="Parameter Level" Value="4" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+            </Properties>
+        </Prop>
+        <Prop Name="Shelter description(WS_Story2)">
+            <Properties ClassName="KosovoShelterTextDefinition">
+                <Prop Name="Opening texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterOpeningTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/OpeningTexts/WS_Story2/A" />
+                            <Prop Name="Depression modifier from" Value="0" />
+                            <Prop Name="Depression modifier to" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterOpeningTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/OpeningTexts/WS_Story2/A" />
+                            <Prop Name="Depression modifier from" Value="0" />
+                            <Prop Name="Depression modifier to" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterOpeningTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/OpeningTexts/WS_Story2/A" />
+                            <Prop Name="Depression modifier from" Value="0" />
+                            <Prop Name="Depression modifier to" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterOpeningTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/OpeningTexts/WS_Story2/A" />
+                            <Prop Name="Depression modifier from" Value="0" />
+                            <Prop Name="Depression modifier to" Value="2" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Chairs texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/A" />
+                            <Prop Name="Chairs count" Value="1" />
+                            <Prop Name="Armchairs count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/B" />
+                            <Prop Name="Chairs count" Value="2" />
+                            <Prop Name="Armchairs count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/C" />
+                            <Prop Name="Chairs count" Value="3" />
+                            <Prop Name="Armchairs count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/D" />
+                            <Prop Name="Chairs count" Value="1" />
+                            <Prop Name="Armchairs count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/E" />
+                            <Prop Name="Chairs count" Value="2" />
+                            <Prop Name="Armchairs count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/E" />
+                            <Prop Name="Chairs count" Value="3" />
+                            <Prop Name="Armchairs count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/G" />
+                            <Prop Name="Chairs count" Value="1" />
+                            <Prop Name="Armchairs count" Value="3" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/H" />
+                            <Prop Name="Chairs count" Value="2" />
+                            <Prop Name="Armchairs count" Value="3" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/H" />
+                            <Prop Name="Chairs count" Value="3" />
+                            <Prop Name="Armchairs count" Value="3" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Beds texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBedsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BedsTexts/Many/A" />
+                            <Prop Name="Beds count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBedsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BedsTexts/Many/B" />
+                            <Prop Name="Beds count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBedsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BedsTexts/Many/C" />
+                            <Prop Name="Beds count" Value="3" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Radio texts" />
+                <Prop Name="Guitar texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterGuitarAndZlataTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/GuitarTexts/Many/B" />
+                            <Prop Name="Zlatas count" Value="2" />
+                            <Prop Name="Guitars count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterGuitarAndZlataTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/GuitarTexts/Many/B" />
+                            <Prop Name="Zlatas count" Value="3" />
+                            <Prop Name="Guitars count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterGuitarAndZlataTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/GuitarTexts/Many/A" />
+                            <Prop Name="Zlatas count" Value="1" />
+                            <Prop Name="Guitars count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterGuitarAndZlataTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/GuitarTexts/Many/C" />
+                            <Prop Name="Zlatas count" Value="2" />
+                            <Prop Name="Guitars count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterGuitarAndZlataTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/GuitarTexts/Many/C" />
+                            <Prop Name="Zlatas count" Value="3" />
+                            <Prop Name="Guitars count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterGuitarAndZlataTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/GuitarTexts/Many/C" />
+                            <Prop Name="Zlatas count" Value="3" />
+                            <Prop Name="Guitars count" Value="3" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterGuitarAndZlataTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/GuitarTexts/Many/C" />
+                            <Prop Name="Zlatas count" Value="2" />
+                            <Prop Name="Guitars count" Value="3" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Book texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBooksTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BookTexts/Many/A" />
+                            <Prop Name="Books count from" Value="0" />
+                            <Prop Name="Books count to" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBooksTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BookTexts/Many/B" />
+                            <Prop Name="Books count from" Value="3" />
+                            <Prop Name="Books count to" Value="5" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBooksTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BookTexts/Many/C" />
+                            <Prop Name="Books count from" Value="6" />
+                            <Prop Name="Books count to" Value="9" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBooksTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BookTexts/Many/D" />
+                            <Prop Name="Books count from" Value="10" />
+                            <Prop Name="Books count to" Value="1000000" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Closeing texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterClosingTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ClosingTexts/Many/A" />
+                            <Prop Name="Depression modifier from" Value="0" />
+                            <Prop Name="Depression modifier to" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterClosingTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ClosingTexts/Many/B" />
+                            <Prop Name="Depression modifier from" Value="3" />
+                            <Prop Name="Depression modifier to" Value="3" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterClosingTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ClosingTexts/Many/C" />
+                            <Prop Name="Depression modifier from" Value="4" />
+                            <Prop Name="Depression modifier to" Value="5" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterClosingTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ClosingTexts/Many/D" />
+                            <Prop Name="Depression modifier from" Value="6" />
+                            <Prop Name="Depression modifier to" Value="100" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Defence texts" />
+                <Prop Name="Stimulants texts">
+                    <Properties ClassName="KosovoShelterStimulantsTextDefinition">
+                        <Prop Name="ConsumeCoffee" Value="Items/StimulantsDescription/ConsumeCoffee" />
+                        <Prop Name="ConsumeCigarettes" Value="Items/StimulantsDescription/ConsumeCigarettes" />
+                        <Prop Name="LackOfCoffee" Value="Items/StimulantsDescription/LackOfCoffee" />
+                        <Prop Name="LackOfCigarettes" Value="Items/StimulantsDescription/LackOfCigarettes" />
+                        <Prop Name="LackOfCoffeAndCigarettes" Value="Items/StimulantsDescription/LackOfCoffeeAndCigarettes" />
+                    </Properties>
+                </Prop>
+                <Prop Name="Child texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChildTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChildTexts/Many/A" />
+                            <Prop Name="Parameter Name" Value="Morale" />
+                            <Prop Name="Parameter Level" Value="0" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChildTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChildTexts/Many/A" />
+                            <Prop Name="Parameter Name" Value="Morale" />
+                            <Prop Name="Parameter Level" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChildTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChildTexts/Many/B" />
+                            <Prop Name="Parameter Name" Value="Morale" />
+                            <Prop Name="Parameter Level" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChildTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChildTexts/Many/C" />
+                            <Prop Name="Parameter Name" Value="Morale" />
+                            <Prop Name="Parameter Level" Value="3" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChildTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChildTexts/Many/D" />
+                            <Prop Name="Parameter Name" Value="Morale" />
+                            <Prop Name="Parameter Level" Value="4" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+            </Properties>
+        </Prop>
+        <Prop Name="Shelter Anja house(WS_Story3)">
+            <Properties ClassName="KosovoShelterTextDefinition">
+                <Prop Name="Opening texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterOpeningTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/OpeningTexts/WS3/ShelterA" />
+                            <Prop Name="Depression modifier from" Value="0" />
+                            <Prop Name="Depression modifier to" Value="100" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Chairs texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/A" />
+                            <Prop Name="Chairs count" Value="1" />
+                            <Prop Name="Armchairs count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/B" />
+                            <Prop Name="Chairs count" Value="2" />
+                            <Prop Name="Armchairs count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/C" />
+                            <Prop Name="Chairs count" Value="3" />
+                            <Prop Name="Armchairs count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/D" />
+                            <Prop Name="Chairs count" Value="1" />
+                            <Prop Name="Armchairs count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/E" />
+                            <Prop Name="Chairs count" Value="2" />
+                            <Prop Name="Armchairs count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/E" />
+                            <Prop Name="Chairs count" Value="3" />
+                            <Prop Name="Armchairs count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/G" />
+                            <Prop Name="Chairs count" Value="1" />
+                            <Prop Name="Armchairs count" Value="3" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/H" />
+                            <Prop Name="Chairs count" Value="2" />
+                            <Prop Name="Armchairs count" Value="3" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/H" />
+                            <Prop Name="Chairs count" Value="3" />
+                            <Prop Name="Armchairs count" Value="3" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Beds texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBedsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BedsTexts/Many/A" />
+                            <Prop Name="Beds count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBedsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BedsTexts/Many/B" />
+                            <Prop Name="Beds count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBedsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BedsTexts/Many/C" />
+                            <Prop Name="Beds count" Value="3" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Radio texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterRadioTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/RadioTexts/Many/A" />
+                            <Prop Name="Radio count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterRadioTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/RadioTexts/Many/B" />
+                            <Prop Name="Radio count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterRadioTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/RadioTexts/Many/B" />
+                            <Prop Name="Radio count" Value="3" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Guitar texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterGuitarAndZlataTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/GuitarTexts/Many/A" />
+                            <Prop Name="Zlatas count" Value="1" />
+                            <Prop Name="Guitars count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterGuitarAndZlataTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/GuitarTexts/Many/A" />
+                            <Prop Name="Zlatas count" Value="1" />
+                            <Prop Name="Guitars count" Value="3" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Book texts" />
+                <Prop Name="Closeing texts" />
+                <Prop Name="Defence texts" />
+                <Prop Name="Stimulants texts">
+                    <Properties ClassName="KosovoShelterStimulantsTextDefinition">
+                        <Prop Name="ConsumeCoffee" Value="" />
+                        <Prop Name="ConsumeCigarettes" Value="" />
+                        <Prop Name="LackOfCoffee" Value="" />
+                        <Prop Name="LackOfCigarettes" Value="" />
+                        <Prop Name="LackOfCoffeAndCigarettes" Value="" />
+                    </Properties>
+                </Prop>
+                <Prop Name="Child texts" />
+            </Properties>
+        </Prop>
+        <Prop Name="Shelter museum(WS_Story3)">
+            <Properties ClassName="KosovoShelterTextDefinition">
+                <Prop Name="Opening texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterOpeningTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/OpeningTexts/WS3/ShelterB" />
+                            <Prop Name="Depression modifier from" Value="0" />
+                            <Prop Name="Depression modifier to" Value="100" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Chairs texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/A" />
+                            <Prop Name="Chairs count" Value="1" />
+                            <Prop Name="Armchairs count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/B" />
+                            <Prop Name="Chairs count" Value="2" />
+                            <Prop Name="Armchairs count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/C" />
+                            <Prop Name="Chairs count" Value="3" />
+                            <Prop Name="Armchairs count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/D" />
+                            <Prop Name="Chairs count" Value="1" />
+                            <Prop Name="Armchairs count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/E" />
+                            <Prop Name="Chairs count" Value="2" />
+                            <Prop Name="Armchairs count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/E" />
+                            <Prop Name="Chairs count" Value="3" />
+                            <Prop Name="Armchairs count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/G" />
+                            <Prop Name="Chairs count" Value="1" />
+                            <Prop Name="Armchairs count" Value="3" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/H" />
+                            <Prop Name="Chairs count" Value="2" />
+                            <Prop Name="Armchairs count" Value="3" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterChairsAndArmChairsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/ChairsTexts/Many/H" />
+                            <Prop Name="Chairs count" Value="3" />
+                            <Prop Name="Armchairs count" Value="3" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Beds texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBedsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BedsTexts/Many/A" />
+                            <Prop Name="Beds count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBedsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BedsTexts/Many/B" />
+                            <Prop Name="Beds count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBedsTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BedsTexts/Many/C" />
+                            <Prop Name="Beds count" Value="3" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Radio texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterRadioTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/RadioTexts/Many/A" />
+                            <Prop Name="Radio count" Value="1" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterRadioTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/RadioTexts/Many/B" />
+                            <Prop Name="Radio count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterRadioTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/RadioTexts/Many/B" />
+                            <Prop Name="Radio count" Value="3" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Guitar texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterGuitarAndZlataTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/GuitarTexts/Many/A" />
+                            <Prop Name="Zlatas count" Value="1" />
+                            <Prop Name="Guitars count" Value="2" />
+                        </Properties>
+                    </Entry>
+                    <Entry>
+                        <Properties ClassName="KosovoShelterGuitarAndZlataTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/GuitarTexts/Many/A" />
+                            <Prop Name="Zlatas count" Value="1" />
+                            <Prop Name="Guitars count" Value="3" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Book texts">
+                    <Entry>
+                        <Properties ClassName="KosovoShelterBooksTextDefinition">
+                            <Prop Name="Text" Value="StateSpeeches/Comfort/BookTexts/Many/B" />
+                            <Prop Name="Books count from" Value="0" />
+                            <Prop Name="Books count to" Value="100" />
+                        </Properties>
+                    </Entry>
+                </Prop>
+                <Prop Name="Closeing texts" />
+                <Prop Name="Defence texts" />
+                <Prop Name="Stimulants texts">
+                    <Properties ClassName="KosovoShelterStimulantsTextDefinition">
+                        <Prop Name="ConsumeCoffee" Value="" />
+                        <Prop Name="ConsumeCigarettes" Value="" />
+                        <Prop Name="LackOfCoffee" Value="" />
+                        <Prop Name="LackOfCigarettes" Value="" />
+                        <Prop Name="LackOfCoffeAndCigarettes" Value="" />
+                    </Properties>
+                </Prop>
+                <Prop Name="Child texts" />
+            </Properties>
+        </Prop>
+        <Prop Name="ComfortEntries">
+            <Entry>
+                <Properties ClassName="KosovoComfortEntry">
+                    <Prop Name="FromComfort" Value="0" />
+                    <Prop Name="ToComfort" Value="6" />
+                    <Prop Name="DepressionLoss" Value="2" />
+                    <Prop Name="DepressionThreshold" Value="31" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoComfortEntry">
+                    <Prop Name="FromComfort" Value="7" />
+                    <Prop Name="ToComfort" Value="13" />
+                    <Prop Name="DepressionLoss" Value="3" />
+                    <Prop Name="DepressionThreshold" Value="31" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoComfortEntry">
+                    <Prop Name="FromComfort" Value="14" />
+                    <Prop Name="ToComfort" Value="20" />
+                    <Prop Name="DepressionLoss" Value="4" />
+                    <Prop Name="DepressionThreshold" Value="31" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoComfortEntry">
+                    <Prop Name="FromComfort" Value="21" />
+                    <Prop Name="ToComfort" Value="28" />
+                    <Prop Name="DepressionLoss" Value="5" />
+                    <Prop Name="DepressionThreshold" Value="31" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoComfortEntry">
+                    <Prop Name="FromComfort" Value="29" />
+                    <Prop Name="ToComfort" Value="36" />
+                    <Prop Name="DepressionLoss" Value="6" />
+                    <Prop Name="DepressionThreshold" Value="31" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoComfortEntry">
+                    <Prop Name="FromComfort" Value="37" />
+                    <Prop Name="ToComfort" Value="45" />
+                    <Prop Name="DepressionLoss" Value="7" />
+                    <Prop Name="DepressionThreshold" Value="31" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoComfortEntry">
+                    <Prop Name="FromComfort" Value="46" />
+                    <Prop Name="ToComfort" Value="55" />
+                    <Prop Name="DepressionLoss" Value="7" />
+                    <Prop Name="DepressionThreshold" Value="31" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoComfortEntry">
+                    <Prop Name="FromComfort" Value="56" />
+                    <Prop Name="ToComfort" Value="100000" />
+                    <Prop Name="DepressionLoss" Value="8" />
+                    <Prop Name="DepressionThreshold" Value="31" />
+                </Properties>
+            </Entry>
+        </Prop>
+        <Prop Name="ComfortClasses">
+            <Entry>
+                <Properties ClassName="KosovoComfortClassEntry">
+                    <Prop Name="ClassName" Value="Chairs" />
+                    <Prop Name="MaxComfort" Value="9" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoComfortClassEntry">
+                    <Prop Name="ClassName" Value="Guitar" />
+                    <Prop Name="MaxComfort" Value="15" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoComfortClassEntry">
+                    <Prop Name="ClassName" Value="Radio" />
+                    <Prop Name="MaxComfort" Value="10" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoComfortClassEntry">
+                    <Prop Name="ClassName" Value="Armchairs" />
+                    <Prop Name="MaxComfort" Value="10" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoComfortClassEntry">
+                    <Prop Name="ClassName" Value="Books" />
+                    <Prop Name="MaxComfort" Value="10" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoComfortClassEntry">
+                    <Prop Name="ClassName" Value="Beds" />
+                    <Prop Name="MaxComfort" Value="4" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoComfortClassEntry">
+                    <Prop Name="ClassName" Value="Zlata" />
+                    <Prop Name="MaxComfort" Value="10" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoComfortClassEntry">
+                    <Prop Name="ClassName" Value="Child" />
+                    <Prop Name="MaxComfort" Value="10" />
+                </Properties>
+            </Entry>
+            <Entry>
+                <Properties ClassName="KosovoComfortClassEntry">
+                    <Prop Name="ClassName" Value="Snowman" />
+                    <Prop Name="MaxComfort" Value="10" />
+                </Properties>
+            </Entry>
+        </Prop>
+        <Prop Name="ComfortAddAfterSleepInBed" Value="5" />
+    </Properties>
+</KosovoComfortConfig>
